@@ -9,7 +9,7 @@ $line-height: 1.3em !default
 $grid-width: 90% !default
 $columns: 12 !default
 $wrapper-align: center !default
-$gutter: 0% !default
+$gutter: 2% !default
 $padding: 0 1em !default
 
 $max-width: dp(1400) !default
@@ -145,7 +145,7 @@ $scale-grid-direction: ltr !default
 $grid-mixin-counter: 0
 
 =grid($units)
-  @if $grid-mixin-counter > $columns
+  @if $grid-mixin-counter >= $columns
     $grid-mixin-counter: 0
   width: grid($units)
   @if $grid-mixin-counter == 0
