@@ -1,13 +1,14 @@
 html
   font-family: $text
   background-color: darken($primary, 40%)
+  text-rendering: optimizeLegibility
 
 body, html
   height: 100%
 
 h2, h3, h4, h5, h6
   font-family: $dek
-  +caps
+  +caps(.08em)
 
 h1
   font-family: $hed
@@ -28,7 +29,10 @@ header
     background-image: url(../img/skyline-1327.jpg)
   hgroup
     position: relative
-    top: 35%
+    @media all and (min-height: dp(300))
+      top: 3em
+    @media all and (min-height: dp(450))
+      top: 35%
   h1, input[type=submit]
     display: inline
     padding: 0 .2em
@@ -38,12 +42,12 @@ header
     border: none
     border-bottom: 1px solid darken($primary, 20%)
   h1
+    display: inline
     text-shadow: none
-    font-size: 4.5em
+    font-size: 3.6em
     +border-radius(.05em)
   form
     margin-top: 2em
-    //font-weight: bold
     font-style: italic
   input
     +border-radius(.2em)
@@ -61,32 +65,6 @@ header
     color: $secondary
     font-weight: bold
     margin-top: .5em
-
-footer
-  z-index: 1
-  width: 100%
-  height: 100%
-  display: table
-  h2
-    display: table-cell
-    width: 100%
-    height: 100%
-    text-align: center
-    vertical-align: middle
-    color: #fff
-    font-size: .8em
-    @media all and (min-width: 22em)
-      font-size: 1.2em
-    &:before, &:after
-      color: $secondary
-      font-family: $hed
-      font-size: 2em
-      position: relative
-      top: .2em
-    &:before
-      content: "{"
-    &:after
-      content: "}"
 
 .content
   +wrapper
