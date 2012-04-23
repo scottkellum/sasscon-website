@@ -1,0 +1,93 @@
+html
+  font-family: $text
+  background-color: darken($primary, 40%)
+
+body, html
+  height: 100%
+
+h2, h3, h4, h5, h6
+  font-family: $dek
+  +caps
+
+h1
+  font-family: $hed
+
+header
+  position: relative
+  z-index: 3
+  background: #f9df9d url('../img/skyline-480.jpg') no-repeat center center fixed
+  +background-size(cover)
+  text-align: center
+  height: 100%
+  text-shadow: 0 1px 0 $secondary
+  @media all and (min-width: 481px)
+    background-image: url(../img/skyline-768.jpg)
+  @media all and (min-width: 769px)
+    background-image: url(../img/skyline-1024.jpg)
+  @media all and (min-width: 1025px)
+    background-image: url(../img/skyline-1327.jpg)
+  hgroup
+    position: relative
+    top: 35%
+  h1, input[type=submit]
+    display: inline
+    padding: 0 .2em
+    background: $primary
+    color: $secondary
+    text-shadow: 0 -1px 0 darken($primary, 20%)
+    border: none
+    border-bottom: 1px solid darken($primary, 20%)
+  h1
+    text-shadow: none
+    font-size: 4.5em
+    +border-radius(.05em)
+  form
+    margin-top: 2em
+    //font-weight: bold
+    font-style: italic
+  input
+    +border-radius(.2em)
+    font-family: $text
+    padding: .2em
+  input[type=email]
+    border: 1px solid $secondary
+    +transition(all .2s)
+    &:focus
+      +box-shadow(0 0 5px $primary)
+      outline: 0
+  input[type=submit]
+    padding: .3em .5em
+    background-color: $primary
+    color: $secondary
+    font-weight: bold
+    margin-top: .5em
+
+footer
+  z-index: 1
+  width: 100%
+  height: 100%
+  display: table
+  h2
+    display: table-cell
+    width: 100%
+    height: 100%
+    text-align: center
+    vertical-align: middle
+    color: #fff
+    font-size: .8em
+    @media all and (min-width: 22em)
+      font-size: 1.2em
+    &:before, &:after
+      color: $secondary
+      font-family: $hed
+      font-size: 2em
+      position: relative
+      top: .2em
+    &:before
+      content: "{"
+    &:after
+      content: "}"
+
+.content
+  +wrapper
+  height: 100%
