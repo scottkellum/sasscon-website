@@ -1,9 +1,14 @@
 // VENDOR PREFIXR
-$prefixes: -webkit- -moz- -ms- -o-
+$prefixes: -webkit- -moz- -ms- -o- !default
 
 =prefix($property, $value, $prefixes)
   @each $prefix in $prefixes
     #{$prefix}#{$property}: $value
+  #{$property}: $value
+
+=prefix-value($property, $value, $prefixes)
+  @each $prefix in $prefixes
+    #{$property}: #{$prefix}$value
   #{$property}: $value
 
 
@@ -38,20 +43,44 @@ $prefixes: -webkit- -moz- -ms- -o-
 =appearance($value)
   +prefix(appearance, $value)
 
+=appearance($value)
+  +prefix(appearance, $value)
+
+=aspect-ratio($value)
+  +prefix(aspect-ratio, $value)
+
 =backface-visibility($value)
   +prefix(backface-visibility, $value)
 
 =background-clip($value)
-  +prefix(background-clip, $value)
+  +prefix(background-clip, $value, -webkit-)
 
 =background-composite($value)
   +prefix(background-composite, $value)
 
+=background-inline-policy($value)
+  +prefix(background-inline-policy, $value)
+
 =background-origin($value)
-  +prefix(background-origin, $value)
+  +prefix(background-origin, $value, -webkit-)
+
+=background-position-x($value)
+  +prefix(background-position-x, $value, -ms-)
+
+=background-position-y($value)
+  +prefix(background-position-y, $value, -ms-)
 
 =background-size($value)
-  +prefix(background-size, $value)
+  +prefix(background-size, $value, -webkit-)
+
+=behavior($value)
+  +prefix(behavior, $value)
+
+=binding($value)
+  +prefix(binding, $value)
+
+=block-progression($value)
+  +prefix(block-progression, $value)
 
 =border-after($value)
   +prefix(border-after, $value)
@@ -486,7 +515,7 @@ $prefixes: -webkit- -moz- -ms- -o-
 // OTHER CSS3 TOOLS
 =corner-radius($top, $left, $borderradius)
   -moz-border-radius-#{$top}#{$left}: $borderradius
-  -webkit-border-#{$top}-#{$left}-radius: $borderradius
+  border-#{$top}-#{$left}-radius: $borderradius
   -o-border-#{$top}-#{$left}-radius: $borderradius
   border-#{$top}-#{$left}-radius: $borderradius
 
