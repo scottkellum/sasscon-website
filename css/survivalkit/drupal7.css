@@ -1,0 +1,3467 @@
+/* line 3, ../../sass/survivalkit/drupal7.scss */
+#aggregator .feed-source .feed-title {
+  margin-top: 0;
+}
+/* line 6, ../../sass/survivalkit/drupal7.scss */
+#aggregator .feed-source .feed-image img {
+  margin-bottom: 0.75em;
+}
+/* line 9, ../../sass/survivalkit/drupal7.scss */
+#aggregator .feed-source .feed-icon {
+  float: right;
+  /* LTR */
+  display: block;
+}
+/* line 15, ../../sass/survivalkit/drupal7.scss */
+#aggregator .feed-item {
+  margin-bottom: 1.5em;
+}
+/* line 18, ../../sass/survivalkit/drupal7.scss */
+#aggregator .feed-item-title {
+  margin-bottom: 0;
+  font-size: 1.3em;
+}
+/* line 22, ../../sass/survivalkit/drupal7.scss */
+#aggregator .feed-item-meta, #aggregator .feed-item-body {
+  margin-bottom: 0.5em;
+}
+/* line 25, ../../sass/survivalkit/drupal7.scss */
+#aggregator .feed-item-categories {
+  font-size: 0.9em;
+}
+/* line 28, ../../sass/survivalkit/drupal7.scss */
+#aggregator td {
+  vertical-align: bottom;
+}
+/* line 30, ../../sass/survivalkit/drupal7.scss */
+#aggregator td.categorize-item {
+  white-space: nowrap;
+}
+/* line 35, ../../sass/survivalkit/drupal7.scss */
+#aggregator .categorize-item .news-item .body {
+  margin-top: 0;
+}
+/* line 38, ../../sass/survivalkit/drupal7.scss */
+#aggregator .categorize-item h3 {
+  margin-bottom: 1em;
+  margin-top: 0;
+}
+
+/* line 46, ../../sass/survivalkit/drupal7.scss */
+#blocks tr.region-title td {
+  font-weight: bold;
+}
+/* line 49, ../../sass/survivalkit/drupal7.scss */
+#blocks tr.region-message {
+  font-weight: normal;
+  color: #999999;
+}
+/* line 53, ../../sass/survivalkit/drupal7.scss */
+#blocks tr.region-populated {
+  display: none;
+}
+
+/* line 58, ../../sass/survivalkit/drupal7.scss */
+.block-region {
+  background-color: #ffff66;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  padding: 3px;
+}
+
+/* line 65, ../../sass/survivalkit/drupal7.scss */
+a.block-demo-backlink {
+  background-color: #b4d7f0;
+  -moz-border-radius: 0 0 10px 10px;
+  -webkit-border-radius: 0 0 10px 10px;
+  border-radius: 0 0 10px 10px;
+  color: black;
+  font-family: "Lucida Grande", Verdana, sans-serif;
+  font-size: small;
+  line-height: 20px;
+  left: 20px;
+  /*LTR */
+  padding: 5px 10px;
+  position: fixed;
+  z-index: 499;
+}
+/* line 79, ../../sass/survivalkit/drupal7.scss */
+a.block-demo-backlink:link, a.block-demo-backlink:visited {
+  background-color: #b4d7f0;
+  -moz-border-radius: 0 0 10px 10px;
+  -webkit-border-radius: 0 0 10px 10px;
+  border-radius: 0 0 10px 10px;
+  color: black;
+  font-family: "Lucida Grande", Verdana, sans-serif;
+  font-size: small;
+  line-height: 20px;
+  left: 20px;
+  /*LTR */
+  padding: 5px 10px;
+  position: fixed;
+  z-index: 499;
+}
+/* line 94, ../../sass/survivalkit/drupal7.scss */
+a.block-demo-backlink:hover {
+  text-decoration: underline;
+}
+
+/* line 100, ../../sass/survivalkit/drupal7.scss */
+.book-navigation .menu {
+  border-top: 1px solid #888888;
+  padding: 1em 0 0 3em;
+  /* LTR */
+}
+/* line 105, ../../sass/survivalkit/drupal7.scss */
+.book-navigation .page-links {
+  border-top: 1px solid #888888;
+  border-bottom: 1px solid #888888;
+  text-align: center;
+  padding: 0.5em;
+}
+/* line 111, ../../sass/survivalkit/drupal7.scss */
+.book-navigation .page-previous {
+  text-align: left;
+  width: 42%;
+  display: block;
+  float: left;
+  /* LTR */
+}
+/* line 118, ../../sass/survivalkit/drupal7.scss */
+.book-navigation .page-up {
+  margin: 0 5%;
+  width: 4%;
+  display: block;
+  float: left;
+  /* LTR */
+}
+/* line 125, ../../sass/survivalkit/drupal7.scss */
+.book-navigation .page-next {
+  text-align: right;
+  width: 42%;
+  display: block;
+  float: right;
+}
+
+/* line 133, ../../sass/survivalkit/drupal7.scss */
+#book-outline {
+  min-width: 56em;
+}
+
+/* line 137, ../../sass/survivalkit/drupal7.scss */
+.book-outline-form .form-item {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* line 142, ../../sass/survivalkit/drupal7.scss */
+html.js #edit-book-pick-book {
+  display: none;
+}
+
+/* line 146, ../../sass/survivalkit/drupal7.scss */
+.form-item-book-bid .description {
+  clear: both;
+}
+
+/* line 151, ../../sass/survivalkit/drupal7.scss */
+#book-admin-edit select {
+  margin-right: 24px;
+}
+/* line 153, ../../sass/survivalkit/drupal7.scss */
+#book-admin-edit select.progress-disabled {
+  margin-right: 0;
+}
+/* line 157, ../../sass/survivalkit/drupal7.scss */
+#book-admin-edit tr.ajax-new-content {
+  background-color: #ffffdd;
+}
+/* line 160, ../../sass/survivalkit/drupal7.scss */
+#book-admin-edit .form-item {
+  float: left;
+}
+
+/* Farbtastic placement */
+/* line 167, ../../sass/survivalkit/drupal7.scss */
+.color-form {
+  max-width: 50em;
+  position: relative;
+}
+
+/* line 172, ../../sass/survivalkit/drupal7.scss */
+#placeholder {
+  position: absolute;
+  top: 0;
+  right: 0;
+  /* LTR */
+}
+
+/* Palette */
+/* line 182, ../../sass/survivalkit/drupal7.scss */
+.color-form .form-item {
+  height: 2em;
+  line-height: 2em;
+  padding-left: 1em;
+  /* LTR */
+  margin: 0.5em 0;
+}
+/* line 189, ../../sass/survivalkit/drupal7.scss */
+.color-form label {
+  float: left;
+  /* LTR */
+  clear: left;
+  /* LTR */
+  width: 10em;
+}
+/* line 196, ../../sass/survivalkit/drupal7.scss */
+.color-form .form-text, .color-form .form-select {
+  float: left;
+  /* LTR */
+}
+/* line 200, ../../sass/survivalkit/drupal7.scss */
+.color-form .form-text {
+  text-align: center;
+  margin-right: 5px;
+  /* LTR */
+  cursor: pointer;
+}
+
+/* line 209, ../../sass/survivalkit/drupal7.scss */
+#palette .hook {
+  float: left;
+  /* LTR */
+  margin-top: 3px;
+  width: 16px;
+  height: 16px;
+}
+/* line 216, ../../sass/survivalkit/drupal7.scss */
+#palette .down, #palette .up, #palette .both {
+  background: url('/images/drupal/hook.png?1339473922') no-repeat 100% 0;
+  /* LTR */
+}
+/* line 220, ../../sass/survivalkit/drupal7.scss */
+#palette .up {
+  background-position: 100% -27px;
+  /* LTR */
+}
+/* line 224, ../../sass/survivalkit/drupal7.scss */
+#palette .both {
+  background-position: 100% -54px;
+  /* LTR */
+}
+/* line 228, ../../sass/survivalkit/drupal7.scss */
+#palette .lock {
+  float: left;
+  /* LTR */
+  position: relative;
+  top: -1.4em;
+  left: -10px;
+  /* LTR */
+  width: 20px;
+  height: 25px;
+  background: url('/images/drupal/lock.png?1339473922') no-repeat 50% 2px;
+  cursor: pointer;
+}
+/* line 240, ../../sass/survivalkit/drupal7.scss */
+#palette .unlocked {
+  background-position: 50% -22px;
+}
+/* line 243, ../../sass/survivalkit/drupal7.scss */
+#palette .form-item {
+  width: 20em;
+}
+/* line 246, ../../sass/survivalkit/drupal7.scss */
+#palette .item-selected {
+  background: #eeeeee;
+}
+
+/* Preview */
+/* line 253, ../../sass/survivalkit/drupal7.scss */
+#preview {
+  display: none;
+}
+
+/* line 257, ../../sass/survivalkit/drupal7.scss */
+html.js #preview {
+  display: block;
+  position: relative;
+  float: left;
+  /* LTR */
+}
+
+/* line 264, ../../sass/survivalkit/drupal7.scss */
+#comments {
+  margin-top: 15px;
+}
+
+/* line 268, ../../sass/survivalkit/drupal7.scss */
+.indented {
+  margin-left: 25px;
+  /* LTR */
+}
+
+/* line 273, ../../sass/survivalkit/drupal7.scss */
+.comment-unpublished {
+  background-color: #fff4f4;
+}
+
+/* line 277, ../../sass/survivalkit/drupal7.scss */
+.comment-preview {
+  background-color: #ffffea;
+}
+
+/*
+ * Contextual links regions. */
+/* line 284, ../../sass/survivalkit/drupal7.scss */
+.contextual-links-region {
+  outline: none;
+  position: relative;
+}
+
+/* line 289, ../../sass/survivalkit/drupal7.scss */
+.contextual-links-region-active {
+  outline: #999999 dashed 1px;
+}
+
+/*
+ * Contextual links. */
+/* line 296, ../../sass/survivalkit/drupal7.scss */
+div.contextual-links-wrapper {
+  display: none;
+  font-size: 90%;
+  position: absolute;
+  right: 5px;
+  /* LTR */
+  top: 2px;
+  z-index: 999;
+}
+
+/* line 306, ../../sass/survivalkit/drupal7.scss */
+html.js div.contextual-links-wrapper {
+  display: block;
+}
+
+/* line 310, ../../sass/survivalkit/drupal7.scss */
+a.contextual-links-trigger {
+  background: transparent url('/images/drupal/gear-select.png?1339473922') no-repeat 2px 0;
+  border: 1px solid transparent;
+  display: none;
+  height: 18px;
+  margin: 0;
+  padding: 0 2px;
+  outline: none;
+  text-indent: 34px;
+  /* LTR */
+  width: 28px;
+  overflow: hidden;
+  -khtml-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+}
+/* line 326, ../../sass/survivalkit/drupal7.scss */
+a.contextual-links-trigger:hover {
+  background-position: 2px -18px;
+}
+
+/* line 332, ../../sass/survivalkit/drupal7.scss */
+div.contextual-links-active a.contextual-links-trigger {
+  background-position: 2px -18px;
+  background-position: 2px -18px;
+  background-color: white;
+  border-color: #cccccc;
+  border-bottom: none;
+  position: relative;
+  z-index: 1;
+  -moz-border-radius: 4px 4px 0 0;
+  -webkit-border-bottom-left-radius: 0;
+  -webkit-border-bottom-right-radius: 0;
+  border-radius: 4px 4px 0 0;
+}
+/* line 345, ../../sass/survivalkit/drupal7.scss */
+div.contextual-links-wrapper ul.contextual-links {
+  background-color: white;
+  border: 1px solid #cccccc;
+  display: none;
+  margin: 0;
+  padding: 0.25em 0;
+  position: absolute;
+  right: 0;
+  text-align: left;
+  top: 18px;
+  white-space: nowrap;
+  -moz-border-radius: 4px 0 4px 4px;
+  /* LTR */
+  -webkit-border-bottom-left-radius: 4px;
+  -webkit-border-bottom-right-radius: 4px;
+  -webkit-border-top-right-radius: 0;
+  /* LTR */
+  -webkit-border-top-left-radius: 4px;
+  /* LTR */
+  border-radius: 4px 0 4px 4px;
+  /* LTR */
+}
+
+/* line 369, ../../sass/survivalkit/drupal7.scss */
+.contextual-links-region:hover a.contextual-links-trigger {
+  display: block;
+}
+
+/* line 374, ../../sass/survivalkit/drupal7.scss */
+div.contextual-links-active a.contextual-links-trigger, div.contextual-links-active ul.contextual-links {
+  display: block;
+}
+
+/* line 379, ../../sass/survivalkit/drupal7.scss */
+ul.contextual-links li {
+  line-height: 100%;
+  list-style: none;
+  list-style-image: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 387, ../../sass/survivalkit/drupal7.scss */
+div.contextual-links-wrapper a {
+  text-decoration: none;
+}
+
+/* line 391, ../../sass/survivalkit/drupal7.scss */
+ul.contextual-links li a {
+  color: #333333 !important;
+  display: block;
+  margin: 0.25em 0;
+  padding: 0.25em 1em 0.25em 0.5em;
+}
+/* line 396, ../../sass/survivalkit/drupal7.scss */
+ul.contextual-links li a:hover {
+  background-color: #bfdcee;
+}
+
+/* line 403, ../../sass/survivalkit/drupal7.scss */
+#dashboard div.dashboard-region {
+  float: left;
+  min-height: 1px;
+}
+/* line 407, ../../sass/survivalkit/drupal7.scss */
+#dashboard div#dashboard_main {
+  width: 65%;
+  margin-right: 1%;
+  /* LTR */
+}
+/* line 412, ../../sass/survivalkit/drupal7.scss */
+#dashboard div#dashboard_sidebar {
+  width: 33%;
+}
+/* line 415, ../../sass/survivalkit/drupal7.scss */
+#dashboard div.block {
+  margin-bottom: 20px;
+}
+/* line 419, ../../sass/survivalkit/drupal7.scss */
+#dashboard .dashboard-region .block {
+  clear: both;
+}
+/* line 422, ../../sass/survivalkit/drupal7.scss */
+#dashboard div.block h2 {
+  float: none;
+}
+/* line 425, ../../sass/survivalkit/drupal7.scss */
+#dashboard #disabled-blocks .block, #dashboard .block-placeholder {
+  background: #e2e1dc;
+  padding: 6px 4px 6px 8px;
+  /* LTR */
+  margin: 3px 3px 3px 0;
+  /* LTR */
+  float: left;
+  /* LTR */
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+}
+/* line 437, ../../sass/survivalkit/drupal7.scss */
+#dashboard .dashboard-add-other-blocks {
+  margin: 10px 0 0 0;
+}
+/* line 440, ../../sass/survivalkit/drupal7.scss */
+#dashboard .ui-sortable {
+  border: 2px dashed #cccccc;
+  padding: 10px;
+}
+/* line 444, ../../sass/survivalkit/drupal7.scss */
+#dashboard .canvas-content {
+  padding: 10px;
+}
+/* line 447, ../../sass/survivalkit/drupal7.scss */
+#dashboard #disabled-blocks .ui-sortable {
+  padding: 0;
+  background-color: #777777;
+  border: 0;
+}
+/* line 452, ../../sass/survivalkit/drupal7.scss */
+#dashboard .canvas-content a.button {
+  margin: 0 0 0 10px;
+  /* LTR */
+  color: #5a5a5a;
+  text-decoration: none;
+}
+/* line 458, ../../sass/survivalkit/drupal7.scss */
+#dashboard .region {
+  margin: 5px;
+}
+/* line 461, ../../sass/survivalkit/drupal7.scss */
+#dashboard #disabled-blocks {
+  padding: 5px 0;
+}
+/* line 462, ../../sass/survivalkit/drupal7.scss */
+#dashboard #disabled-blocks .region {
+  background-color: #e0e0d8;
+  border: #cccccc 1px solid;
+  padding: 10px;
+}
+/* line 468, ../../sass/survivalkit/drupal7.scss */
+#dashboard #disabled-blocks h2 {
+  display: inline;
+  font-weight: normal;
+  white-space: nowrap;
+}
+/* line 473, ../../sass/survivalkit/drupal7.scss */
+#dashboard #disabled-blocks .block {
+  background: #444444;
+  color: white;
+}
+/* line 478, ../../sass/survivalkit/drupal7.scss */
+#dashboard.customize-inactive #disabled-blocks .block:hover {
+  background: #0074bd;
+}
+/* line 481, ../../sass/survivalkit/drupal7.scss */
+#dashboard #disabled-blocks .block .content, #dashboard .ui-sortable-helper .content {
+  display: none;
+}
+/* line 484, ../../sass/survivalkit/drupal7.scss */
+#dashboard .ui-sortable .block {
+  cursor: move;
+  min-height: 1px;
+}
+/* line 487, ../../sass/survivalkit/drupal7.scss */
+#dashboard .ui-sortable .block h2 {
+  background: transparent url('/images/drupal/draggable.png?1339473922') no-repeat 0px -39px;
+  padding: 0 17px;
+}
+/* line 493, ../../sass/survivalkit/drupal7.scss */
+#dashboard.customize-inactive #disabled-blocks .block:hover h2 {
+  background: #0074bd url('/images/drupal/draggable.png?1339473922') no-repeat 0px -39px;
+  color: white;
+}
+/* line 497, ../../sass/survivalkit/drupal7.scss */
+#dashboard.customize-inactive .dashboard-region .ui-sortable .block:hover h2 {
+  background: #0074bd url('/images/drupal/draggable.png?1339473922') no-repeat;
+  background-position: 3px -36px;
+  color: white;
+}
+/* line 503, ../../sass/survivalkit/drupal7.scss */
+#dashboard .dashboard-region .block-placeholder {
+  margin: 0 0 20px 0;
+  padding: 0;
+  display: block;
+  height: 1.6em;
+  width: 100%;
+}
+/* line 510, ../../sass/survivalkit/drupal7.scss */
+#dashboard #disabled-blocks .block-placeholder {
+  width: 30px;
+  height: 1.6em;
+}
+
+/* line 516, ../../sass/survivalkit/drupal7.scss */
+.form-item-type, .form-item-severity {
+  float: left;
+  /* LTR */
+  padding-right: 0.8em;
+  /* LTR */
+  margin: 0.1em;
+  /*
+   * In Opera 9, DOM elements with the property of "overflow: auto"
+   * will partially hide its contents with unnecessary scrollbars when
+   * its immediate child is floated without an explicit width set. */
+  width: 15em;
+}
+
+/* line 530, ../../sass/survivalkit/drupal7.scss */
+#dblog-filter-form .form-type-select select {
+  width: 100%;
+}
+/* line 533, ../../sass/survivalkit/drupal7.scss */
+#dblog-filter-form .form-actions {
+  float: left;
+  padding: 3ex 0 0 1em;
+}
+
+/* line 540, ../../sass/survivalkit/drupal7.scss */
+tr.dblog-user {
+  background: #ffffdd;
+}
+/* line 542, ../../sass/survivalkit/drupal7.scss */
+tr.dblog-user .active {
+  background: #eeeedd;
+}
+/* line 546, ../../sass/survivalkit/drupal7.scss */
+tr.dblog-content {
+  background: #ddddff;
+}
+/* line 548, ../../sass/survivalkit/drupal7.scss */
+tr.dblog-content .active {
+  background: #ccccee;
+}
+/* line 552, ../../sass/survivalkit/drupal7.scss */
+tr.dblog-page-not-found, tr.dblog-access-denied {
+  background: #ddffdd;
+}
+/* line 555, ../../sass/survivalkit/drupal7.scss */
+tr.dblog-page-not-found .active, tr.dblog-access-denied .active {
+  background: #cceecc;
+}
+/* line 558, ../../sass/survivalkit/drupal7.scss */
+tr.dblog-error {
+  background: #ffc9c9;
+}
+/* line 560, ../../sass/survivalkit/drupal7.scss */
+tr.dblog-error .active {
+  background: #eeb9b9;
+}
+
+/* line 567, ../../sass/survivalkit/drupal7.scss */
+table#admin-dblog td.icon {
+  background: no-repeat center;
+  width: 16px;
+}
+/* line 572, ../../sass/survivalkit/drupal7.scss */
+table#admin-dblog tr.dblog-warning td.icon {
+  background-image: url('/images/drupal/message-16-warning.png?1339473922');
+}
+/* line 575, ../../sass/survivalkit/drupal7.scss */
+table#admin-dblog tr.dblog-error td.icon {
+  background-image: url('/images/drupal/message-16-error.png?1339473922');
+}
+
+/* Field display */
+/* line 583, ../../sass/survivalkit/drupal7.scss */
+.field .field-label {
+  font-weight: bold;
+}
+
+/* line 588, ../../sass/survivalkit/drupal7.scss */
+.field-label-inline .field-label, .field-label-inline .field-items {
+  float: left;
+  /*LTR */
+}
+
+/* Form display */
+/* line 597, ../../sass/survivalkit/drupal7.scss */
+form .field-multiple-table {
+  margin: 0;
+}
+/* line 599, ../../sass/survivalkit/drupal7.scss */
+form .field-multiple-table th.field-label {
+  padding-left: 0;
+  /*LTR */
+}
+/* line 603, ../../sass/survivalkit/drupal7.scss */
+form .field-multiple-table td.field-multiple-drag {
+  width: 30px;
+  padding-right: 0;
+  /*LTR */
+}
+/* line 607, ../../sass/survivalkit/drupal7.scss */
+form .field-multiple-table td.field-multiple-drag a.tabledrag-handle {
+  padding-right: 0.5em;
+  /*LTR */
+}
+/* line 613, ../../sass/survivalkit/drupal7.scss */
+form .field-add-more-submit {
+  margin: 0.5em 0 0;
+}
+
+/* 'Manage fields' and 'Manage display' overviews */
+/* line 622, ../../sass/survivalkit/drupal7.scss */
+table.field-ui-overview tr.add-new .label-input {
+  float: left;
+  /* LTR */
+}
+/* line 626, ../../sass/survivalkit/drupal7.scss */
+table.field-ui-overview tr.add-new .tabledrag-changed {
+  display: none;
+}
+/* line 629, ../../sass/survivalkit/drupal7.scss */
+table.field-ui-overview tr.add-new .description {
+  margin-bottom: 0;
+}
+/* line 632, ../../sass/survivalkit/drupal7.scss */
+table.field-ui-overview tr.add-new .add-new-placeholder {
+  font-weight: bold;
+  padding-bottom: 0.5em;
+}
+/* line 637, ../../sass/survivalkit/drupal7.scss */
+table.field-ui-overview tr.region-title td {
+  font-weight: bold;
+}
+/* line 640, ../../sass/survivalkit/drupal7.scss */
+table.field-ui-overview tr.region-message td {
+  font-style: italic;
+}
+/* line 643, ../../sass/survivalkit/drupal7.scss */
+table.field-ui-overview tr.region-populated, table.field-ui-overview tr.region-add-new-title {
+  display: none;
+}
+
+/* 'Manage display' overview */
+/* line 651, ../../sass/survivalkit/drupal7.scss */
+#field-display-overview .field-formatter-summary-cell {
+  line-height: 1em;
+}
+/* line 654, ../../sass/survivalkit/drupal7.scss */
+#field-display-overview .field-formatter-summary {
+  float: left;
+  font-size: 0.9em;
+}
+/* line 658, ../../sass/survivalkit/drupal7.scss */
+#field-display-overview td.field-formatter-summary-cell span.warning {
+  display: block;
+  float: left;
+  margin-right: 0.5em;
+}
+/* line 663, ../../sass/survivalkit/drupal7.scss */
+#field-display-overview .field-formatter-settings-edit-wrapper, #field-display-overview .field-formatter-settings-edit {
+  float: right;
+}
+/* line 667, ../../sass/survivalkit/drupal7.scss */
+#field-display-overview tr.field-formatter-settings-editing td {
+  vertical-align: top;
+}
+/* line 670, ../../sass/survivalkit/drupal7.scss */
+#field-display-overview tr.field-formatter-settings-editing .field-formatter-type {
+  display: none;
+}
+/* line 674, ../../sass/survivalkit/drupal7.scss */
+#field-display-overview .field-formatter-settings-edit-form .formatter-name {
+  font-weight: bold;
+}
+
+/* line 679, ../../sass/survivalkit/drupal7.scss */
+#field-ui-display-overview-form #edit-refresh {
+  display: none;
+}
+
+/*
+ * Managed file element styles. */
+/* line 687, ../../sass/survivalkit/drupal7.scss */
+.form-managed-file .form-file, .form-managed-file .form-submit {
+  margin: 0;
+}
+/* line 690, ../../sass/survivalkit/drupal7.scss */
+.form-managed-file input.progress-disabled {
+  float: none;
+  display: inline;
+}
+/* line 695, ../../sass/survivalkit/drupal7.scss */
+.form-managed-file div.ajax-progress, .form-managed-file div.throbber {
+  display: inline;
+  float: none;
+  padding: 1px 5px 2px 5px;
+}
+/* line 700, ../../sass/survivalkit/drupal7.scss */
+.form-managed-file div.ajax-progress div {
+  display: inline;
+}
+/* line 703, ../../sass/survivalkit/drupal7.scss */
+.form-managed-file div.ajax-progress-bar {
+  display: none;
+  margin-top: 4px;
+  width: 28em;
+  padding: 0;
+}
+/* line 708, ../../sass/survivalkit/drupal7.scss */
+.form-managed-file div.ajax-progress-bar div.bar {
+  margin: 0;
+}
+
+/* line 715, ../../sass/survivalkit/drupal7.scss */
+.text-format-wrapper .form-item {
+  margin-bottom: 0;
+}
+
+/* line 719, ../../sass/survivalkit/drupal7.scss */
+.filter-wrapper {
+  border-top: 0;
+  margin: 0;
+  padding: 1.5em 0 1.5em;
+}
+/* line 723, ../../sass/survivalkit/drupal7.scss */
+.filter-wrapper .form-item {
+  float: left;
+  padding: 0 0 0.5em 1.5em;
+}
+/* line 726, ../../sass/survivalkit/drupal7.scss */
+.filter-wrapper .form-item label {
+  display: inline;
+}
+
+/* line 732, ../../sass/survivalkit/drupal7.scss */
+.filter-help {
+  float: right;
+  padding: 0 1.5em 0.5em;
+}
+/* line 735, ../../sass/survivalkit/drupal7.scss */
+.filter-help p {
+  margin: 0;
+}
+/* line 738, ../../sass/survivalkit/drupal7.scss */
+.filter-help a {
+  background: transparent url('/images/drupal/help.png?1339473922') right center no-repeat;
+  padding: 0 20px;
+}
+
+/* line 744, ../../sass/survivalkit/drupal7.scss */
+.filter-guidelines {
+  clear: left;
+  padding: 0 1.5em;
+}
+
+/* line 749, ../../sass/survivalkit/drupal7.scss */
+.text-format-wrapper .description {
+  margin-top: 0.5em;
+}
+
+/* line 754, ../../sass/survivalkit/drupal7.scss */
+#filter-order tr .form-item {
+  padding: 0.5em 0 0 3em;
+  white-space: normal;
+}
+/* line 758, ../../sass/survivalkit/drupal7.scss */
+#filter-order tr .form-type-checkbox .description {
+  padding: 0 0 0 2.5em;
+}
+
+/* line 763, ../../sass/survivalkit/drupal7.scss */
+input#edit-filters-filter-html-settings-allowed-html {
+  width: 100%;
+}
+
+/* line 767, ../../sass/survivalkit/drupal7.scss */
+.tips {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  font-size: 0.9em;
+}
+
+/* line 776, ../../sass/survivalkit/drupal7.scss */
+#forum .description {
+  font-size: 0.9em;
+  margin: 0.5em;
+}
+/* line 781, ../../sass/survivalkit/drupal7.scss */
+#forum td.created, #forum td.posts, #forum td.topics, #forum td.last-reply, #forum td.replies, #forum td.pager {
+  white-space: nowrap;
+}
+/* line 785, ../../sass/survivalkit/drupal7.scss */
+#forum td.forum .icon {
+  background-image: url('/images/drupal/forum-icons.png?1339473922');
+  background-repeat: no-repeat;
+  float: left;
+  /* LTR */
+  height: 24px;
+  margin: 0 9px 0 0;
+  /* LTR */
+  width: 24px;
+}
+/* line 795, ../../sass/survivalkit/drupal7.scss */
+#forum td.forum .forum-status-new {
+  background-position: -24px 0;
+}
+/* line 800, ../../sass/survivalkit/drupal7.scss */
+#forum div.indent {
+  margin-left: 20px;
+}
+/* line 804, ../../sass/survivalkit/drupal7.scss */
+#forum .icon div {
+  background-image: url('/images/drupal/forum-icons.png?1339473922');
+  background-repeat: no-repeat;
+  width: 24px;
+  height: 24px;
+}
+/* line 810, ../../sass/survivalkit/drupal7.scss */
+#forum .icon .topic-status-new {
+  background-position: -24px 0;
+}
+/* line 813, ../../sass/survivalkit/drupal7.scss */
+#forum .icon .topic-status-hot {
+  background-position: -48px 0;
+}
+/* line 816, ../../sass/survivalkit/drupal7.scss */
+#forum .icon .topic-status-hot-new {
+  background-position: -72px 0;
+}
+/* line 819, ../../sass/survivalkit/drupal7.scss */
+#forum .icon .topic-status-sticky {
+  background-position: -96px 0;
+}
+/* line 822, ../../sass/survivalkit/drupal7.scss */
+#forum .icon .topic-status-closed {
+  background-position: -120px 0;
+}
+
+/* line 828, ../../sass/survivalkit/drupal7.scss */
+.help-items {
+  float: left;
+  /* LTR */
+  width: 22%;
+  padding-right: 3%;
+  /* LTR */
+}
+
+/* line 836, ../../sass/survivalkit/drupal7.scss */
+.help-items-last {
+  padding-right: 0;
+  /* LTR */
+}
+
+/*
+ * Image style configuration pages. */
+/* line 845, ../../sass/survivalkit/drupal7.scss */
+div.image-style-new {
+  display: inline;
+}
+/* line 847, ../../sass/survivalkit/drupal7.scss */
+div.image-style-new div {
+  display: inline;
+}
+/* line 852, ../../sass/survivalkit/drupal7.scss */
+div.image-style-preview div.preview-image-wrapper {
+  float: left;
+  padding-bottom: 2em;
+  text-align: center;
+  top: 50%;
+  width: 48%;
+}
+/* line 859, ../../sass/survivalkit/drupal7.scss */
+div.image-style-preview div.preview-image {
+  margin: auto;
+  position: relative;
+}
+/* line 863, ../../sass/survivalkit/drupal7.scss */
+div.image-style-preview div.preview-image div.width {
+  border: 1px solid #666666;
+  border-top: none;
+  height: 2px;
+  left: -1px;
+  bottom: -6px;
+  position: absolute;
+}
+/* line 870, ../../sass/survivalkit/drupal7.scss */
+div.image-style-preview div.preview-image div.width span {
+  position: relative;
+  top: 4px;
+}
+/* line 875, ../../sass/survivalkit/drupal7.scss */
+div.image-style-preview div.preview-image div.height {
+  border: 1px solid #666666;
+  border-left: none;
+  position: absolute;
+  right: -6px;
+  top: -1px;
+  width: 2px;
+}
+/* line 882, ../../sass/survivalkit/drupal7.scss */
+div.image-style-preview div.preview-image div.height span {
+  height: 2em;
+  left: 10px;
+  margin-top: -1em;
+  position: absolute;
+  top: 50%;
+}
+
+/*
+ * Image anchor element. */
+/* line 898, ../../sass/survivalkit/drupal7.scss */
+table.image-anchor {
+  width: auto;
+}
+/* line 901, ../../sass/survivalkit/drupal7.scss */
+table.image-anchor tr.even, table.image-anchor tr.odd {
+  background: none;
+}
+/* line 905, ../../sass/survivalkit/drupal7.scss */
+table.image-anchor td {
+  border: 1px solid #cccccc;
+}
+
+/*
+ * Image upload widget. */
+/* line 914, ../../sass/survivalkit/drupal7.scss */
+div.image-preview {
+  float: left;
+  /* LTR */
+  padding: 0 10px 10px 0;
+  /* LTR */
+}
+/* line 920, ../../sass/survivalkit/drupal7.scss */
+div.image-widget-data {
+  float: left;
+  /* LTR */
+}
+/* line 923, ../../sass/survivalkit/drupal7.scss */
+div.image-widget-data input.text-field {
+  width: auto;
+}
+
+/* line 929, ../../sass/survivalkit/drupal7.scss */
+.locale-untranslated {
+  font-style: normal;
+  text-decoration: line-through;
+}
+
+/* line 935, ../../sass/survivalkit/drupal7.scss */
+#locale-translation-filter-form .form-item-language, #locale-translation-filter-form .form-item-translation, #locale-translation-filter-form .form-item-group {
+  float: left;
+  /* LTR */
+  padding-right: 0.8em;
+  /* LTR */
+  margin: 0.1em;
+  /*
+   * In Opera 9, DOM elements with the property of "overflow: auto"
+   * will partially hide its contents with unnecessary scrollbars when
+   * its immediate child is floated without an explicit width set. */
+  width: 15em;
+}
+/* line 947, ../../sass/survivalkit/drupal7.scss */
+#locale-translation-filter-form .form-type-select select {
+  width: 100%;
+}
+/* line 950, ../../sass/survivalkit/drupal7.scss */
+#locale-translation-filter-form .form-actions {
+  float: left;
+  /* LTR */
+  padding: 3ex 0 0 1em;
+  /* LTR */
+}
+
+/* line 959, ../../sass/survivalkit/drupal7.scss */
+.language-switcher-locale-session a.active {
+  color: #0062a0;
+}
+/* line 962, ../../sass/survivalkit/drupal7.scss */
+.language-switcher-locale-session a.session-active {
+  color: black;
+}
+
+/* line 967, ../../sass/survivalkit/drupal7.scss */
+.menu-operations {
+  width: 100px;
+}
+
+/* line 971, ../../sass/survivalkit/drupal7.scss */
+.menu-enabled {
+  width: 70px;
+}
+/* line 973, ../../sass/survivalkit/drupal7.scss */
+.menu-enabled input {
+  margin-left: 25px;
+}
+
+/* line 978, ../../sass/survivalkit/drupal7.scss */
+.node-unpublished {
+  background-color: #fff4f4;
+}
+
+/* line 982, ../../sass/survivalkit/drupal7.scss */
+.preview .node {
+  background-color: #ffffea;
+}
+
+/* line 986, ../../sass/survivalkit/drupal7.scss */
+td.revision-current {
+  background: #ffffcc;
+}
+
+/* line 990, ../../sass/survivalkit/drupal7.scss */
+#edit-openid-identifier {
+  background-image: url("login-bg.png");
+  background-position: left 50%;
+  /* LTR */
+  background-repeat: no-repeat;
+  padding-left: 20px;
+  /* LTR */
+}
+
+/* line 999, ../../sass/survivalkit/drupal7.scss */
+div.form-item-openid-identifier {
+  display: block;
+}
+
+/* line 1004, ../../sass/survivalkit/drupal7.scss */
+html.js #user-login-form div.form-item-openid-identifier, html.js #user-login div.form-item-openid-identifier {
+  display: none;
+}
+
+/* line 1009, ../../sass/survivalkit/drupal7.scss */
+#user-login-form ul {
+  margin-top: 0;
+}
+
+/* line 1013, ../../sass/survivalkit/drupal7.scss */
+#user-login ul {
+  margin: 0 0 5px;
+}
+/* line 1015, ../../sass/survivalkit/drupal7.scss */
+#user-login ul li {
+  margin: 0;
+}
+
+/* line 1020, ../../sass/survivalkit/drupal7.scss */
+#user-login-form .openid-links {
+  padding-bottom: 0;
+}
+
+/* line 1024, ../../sass/survivalkit/drupal7.scss */
+#user-login .openid-links {
+  padding-left: 0;
+  /* LTR */
+}
+
+/* line 1029, ../../sass/survivalkit/drupal7.scss */
+#user-login-form .openid-links li, #user-login .openid-links li {
+  display: none;
+  list-style: none;
+}
+
+/* line 1035, ../../sass/survivalkit/drupal7.scss */
+html.js #user-login-form li.openid-link, html.js #user-login li.openid-link {
+  display: block;
+  margin-left: 0;
+  /* LTR */
+}
+
+/* line 1042, ../../sass/survivalkit/drupal7.scss */
+#user-login-form li.openid-link a, #user-login li.openid-link a {
+  background-image: url("login-bg.png");
+  background-position: left top;
+  /* LTR */
+  background-repeat: no-repeat;
+  padding: 0 0 0 1.5em;
+  /* LTR */
+}
+
+/* line 1051, ../../sass/survivalkit/drupal7.scss */
+html.js {
+  background: transparent !important;
+  overflow-y: scroll;
+}
+/* line 1054, ../../sass/survivalkit/drupal7.scss */
+html.js body {
+  background: transparent !important;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/* line 1063, ../../sass/survivalkit/drupal7.scss */
+#overlay {
+  display: table;
+  margin: 0 auto;
+  min-height: 100px;
+  min-width: 700px;
+  position: relative;
+  padding: 0.2em;
+  padding-right: 26px;
+  /* LTR */
+  width: 88%;
+}
+
+/* line 1075, ../../sass/survivalkit/drupal7.scss */
+#overlay-titlebar {
+  padding: 0 20px;
+  position: relative;
+  white-space: nowrap;
+  z-index: 100;
+}
+
+/* line 1082, ../../sass/survivalkit/drupal7.scss */
+#overlay-content {
+  background: white;
+  clear: both;
+  color: black;
+  padding: 0.5em 1em;
+  position: relative;
+}
+
+/* line 1090, ../../sass/survivalkit/drupal7.scss */
+#overlay-title-wrapper {
+  overflow: hidden;
+}
+
+/* line 1094, ../../sass/survivalkit/drupal7.scss */
+#overlay-title {
+  color: white;
+  float: left;
+  /* LTR */
+  font-size: 20px;
+  margin: 0;
+  padding: 0.3em 0;
+}
+/* line 1101, ../../sass/survivalkit/drupal7.scss */
+#overlay-title:active, #overlay-title:focus {
+  outline: 0;
+}
+
+/* line 1106, ../../sass/survivalkit/drupal7.scss */
+.overlay #skip-link {
+  margin-top: -20px;
+}
+/* line 1108, ../../sass/survivalkit/drupal7.scss */
+.overlay #skip-link a {
+  color: white;
+  /* This is white to contrast with the dark background behind it. */
+}
+
+/* line 1114, ../../sass/survivalkit/drupal7.scss */
+#overlay-close-wrapper {
+  position: absolute;
+  right: 0;
+  /* LTR */
+}
+
+/* line 1120, ../../sass/survivalkit/drupal7.scss */
+#overlay-close {
+  background: transparent url('/images/drupal/close.png?1339473922') no-repeat;
+  /* LTR */
+  -moz-border-radius-topleft: 0;
+  /* LTR */
+  -webkit-border-top-left-radius: 0;
+  /* LTR */
+  border-top-left-radius: 0;
+  /* LTR */
+  display: block;
+  height: 26px;
+  margin: 0;
+  padding: 0;
+  /* Replace with position:fixed to get a scrolling close button. */
+  position: absolute;
+  width: 26px;
+}
+/* line 1136, ../../sass/survivalkit/drupal7.scss */
+#overlay-close:hover {
+  background: transparent url('/images/drupal/close.png?1339473922') no-repeat;
+  /* LTR */
+  -moz-border-radius-topleft: 0;
+  /* LTR */
+  -webkit-border-top-left-radius: 0;
+  /* LTR */
+  border-top-left-radius: 0;
+  /* LTR */
+  display: block;
+  height: 26px;
+  margin: 0;
+  padding: 0;
+  /* Replace with position:fixed to get a scrolling close button. */
+  position: absolute;
+  width: 26px;
+}
+
+/*
+ * Tabs on the overlay. */
+/* line 1158, ../../sass/survivalkit/drupal7.scss */
+#overlay-tabs {
+  line-height: 27px;
+  margin: -28px 0 0 0;
+  position: absolute;
+  right: 20px;
+  /* LTR */
+  text-transform: uppercase;
+}
+/* line 1165, ../../sass/survivalkit/drupal7.scss */
+#overlay-tabs li {
+  display: inline;
+  list-style: none;
+  margin: 0 0 0 -3px;
+  /* LTR */
+  padding: 0;
+}
+/* line 1171, ../../sass/survivalkit/drupal7.scss */
+#overlay-tabs li a {
+  background-color: #a6a7a2;
+  -moz-border-radius: 8px 8px 0 0;
+  -webkit-border-top-left-radius: 8px;
+  -webkit-border-top-right-radius: 8px;
+  border-radius: 8px 8px 0 0;
+  color: black;
+  display: inline-block;
+  font-size: 11px;
+  font-weight: bold;
+  margin: 0 0 2px 0;
+  outline: 0;
+  padding: 0 14px;
+  text-decoration: none;
+}
+/* line 1185, ../../sass/survivalkit/drupal7.scss */
+#overlay-tabs li a:active, #overlay-tabs li a:visited, #overlay-tabs li a:hover {
+  background-color: #a6a7a2;
+  -moz-border-radius: 8px 8px 0 0;
+  -webkit-border-top-left-radius: 8px;
+  -webkit-border-top-right-radius: 8px;
+  border-radius: 8px 8px 0 0;
+  color: black;
+  display: inline-block;
+  font-size: 11px;
+  font-weight: bold;
+  margin: 0 0 2px 0;
+  outline: 0;
+  padding: 0 14px;
+  text-decoration: none;
+}
+/* line 1201, ../../sass/survivalkit/drupal7.scss */
+#overlay-tabs li.active a {
+  background-color: white;
+  margin: 0;
+  padding-bottom: 2px;
+}
+/* line 1205, ../../sass/survivalkit/drupal7.scss */
+#overlay-tabs li.active a.active, #overlay-tabs li.active a:active, #overlay-tabs li.active a:visited {
+  background-color: white;
+  margin: 0;
+  padding-bottom: 2px;
+}
+/* line 1212, ../../sass/survivalkit/drupal7.scss */
+#overlay-tabs li a:focus, #overlay-tabs li a:hover {
+  color: white;
+}
+/* line 1217, ../../sass/survivalkit/drupal7.scss */
+#overlay-tabs li.active a:focus, #overlay-tabs li.active a:hover {
+  color: black;
+}
+
+/*
+ * Add to shortcuts link */
+/* line 1227, ../../sass/survivalkit/drupal7.scss */
+#overlay-titlebar .add-or-remove-shortcuts {
+  padding-top: 0.9em;
+}
+
+/*
+ * IE6 shows elements with position:fixed as position:static so replace
+ * it with position:absolute; */
+/* line 1235, ../../sass/survivalkit/drupal7.scss */
+* html #overlay-close {
+  position: absolute;
+}
+/* line 1237, ../../sass/survivalkit/drupal7.scss */
+* html #overlay-close:hover {
+  position: absolute;
+}
+
+/*
+ * Disable message. */
+/* line 1245, ../../sass/survivalkit/drupal7.scss */
+#overlay-disable-message {
+  background-color: white;
+  margin: -20px auto 20px;
+  width: 80%;
+  -moz-border-radius: 0 0 8px 8px;
+  -webkit-border-bottom-left-radius: 8px;
+  -webkit-border-bottom-right-radius: 8px;
+  border-radius: 0 0 8px 8px;
+}
+
+/* line 1255, ../../sass/survivalkit/drupal7.scss */
+.overlay-disable-message-focused {
+  padding: 0.5em;
+}
+/* line 1257, ../../sass/survivalkit/drupal7.scss */
+.overlay-disable-message-focused a {
+  display: block;
+  float: left;
+}
+/* line 1261, ../../sass/survivalkit/drupal7.scss */
+.overlay-disable-message-focused #overlay-dismiss-message {
+  float: right;
+}
+
+/* line 1266, ../../sass/survivalkit/drupal7.scss */
+html.overlay-open {
+  height: 100%;
+  overflow: hidden;
+}
+/* line 1269, ../../sass/survivalkit/drupal7.scss */
+html.overlay-open body {
+  height: 100%;
+  overflow: hidden;
+}
+
+/* line 1275, ../../sass/survivalkit/drupal7.scss */
+#overlay-container, .overlay-modal-background, .overlay-element {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 500;
+}
+
+/* line 1284, ../../sass/survivalkit/drupal7.scss */
+.overlay-modal-background {
+  /* Using a transparent png renders faster than using opacity */
+  background: transparent url('/images/drupal/background.png?1339473922') repeat;
+}
+
+/* line 1289, ../../sass/survivalkit/drupal7.scss */
+.overlay-element {
+  background: transparent;
+  left: -200%;
+  z-index: 501;
+}
+/* line 1293, ../../sass/survivalkit/drupal7.scss */
+.overlay-element.overlay-active {
+  left: 0;
+}
+
+/* line 1299, ../../sass/survivalkit/drupal7.scss */
+html.overlay-open .displace-top, html.overlay-open .displace-bottom {
+  z-index: 600;
+}
+
+/*
+ * Within the overlay parent, the message about disabling the overlay is for
+ * screen-reader users only. It is always kept invisible with the
+ * element-invisible class, and removed from the tab order. Overlay-child.css
+ * contains styling for the same message appearing within the overlay, and
+ * intended for sighted users. */
+/* line 1311, ../../sass/survivalkit/drupal7.scss */
+#overlay-disable-message {
+  display: none;
+}
+
+/* line 1315, ../../sass/survivalkit/drupal7.scss */
+html.overlay-open #overlay-disable-message {
+  display: block;
+}
+
+/* line 1319, ../../sass/survivalkit/drupal7.scss */
+.poll {
+  overflow: hidden;
+}
+/* line 1321, ../../sass/survivalkit/drupal7.scss */
+.poll .bar {
+  height: 1em;
+  margin: 1px 0;
+  background-color: #dddddd;
+}
+/* line 1325, ../../sass/survivalkit/drupal7.scss */
+.poll .bar .foreground {
+  background-color: black;
+  height: 1em;
+  float: left;
+  /* LTR */
+}
+/* line 1332, ../../sass/survivalkit/drupal7.scss */
+.poll .links {
+  text-align: center;
+}
+/* line 1335, ../../sass/survivalkit/drupal7.scss */
+.poll .percent {
+  text-align: right;
+  /* LTR */
+}
+/* line 1339, ../../sass/survivalkit/drupal7.scss */
+.poll .total {
+  text-align: center;
+}
+/* line 1342, ../../sass/survivalkit/drupal7.scss */
+.poll .vote-form {
+  text-align: center;
+}
+/* line 1344, ../../sass/survivalkit/drupal7.scss */
+.poll .vote-form .choices {
+  text-align: left;
+  /* LTR */
+  margin: 0 auto;
+  display: table;
+}
+/* line 1349, ../../sass/survivalkit/drupal7.scss */
+.poll .vote-form .choices .title {
+  font-weight: bold;
+}
+
+/* line 1357, ../../sass/survivalkit/drupal7.scss */
+.node-form #edit-poll-more {
+  margin: 0;
+}
+/* line 1361, ../../sass/survivalkit/drupal7.scss */
+.node-form #poll-choice-table .form-text {
+  display: inline;
+  width: auto;
+}
+/* line 1365, ../../sass/survivalkit/drupal7.scss */
+.node-form #poll-choice-table td.choice-flag {
+  white-space: nowrap;
+  width: 4em;
+}
+
+/* line 1373, ../../sass/survivalkit/drupal7.scss */
+td.poll-chtext {
+  width: 80%;
+}
+/* line 1376, ../../sass/survivalkit/drupal7.scss */
+td.poll-chvotes .form-text {
+  width: 85%;
+}
+
+/* line 1382, ../../sass/survivalkit/drupal7.scss */
+#profile-fields td.category {
+  font-weight: bold;
+}
+/* line 1386, ../../sass/survivalkit/drupal7.scss */
+#profile-fields tr.category-message {
+  color: #999999;
+}
+/* line 1389, ../../sass/survivalkit/drupal7.scss */
+#profile-fields tr.category-populated {
+  display: none;
+}
+
+/* line 1395, ../../sass/survivalkit/drupal7.scss */
+.search-form {
+  margin-bottom: 1em;
+}
+/* line 1397, ../../sass/survivalkit/drupal7.scss */
+.search-form input {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* line 1403, ../../sass/survivalkit/drupal7.scss */
+.search-results {
+  list-style: none;
+}
+/* line 1405, ../../sass/survivalkit/drupal7.scss */
+.search-results p {
+  margin-top: 0;
+}
+/* line 1408, ../../sass/survivalkit/drupal7.scss */
+.search-results .title {
+  font-size: 1.2em;
+}
+/* line 1411, ../../sass/survivalkit/drupal7.scss */
+.search-results li {
+  margin-bottom: 1em;
+}
+/* line 1414, ../../sass/survivalkit/drupal7.scss */
+.search-results .search-snippet-info {
+  padding-left: 1em;
+  /* LTR */
+}
+/* line 1418, ../../sass/survivalkit/drupal7.scss */
+.search-results .search-info {
+  font-size: 0.85em;
+}
+
+/* line 1424, ../../sass/survivalkit/drupal7.scss */
+.search-advanced .criterion {
+  float: left;
+  /* LTR */
+  margin-right: 2em;
+  /* LTR */
+}
+/* line 1430, ../../sass/survivalkit/drupal7.scss */
+.search-advanced .action {
+  float: left;
+  /* LTR */
+  clear: left;
+  /* LTR */
+}
+
+/* line 1438, ../../sass/survivalkit/drupal7.scss */
+.shortcut-slot-hidden {
+  display: none;
+}
+
+/* line 1443, ../../sass/survivalkit/drupal7.scss */
+div.form-item-set div.form-item-new {
+  display: inline;
+}
+/* line 1447, ../../sass/survivalkit/drupal7.scss */
+div#toolbar a#edit-shortcuts {
+  float: right;
+  padding: 5px 10px 5px 5px;
+  line-height: 24px;
+  color: #fefefe;
+}
+/* line 1452, ../../sass/survivalkit/drupal7.scss */
+div#toolbar a#edit-shortcuts:focus, div#toolbar a#edit-shortcuts:hover, div#toolbar a#edit-shortcuts.active {
+  color: white;
+  text-decoration: underline;
+}
+/* line 1458, ../../sass/survivalkit/drupal7.scss */
+div#toolbar div.toolbar-shortcuts ul {
+  padding: 5px 0 2px 0;
+  height: 28px;
+  line-height: 24px;
+  float: left;
+  /* LTR */
+  margin-left: 5px;
+  /* LTR */
+}
+/* line 1466, ../../sass/survivalkit/drupal7.scss */
+div#toolbar div.toolbar-shortcuts ul li a {
+  padding: 0 5px 0 5px;
+  margin-right: 5px;
+  /* LTR */
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+/* line 1473, ../../sass/survivalkit/drupal7.scss */
+div#toolbar div.toolbar-shortcuts ul li a:focus, div#toolbar div.toolbar-shortcuts ul li a:hover {
+  background: #555555;
+}
+/* line 1476, ../../sass/survivalkit/drupal7.scss */
+div#toolbar div.toolbar-shortcuts ul li a.active {
+  background: black;
+}
+/* line 1477, ../../sass/survivalkit/drupal7.scss */
+div#toolbar div.toolbar-shortcuts ul li a.active:focus {
+  background: #555555;
+}
+/* line 1480, ../../sass/survivalkit/drupal7.scss */
+div#toolbar div.toolbar-shortcuts ul li a.active:hover {
+  background: black;
+}
+/* line 1487, ../../sass/survivalkit/drupal7.scss */
+div#toolbar div.toolbar-shortcuts span.icon {
+  float: left;
+  /* LTR */
+  background: #444444;
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+  /* LTR */
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+/* line 1501, ../../sass/survivalkit/drupal7.scss */
+div.add-or-remove-shortcuts {
+  padding-top: 5px;
+}
+/* line 1503, ../../sass/survivalkit/drupal7.scss */
+div.add-or-remove-shortcuts a span.icon {
+  display: block;
+  width: 12px;
+  background: transparent url(shortcut.png) no-repeat scroll 0 0;
+  height: 12px;
+  float: left;
+  margin-left: 8px;
+}
+/* line 1513, ../../sass/survivalkit/drupal7.scss */
+div.add-shortcut a:focus span.icon, div.add-shortcut a:hover span.icon {
+  background-position: 0 -12px;
+}
+/* line 1518, ../../sass/survivalkit/drupal7.scss */
+div.remove-shortcut a span.icon {
+  background-position: -12px 0;
+}
+/* line 1521, ../../sass/survivalkit/drupal7.scss */
+div.remove-shortcut a:focus span.icon, div.remove-shortcut a:hover span.icon {
+  background-position: -12px -12px;
+}
+/* line 1526, ../../sass/survivalkit/drupal7.scss */
+div.add-or-remove-shortcuts a span.text {
+  float: left;
+  padding-left: 10px;
+  display: none;
+}
+/* line 1531, ../../sass/survivalkit/drupal7.scss */
+div.add-or-remove-shortcuts a:focus span.text, div.add-or-remove-shortcuts a:hover span.text {
+  font-size: 10px;
+  line-height: 12px;
+  color: white;
+  background-color: #5f605b;
+  display: block;
+  padding-right: 6px;
+  /* LTR */
+  cursor: pointer;
+  -moz-border-radius: 0 5px 5px 0;
+  /* LTR */
+  -webkit-border-top-right-radius: 5px;
+  /* LTR */
+  -webkit-border-bottom-right-radius: 5px;
+  /* LTR */
+  border-radius: 0 5px 5px 0;
+  /* LTR */
+}
+
+/* line 1553, ../../sass/survivalkit/drupal7.scss */
+#shortcut-set-switch .form-type-radios {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+/* line 1557, ../../sass/survivalkit/drupal7.scss */
+#shortcut-set-switch .form-item-new {
+  padding-top: 0;
+  padding-left: 17px;
+  /* LTR */
+}
+
+/*
+ * @file
+ * Styles for administration pages. */
+/*
+ * Administration blocks. */
+/* line 1572, ../../sass/survivalkit/drupal7.scss */
+div.admin-panel {
+  margin: 0;
+  padding: 5px 5px 15px 5px;
+}
+/* line 1575, ../../sass/survivalkit/drupal7.scss */
+div.admin-panel .description {
+  margin: 0 0 3px;
+  padding: 2px 0 3px 0;
+}
+/* line 1579, ../../sass/survivalkit/drupal7.scss */
+div.admin-panel .body {
+  padding: 0 4px 2px 8px;
+  /* LTR */
+}
+/* line 1584, ../../sass/survivalkit/drupal7.scss */
+div.admin {
+  padding-top: 15px;
+}
+/* line 1586, ../../sass/survivalkit/drupal7.scss */
+div.admin .left {
+  float: left;
+  /* LTR */
+  width: 47%;
+  margin-left: 1em;
+  /* LTR */
+}
+/* line 1593, ../../sass/survivalkit/drupal7.scss */
+div.admin .right {
+  float: right;
+  /* LTR */
+  width: 47%;
+  margin-right: 1em;
+  /* LTR */
+}
+/* line 1600, ../../sass/survivalkit/drupal7.scss */
+div.admin .expert-link {
+  text-align: right;
+  /* LTR */
+  margin-right: 1em;
+  /* LTR */
+  padding-right: 4px;
+  /* LTR */
+}
+
+/*
+ * Markup generated by theme_system_compact_link(). */
+/* line 1614, ../../sass/survivalkit/drupal7.scss */
+.compact-link {
+  margin: 0 0 0.5em 0;
+}
+
+/*
+ * Quick inline admin links. */
+/* line 1622, ../../sass/survivalkit/drupal7.scss */
+small .admin-link:before {
+  content: "[";
+}
+/* line 1625, ../../sass/survivalkit/drupal7.scss */
+small .admin-link:after {
+  content: "]";
+}
+
+/*
+ * Modules page. */
+/* line 1633, ../../sass/survivalkit/drupal7.scss */
+#system-modules div.incompatible {
+  font-weight: bold;
+}
+
+/* line 1638, ../../sass/survivalkit/drupal7.scss */
+div.admin-requirements, div.admin-required {
+  font-size: 0.9em;
+  color: #444444;
+}
+
+/* line 1645, ../../sass/survivalkit/drupal7.scss */
+span.admin-disabled {
+  color: #880000;
+}
+/* line 1648, ../../sass/survivalkit/drupal7.scss */
+span.admin-enabled {
+  color: #008800;
+}
+/* line 1651, ../../sass/survivalkit/drupal7.scss */
+span.admin-missing {
+  color: red;
+}
+
+/* line 1657, ../../sass/survivalkit/drupal7.scss */
+a.module-link {
+  display: block;
+  padding: 1px 0 1px 20px;
+  /* LTR */
+  white-space: nowrap;
+}
+/* line 1663, ../../sass/survivalkit/drupal7.scss */
+a.module-link-help {
+  background: url('/images/drupal/help.png?1339473922') 0 50% no-repeat;
+  /* LTR */
+}
+/* line 1667, ../../sass/survivalkit/drupal7.scss */
+a.module-link-permissions {
+  background: url('/images/drupal/permissions.png?1339473922') 0 50% no-repeat;
+  /* LTR */
+}
+/* line 1671, ../../sass/survivalkit/drupal7.scss */
+a.module-link-configure {
+  background: url('/images/drupal/configure.png?1339473922') 0 50% no-repeat;
+  /* LTR */
+}
+
+/* line 1677, ../../sass/survivalkit/drupal7.scss */
+.module-help {
+  margin-left: 1em;
+  /* LTR */
+  float: right;
+  /* LTR */
+}
+
+/*
+ * Status report. */
+/* line 1688, ../../sass/survivalkit/drupal7.scss */
+table.system-status-report td {
+  padding: 6px;
+  vertical-align: middle;
+}
+/* line 1692, ../../sass/survivalkit/drupal7.scss */
+table.system-status-report tr.merge-up td {
+  padding: 0 6px 8px 28px;
+  /* LTR */
+}
+/* line 1696, ../../sass/survivalkit/drupal7.scss */
+table.system-status-report td.status-icon {
+  width: 16px;
+  padding-right: 0;
+  /* LTR */
+}
+/* line 1700, ../../sass/survivalkit/drupal7.scss */
+table.system-status-report td.status-icon div {
+  background-repeat: no-repeat;
+  height: 16px;
+  width: 16px;
+}
+/* line 1707, ../../sass/survivalkit/drupal7.scss */
+table.system-status-report tr.error td.status-icon div {
+  background-image: url('/images/drupal/message-16-error.png?1339473922');
+}
+/* line 1710, ../../sass/survivalkit/drupal7.scss */
+table.system-status-report tr.warning td.status-icon div {
+  background-image: url('/images/drupal/message-16-warning.png?1339473922');
+}
+
+/* line 1717, ../../sass/survivalkit/drupal7.scss */
+tr.merge-down {
+  border-bottom-width: 0 !important;
+}
+/* line 1719, ../../sass/survivalkit/drupal7.scss */
+tr.merge-down td {
+  border-bottom-width: 0 !important;
+}
+/* line 1723, ../../sass/survivalkit/drupal7.scss */
+tr.merge-up {
+  border-top-width: 0 !important;
+}
+/* line 1725, ../../sass/survivalkit/drupal7.scss */
+tr.merge-up td {
+  border-top-width: 0 !important;
+}
+
+/*
+ * Theme settings. */
+/* line 1734, ../../sass/survivalkit/drupal7.scss */
+.theme-settings-left {
+  float: left;
+  width: 49%;
+}
+
+/* line 1739, ../../sass/survivalkit/drupal7.scss */
+.theme-settings-right {
+  float: right;
+  width: 49%;
+}
+
+/* line 1744, ../../sass/survivalkit/drupal7.scss */
+.theme-settings-bottom {
+  clear: both;
+}
+
+/*
+ * Appearance page. */
+/* line 1751, ../../sass/survivalkit/drupal7.scss */
+table.screenshot {
+  margin-right: 1em;
+  /* LTR */
+}
+
+/* line 1757, ../../sass/survivalkit/drupal7.scss */
+.theme-info h2 {
+  margin-bottom: 0;
+}
+/* line 1760, ../../sass/survivalkit/drupal7.scss */
+.theme-info p {
+  margin-top: 0;
+}
+
+/* line 1765, ../../sass/survivalkit/drupal7.scss */
+.system-themes-list {
+  margin-bottom: 20px;
+}
+
+/* line 1769, ../../sass/survivalkit/drupal7.scss */
+.system-themes-list-disabled {
+  border-top: 1px solid #cdcdcd;
+  padding-top: 20px;
+}
+
+/* line 1774, ../../sass/survivalkit/drupal7.scss */
+.system-themes-list h2 {
+  margin: 0;
+}
+
+/* line 1778, ../../sass/survivalkit/drupal7.scss */
+.theme-selector {
+  padding-top: 20px;
+}
+/* line 1780, ../../sass/survivalkit/drupal7.scss */
+.theme-selector .screenshot, .theme-selector .no-screenshot {
+  border: 1px solid #e0e0d8;
+  padding: 2px;
+  vertical-align: bottom;
+  width: 294px;
+  height: 219px;
+  line-height: 219px;
+  text-align: center;
+}
+
+/* line 1791, ../../sass/survivalkit/drupal7.scss */
+.theme-default .screenshot {
+  border: 1px solid #aaaaaa;
+}
+
+/* line 1796, ../../sass/survivalkit/drupal7.scss */
+.system-themes-list-enabled .theme-selector .screenshot, .system-themes-list-enabled .theme-selector .no-screenshot {
+  float: left;
+  /* LTR */
+  margin: 0 20px 0 0;
+  /* LTR */
+}
+
+/* line 1805, ../../sass/survivalkit/drupal7.scss */
+.system-themes-list-disabled .theme-selector .screenshot, .system-themes-list-disabled .theme-selector .no-screenshot {
+  width: 194px;
+  height: 144px;
+  line-height: 144px;
+}
+
+/* line 1812, ../../sass/survivalkit/drupal7.scss */
+.theme-selector h3 {
+  font-weight: normal;
+}
+
+/* line 1816, ../../sass/survivalkit/drupal7.scss */
+.theme-default h3 {
+  font-weight: bold;
+}
+
+/* line 1820, ../../sass/survivalkit/drupal7.scss */
+.system-themes-list-enabled .theme-selector h3 {
+  margin-top: 0;
+}
+
+/* line 1824, ../../sass/survivalkit/drupal7.scss */
+.system-themes-list-disabled .theme-selector {
+  width: 300px;
+  float: left;
+  /* LTR */
+  padding: 20px 20px 20px 0;
+  /* LTR */
+}
+
+/* line 1832, ../../sass/survivalkit/drupal7.scss */
+.system-themes-list-enabled .theme-info {
+  max-width: 940px;
+}
+
+/* line 1836, ../../sass/survivalkit/drupal7.scss */
+.system-themes-list-disabled .theme-info {
+  min-height: 170px;
+}
+
+/* line 1841, ../../sass/survivalkit/drupal7.scss */
+.theme-selector .incompatible {
+  margin-top: 10px;
+  font-weight: bold;
+}
+/* line 1845, ../../sass/survivalkit/drupal7.scss */
+.theme-selector .operations {
+  margin: 10px 0 0 0;
+  padding: 0;
+}
+/* line 1848, ../../sass/survivalkit/drupal7.scss */
+.theme-selector .operations li {
+  float: left;
+  /* LTR */
+  margin: 0;
+  padding: 0 0.7em;
+  list-style-type: none;
+  border-right: 1px solid #cdcdcd;
+  /* LTR */
+}
+/* line 1856, ../../sass/survivalkit/drupal7.scss */
+.theme-selector .operations li.last {
+  padding: 0 0 0 0.7em;
+  /* LTR */
+  border-right: none;
+  /* LTR */
+}
+/* line 1862, ../../sass/survivalkit/drupal7.scss */
+.theme-selector .operations li.first {
+  padding: 0 0.7em 0 0;
+  /* LTR */
+}
+
+/* line 1870, ../../sass/survivalkit/drupal7.scss */
+#system-themes-admin-form {
+  clear: left;
+}
+
+/*
+ * Exposed filters. */
+/* line 1878, ../../sass/survivalkit/drupal7.scss */
+.exposed-filters .filters {
+  float: left;
+  /* LTR */
+  margin-right: 1em;
+  /* LTR */
+  width: 25em;
+  /* IE6 */
+}
+/* line 1886, ../../sass/survivalkit/drupal7.scss */
+.exposed-filters .form-item {
+  margin: 0 0 0.1em 0;
+  padding: 0;
+}
+/* line 1889, ../../sass/survivalkit/drupal7.scss */
+.exposed-filters .form-item label {
+  float: left;
+  /* LTR */
+  font-weight: normal;
+  width: 10em;
+}
+/* line 1896, ../../sass/survivalkit/drupal7.scss */
+.exposed-filters .form-select {
+  width: 14em;
+}
+/* line 1899, ../../sass/survivalkit/drupal7.scss */
+.exposed-filters .current-filters {
+  margin-bottom: 1em;
+}
+/* line 1901, ../../sass/survivalkit/drupal7.scss */
+.exposed-filters .current-filters .placeholder {
+  font-style: normal;
+  font-weight: bold;
+}
+/* line 1906, ../../sass/survivalkit/drupal7.scss */
+.exposed-filters .additional-filters {
+  float: left;
+  /* LTR */
+  margin-right: 1em;
+  /* LTR */
+}
+
+/* Current filters */
+/*
+ * @file
+ * Generic theme-independent base styles. */
+/*
+ * Autocomplete.
+ *
+ * @see autocomplete.js */
+/* Suggestion list */
+/* line 1926, ../../sass/survivalkit/drupal7.scss */
+#autocomplete {
+  border: 1px solid;
+  overflow: hidden;
+  position: absolute;
+  z-index: 100;
+}
+/* line 1931, ../../sass/survivalkit/drupal7.scss */
+#autocomplete ul {
+  list-style: none;
+  list-style-image: none;
+  margin: 0;
+  padding: 0;
+}
+/* line 1937, ../../sass/survivalkit/drupal7.scss */
+#autocomplete li {
+  background: white;
+  color: black;
+  cursor: default;
+  white-space: pre;
+}
+
+/* Animated throbber */
+/* line 1949, ../../sass/survivalkit/drupal7.scss */
+html.js input.form-autocomplete {
+  background-image: url('/images/drupal/throbber.gif?1339473922');
+  background-position: 100% 2px;
+  /* LTR */
+  background-repeat: no-repeat;
+}
+/* line 1955, ../../sass/survivalkit/drupal7.scss */
+html.js input.throbbing {
+  background-position: 100% -18px;
+  /* LTR */
+}
+/* line 1960, ../../sass/survivalkit/drupal7.scss */
+html.js fieldset.collapsed {
+  border-bottom-width: 0;
+  border-left-width: 0;
+  border-right-width: 0;
+  height: 1em;
+}
+/* line 1965, ../../sass/survivalkit/drupal7.scss */
+html.js fieldset.collapsed .fieldset-wrapper {
+  display: none;
+}
+
+/*
+ * Collapsible fieldsets.
+ *
+ * @see collapse.js */
+/* line 1976, ../../sass/survivalkit/drupal7.scss */
+fieldset.collapsible {
+  position: relative;
+}
+/* line 1978, ../../sass/survivalkit/drupal7.scss */
+fieldset.collapsible .fieldset-legend {
+  display: block;
+}
+
+/*
+ * Resizable textareas.
+ *
+ * @see textarea.js */
+/* line 1988, ../../sass/survivalkit/drupal7.scss */
+.form-textarea-wrapper textarea {
+  display: block;
+  margin: 0;
+  width: 100%;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 1997, ../../sass/survivalkit/drupal7.scss */
+.resizable-textarea .grippie {
+  background: #eeeeee url('/images/drupal/grippie.png?1339473922') no-repeat center 2px;
+  border: 1px solid #dddddd;
+  border-top-width: 0;
+  cursor: s-resize;
+  height: 9px;
+  overflow: hidden;
+}
+
+/*
+ * TableDrag behavior.
+ *
+ * @see tabledrag.js */
+/* line 2011, ../../sass/survivalkit/drupal7.scss */
+body.drag {
+  cursor: move;
+}
+
+/* line 2015, ../../sass/survivalkit/drupal7.scss */
+.draggable a.tabledrag-handle {
+  cursor: move;
+  float: left;
+  /* LTR */
+  height: 1.7em;
+  margin: -0.4em 0 -0.4em -0.5em;
+  /* LTR */
+  padding: 0.42em 1.5em 0.42em 0.5em;
+  /* LTR */
+  text-decoration: none;
+}
+
+/* line 2029, ../../sass/survivalkit/drupal7.scss */
+a.tabledrag-handle:hover {
+  text-decoration: none;
+}
+/* line 2032, ../../sass/survivalkit/drupal7.scss */
+a.tabledrag-handle .handle {
+  background: url('/images/drupal/draggable.png?1339473922') no-repeat 0 0;
+  height: 13px;
+  margin-top: 4px;
+  width: 13px;
+}
+/* line 2039, ../../sass/survivalkit/drupal7.scss */
+a.tabledrag-handle-hover .handle {
+  background-position: 0 -20px;
+}
+
+/* line 2045, ../../sass/survivalkit/drupal7.scss */
+div.indentation {
+  float: left;
+  /* LTR */
+  height: 1.7em;
+  margin: -0.4em 0.2em -0.4em -0.4em;
+  /* LTR */
+  padding: 0.42em 0 0.42em 0.6em;
+  /* LTR */
+  width: 20px;
+}
+/* line 2055, ../../sass/survivalkit/drupal7.scss */
+div.tree-child {
+  background: url('/images/drupal/tree.png?1339473922') no-repeat 11px center;
+  /* LTR */
+}
+/* line 2059, ../../sass/survivalkit/drupal7.scss */
+div.tree-child-last {
+  background: url('/images/drupal/tree-bottom.png?1339473922') no-repeat 11px center;
+  /* LTR */
+}
+/* line 2063, ../../sass/survivalkit/drupal7.scss */
+div.tree-child-horizontal {
+  background: url('/images/drupal/tree.png?1339473922') no-repeat -11px center;
+}
+
+/* line 2068, ../../sass/survivalkit/drupal7.scss */
+.tabledrag-toggle-weight-wrapper {
+  text-align: right;
+  /* LTR */
+}
+
+/*
+ * TableHeader behavior.
+ *
+ * @see tableheader.js */
+/* line 2078, ../../sass/survivalkit/drupal7.scss */
+table.sticky-header {
+  background-color: white;
+  margin-top: 0;
+}
+
+/*
+ * Progress behavior.
+ *
+ * @see progress.js */
+/* Bar */
+/* line 2090, ../../sass/survivalkit/drupal7.scss */
+.progress .bar {
+  background-color: white;
+  border: 1px solid;
+}
+/* line 2094, ../../sass/survivalkit/drupal7.scss */
+.progress .filled {
+  background-color: black;
+  height: 1.5em;
+  width: 5px;
+}
+/* line 2099, ../../sass/survivalkit/drupal7.scss */
+.progress .percentage {
+  float: right;
+  /* LTR */
+}
+
+/* line 2105, ../../sass/survivalkit/drupal7.scss */
+.progress-disabled {
+  float: left;
+  /* LTR */
+}
+
+/* Throbber */
+/* line 2112, ../../sass/survivalkit/drupal7.scss */
+.ajax-progress {
+  float: left;
+  /* LTR */
+}
+/* line 2115, ../../sass/survivalkit/drupal7.scss */
+.ajax-progress .throbber {
+  background: transparent url('/images/drupal/throbber.gif?1339473922') no-repeat 0px -18px;
+  float: left;
+  /* LTR */
+  height: 15px;
+  margin: 2px;
+  width: 15px;
+}
+
+/* line 2125, ../../sass/survivalkit/drupal7.scss */
+tr .ajax-progress .throbber {
+  margin: 0 2px;
+}
+
+/* line 2129, ../../sass/survivalkit/drupal7.scss */
+.ajax-progress-bar {
+  width: 16em;
+}
+
+/*
+ * Inline items. */
+/* line 2137, ../../sass/survivalkit/drupal7.scss */
+.container-inline div, .container-inline label {
+  display: inline;
+}
+/* line 2140, ../../sass/survivalkit/drupal7.scss */
+.container-inline .fieldset-wrapper {
+  display: block;
+}
+
+/* Fieldset contents always need to be rendered as block. */
+/*
+ * Prevent text wrapping. */
+/* line 2150, ../../sass/survivalkit/drupal7.scss */
+.nowrap {
+  white-space: nowrap;
+}
+
+/*
+ * For anything you want to hide on page load when JS is enabled, so
+ * that you can use the JS to control visibility and avoid flicker. */
+/* line 2158, ../../sass/survivalkit/drupal7.scss */
+html.js .js-hide, .element-hidden {
+  display: none;
+}
+
+/*
+ * Hide elements from all users.
+ *
+ * Used for elements which should not be immediately displayed to any user. An
+ * example would be a collapsible fieldset that will be expanded with a click
+ * from a user. The effect of this class can be toggled with the jQuery show()
+ * and hide() functions. */
+/*
+ * Hide elements visually, but keep them available for screen-readers.
+ *
+ * Used for information required for screen-reader users to understand and use
+ * the site where visual display is undesirable. Information provided in this
+ * manner should be kept concise, to avoid unnecessary burden on the user.
+ * "!important" is used to prevent unintentional overrides. */
+/* line 2178, ../../sass/survivalkit/drupal7.scss */
+.element-invisible {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+}
+/* line 2184, ../../sass/survivalkit/drupal7.scss */
+.element-invisible.element-focusable:active, .element-invisible.element-focusable:focus {
+  position: static !important;
+  clip: auto;
+}
+
+/*
+ * The .element-focusable class extends the .element-invisible class to allow
+ * the element to be focusable when navigated to via the keyboard. */
+/*
+ * Markup free clearing.
+ *
+ * @see http://perishablepress.com/press/2009/12/06/new-clearfix-hack */
+/* line 2200, ../../sass/survivalkit/drupal7.scss */
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+/* IE6 */
+/* line 2211, ../../sass/survivalkit/drupal7.scss */
+* html .clearfix {
+  height: 1%;
+}
+/* line 2214, ../../sass/survivalkit/drupal7.scss */
+*:first-child + html .clearfix {
+  min-height: 1%;
+}
+
+/* IE7 */
+/*
+ * Update styles */
+/* line 2224, ../../sass/survivalkit/drupal7.scss */
+#update-results {
+  margin-top: 3em;
+  padding: 0.25em;
+  border: 1px solid #cccccc;
+  background: #eeeeee;
+  font-size: smaller;
+}
+/* line 2230, ../../sass/survivalkit/drupal7.scss */
+#update-results h2 {
+  margin-top: 0.25em;
+}
+/* line 2233, ../../sass/survivalkit/drupal7.scss */
+#update-results h4 {
+  margin-bottom: 0.25em;
+}
+/* line 2237, ../../sass/survivalkit/drupal7.scss */
+#update-results li.none {
+  color: #888888;
+  font-style: italic;
+}
+/* line 2241, ../../sass/survivalkit/drupal7.scss */
+#update-results li.failure strong {
+  color: #b63300;
+}
+
+/*
+ * Authorize.php styles */
+/* line 2250, ../../sass/survivalkit/drupal7.scss */
+.connection-settings-update-filetransfer-default-wrapper {
+  float: left;
+}
+
+/* line 2254, ../../sass/survivalkit/drupal7.scss */
+#edit-submit-connection {
+  clear: both;
+}
+
+/* line 2258, ../../sass/survivalkit/drupal7.scss */
+.filetransfer {
+  display: none;
+  clear: both;
+}
+
+/* line 2263, ../../sass/survivalkit/drupal7.scss */
+#edit-connection-settings-change-connection-type {
+  margin: 2.6em 0.5em 0em 1em;
+}
+
+/*
+ * Installation task list */
+/* line 2270, ../../sass/survivalkit/drupal7.scss */
+ol.task-list li.active {
+  font-weight: bold;
+}
+
+/*
+ * Installation clean URLs */
+/* line 2277, ../../sass/survivalkit/drupal7.scss */
+#clean-url.install {
+  display: none;
+}
+
+/*
+ * @file
+ * Styles for menus and navigation markup. */
+/*
+ * Markup generated by theme_menu_tree(). */
+/* line 2289, ../../sass/survivalkit/drupal7.scss */
+ul.menu {
+  border: none;
+  list-style: none;
+  text-align: left;
+  /* LTR */
+}
+/* line 2294, ../../sass/survivalkit/drupal7.scss */
+ul.menu li {
+  margin: 0 0 0 0.5em;
+  /* LTR */
+}
+/* line 2300, ../../sass/survivalkit/drupal7.scss */
+ul li.expanded {
+  list-style-image: url('/images/drupal/menu-expanded.png?1339473922');
+  list-style-type: circle;
+}
+/* line 2304, ../../sass/survivalkit/drupal7.scss */
+ul li.collapsed {
+  list-style-image: url('/images/drupal/menu-collapsed.png?1339473922');
+  /* LTR */
+  list-style-type: disc;
+}
+/* line 2309, ../../sass/survivalkit/drupal7.scss */
+ul li.leaf {
+  list-style-image: url('/images/drupal/menu-leaf.png?1339473922');
+  list-style-type: square;
+}
+
+/* line 2317, ../../sass/survivalkit/drupal7.scss */
+li.expanded, li.collapsed, li.leaf {
+  padding: 0.2em 0.5em 0 0;
+  /* LTR */
+  margin: 0;
+}
+/* line 2322, ../../sass/survivalkit/drupal7.scss */
+li a.active {
+  color: black;
+}
+
+/* line 2327, ../../sass/survivalkit/drupal7.scss */
+td.menu-disabled {
+  background: #cccccc;
+}
+
+/*
+ * Markup generated by theme_links(). */
+/* line 2335, ../../sass/survivalkit/drupal7.scss */
+ul.inline, ul.links.inline {
+  display: inline;
+  padding-left: 0;
+}
+/* line 2339, ../../sass/survivalkit/drupal7.scss */
+ul.inline li {
+  display: inline;
+  list-style-type: none;
+  padding: 0 0.5em;
+}
+
+/*
+ * Markup generated by theme_breadcrumb(). */
+/* line 2349, ../../sass/survivalkit/drupal7.scss */
+.breadcrumb {
+  padding-bottom: 0.5em;
+}
+
+/*
+ * Markup generated by theme_menu_local_tasks(). */
+/* line 2357, ../../sass/survivalkit/drupal7.scss */
+ul.primary {
+  border-bottom: 1px solid #bbbbbb;
+  border-collapse: collapse;
+  height: auto;
+  line-height: normal;
+  list-style: none;
+  margin: 5px;
+  padding: 0 0 0 1em;
+  /* LTR */
+  white-space: nowrap;
+}
+/* line 2367, ../../sass/survivalkit/drupal7.scss */
+ul.primary li {
+  display: inline;
+}
+/* line 2369, ../../sass/survivalkit/drupal7.scss */
+ul.primary li a {
+  background-color: #dddddd;
+  border-color: #bbbbbb;
+  border-style: solid solid none solid;
+  border-width: 1px;
+  height: auto;
+  margin-right: 0.5em;
+  /* LTR */
+  padding: 0 1em;
+  text-decoration: none;
+}
+/* line 2380, ../../sass/survivalkit/drupal7.scss */
+ul.primary li.active a {
+  background-color: white;
+  border: 1px solid #bbbbbb;
+  border-bottom: 1px solid white;
+}
+/* line 2385, ../../sass/survivalkit/drupal7.scss */
+ul.primary li a:hover {
+  background-color: #eeeeee;
+  border-color: #cccccc;
+  border-bottom-color: #eeeeee;
+}
+/* line 2392, ../../sass/survivalkit/drupal7.scss */
+ul.secondary {
+  border-bottom: 1px solid #bbbbbb;
+  padding: 0.5em 1em;
+  margin: 5px;
+}
+/* line 2396, ../../sass/survivalkit/drupal7.scss */
+ul.secondary li {
+  border-right: 1px solid #cccccc;
+  /* LTR */
+  display: inline;
+  padding: 0 1em;
+}
+/* line 2402, ../../sass/survivalkit/drupal7.scss */
+ul.secondary a {
+  padding: 0;
+  text-decoration: none;
+}
+/* line 2405, ../../sass/survivalkit/drupal7.scss */
+ul.secondary a.active {
+  border-bottom: 4px solid #999999;
+}
+
+/*
+ * @file
+ * Styles for system messages. */
+/* line 2417, ../../sass/survivalkit/drupal7.scss */
+div.messages {
+  background-position: 8px 8px;
+  /* LTR */
+  background-repeat: no-repeat;
+  border: 1px solid;
+  margin: 6px 0;
+  padding: 10px 10px 10px 50px;
+  /* LTR */
+}
+/* line 2426, ../../sass/survivalkit/drupal7.scss */
+div.status {
+  background-image: url('/images/drupal/message-24-ok.png?1339473922');
+  border-color: #bbee77;
+  color: #234600;
+}
+
+/* line 2433, ../../sass/survivalkit/drupal7.scss */
+.ok {
+  color: #234600;
+}
+
+/* line 2437, ../../sass/survivalkit/drupal7.scss */
+div.status, table tr.ok {
+  background-color: #f8fff0;
+}
+
+/* line 2441, ../../sass/survivalkit/drupal7.scss */
+div.warning {
+  background-image: url('/images/drupal/message-24-warning.png?1339473922');
+  border-color: #eedd55;
+  color: #884400;
+}
+
+/* line 2447, ../../sass/survivalkit/drupal7.scss */
+.warning {
+  color: #884400;
+}
+
+/* line 2451, ../../sass/survivalkit/drupal7.scss */
+div.warning, table tr.warning {
+  background-color: #fffce5;
+}
+
+/* line 2455, ../../sass/survivalkit/drupal7.scss */
+div.error {
+  background-image: url('/images/drupal/message-24-error.png?1339473922');
+  border-color: #ed541d;
+  color: #8c2e0b;
+}
+
+/* line 2461, ../../sass/survivalkit/drupal7.scss */
+.error {
+  color: #8c2e0b;
+}
+
+/* line 2465, ../../sass/survivalkit/drupal7.scss */
+div.error, table tr.error {
+  background-color: #fef5f1;
+}
+
+/* line 2470, ../../sass/survivalkit/drupal7.scss */
+div.error p.error {
+  color: #333333;
+}
+/* line 2473, ../../sass/survivalkit/drupal7.scss */
+div.messages ul {
+  margin: 0 0 0 1em;
+  /* LTR */
+  padding: 0;
+}
+/* line 2477, ../../sass/survivalkit/drupal7.scss */
+div.messages ul li {
+  list-style-image: none;
+}
+
+/*
+ * @file
+ * Basic styling for common markup. */
+/*
+ * HTML elements. */
+/* line 2490, ../../sass/survivalkit/drupal7.scss */
+fieldset {
+  margin-bottom: 1em;
+  padding: 0.5em;
+}
+
+/* line 2495, ../../sass/survivalkit/drupal7.scss */
+form {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 2500, ../../sass/survivalkit/drupal7.scss */
+hr {
+  border: 1px solid gray;
+  height: 1px;
+}
+
+/* line 2505, ../../sass/survivalkit/drupal7.scss */
+img {
+  border: 0;
+}
+
+/* line 2509, ../../sass/survivalkit/drupal7.scss */
+table {
+  border-collapse: collapse;
+}
+
+/* line 2513, ../../sass/survivalkit/drupal7.scss */
+th {
+  border-bottom: 3px solid #cccccc;
+  padding-right: 1em;
+  /* LTR */
+  text-align: left;
+  /* LTR */
+}
+
+/* line 2521, ../../sass/survivalkit/drupal7.scss */
+tbody {
+  border-top: 1px solid #cccccc;
+}
+
+/* line 2526, ../../sass/survivalkit/drupal7.scss */
+tr.even, tr.odd {
+  background-color: #eeeeee;
+  border-bottom: 1px solid #cccccc;
+  padding: 0.1em 0.6em;
+}
+
+/*
+ * Markup generated by theme_tablesort_indicator(). */
+/* line 2536, ../../sass/survivalkit/drupal7.scss */
+th.active img {
+  display: inline;
+}
+
+/* line 2540, ../../sass/survivalkit/drupal7.scss */
+td.active {
+  background-color: #dddddd;
+}
+
+/*
+ * Markup generated by theme_item_list(). */
+/* line 2548, ../../sass/survivalkit/drupal7.scss */
+.item-list .title {
+  font-weight: bold;
+}
+/* line 2551, ../../sass/survivalkit/drupal7.scss */
+.item-list ul {
+  margin: 0 0 0.75em 0;
+  padding: 0;
+}
+/* line 2554, ../../sass/survivalkit/drupal7.scss */
+.item-list ul li {
+  margin: 0 0 0.25em 1.5em;
+  /* LTR */
+  padding: 0;
+}
+
+/*
+ * Markup generated by Form API. */
+/* line 2565, ../../sass/survivalkit/drupal7.scss */
+.form-item, .form-actions {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+/* line 2571, ../../sass/survivalkit/drupal7.scss */
+tr.odd .form-item, tr.even .form-item {
+  margin-top: 0;
+  margin-bottom: 0;
+  white-space: nowrap;
+}
+
+/* line 2578, ../../sass/survivalkit/drupal7.scss */
+.form-item .description {
+  font-size: 0.85em;
+}
+
+/* line 2582, ../../sass/survivalkit/drupal7.scss */
+label {
+  display: block;
+  font-weight: bold;
+}
+/* line 2585, ../../sass/survivalkit/drupal7.scss */
+label.option {
+  display: inline;
+  font-weight: normal;
+}
+
+/* line 2591, ../../sass/survivalkit/drupal7.scss */
+.form-checkboxes .form-item, .form-radios .form-item {
+  margin-top: 0.4em;
+  margin-bottom: 0.4em;
+}
+
+/* line 2596, ../../sass/survivalkit/drupal7.scss */
+.form-type-radio .description, .form-type-checkbox .description {
+  margin-left: 2.4em;
+}
+
+/* line 2601, ../../sass/survivalkit/drupal7.scss */
+input.form-checkbox, input.form-radio {
+  vertical-align: middle;
+}
+
+/* line 2606, ../../sass/survivalkit/drupal7.scss */
+.marker, .form-required {
+  color: red;
+}
+
+/* line 2611, ../../sass/survivalkit/drupal7.scss */
+.form-item input.error, .form-item textarea.error, .form-item select.error {
+  border: 2px solid red;
+}
+
+/*
+ * Inline items. */
+/* line 2620, ../../sass/survivalkit/drupal7.scss */
+.container-inline .form-actions, .container-inline.form-actions {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/*
+ * Markup generated by theme_more_link(). */
+/* line 2629, ../../sass/survivalkit/drupal7.scss */
+.more-link {
+  text-align: right;
+  /* LTR */
+}
+
+/*
+ * Markup generated by theme_more_help_link(). */
+/* line 2637, ../../sass/survivalkit/drupal7.scss */
+.more-help-link {
+  text-align: right;
+  /* LTR */
+}
+/* line 2640, ../../sass/survivalkit/drupal7.scss */
+.more-help-link a {
+  background: url('/images/drupal/help.png?1339473922') 0 50% no-repeat;
+  /* LTR */
+  padding: 1px 0 1px 20px;
+  /* LTR */
+}
+
+/*
+ * Markup generated by theme_pager(). */
+/* line 2651, ../../sass/survivalkit/drupal7.scss */
+.item-list .pager {
+  clear: both;
+  text-align: center;
+}
+/* line 2654, ../../sass/survivalkit/drupal7.scss */
+.item-list .pager li {
+  background-image: none;
+  display: inline;
+  list-style-type: none;
+  padding: 0.5em;
+}
+
+/* line 2662, ../../sass/survivalkit/drupal7.scss */
+.pager-current {
+  font-weight: bold;
+}
+
+/*
+ * Autocomplete.
+ *
+ * @see autocomplete.js */
+/* Suggestion list */
+/* line 2672, ../../sass/survivalkit/drupal7.scss */
+#autocomplete li.selected {
+  background: #0072b9;
+  color: white;
+}
+
+/*
+ * Collapsible fieldsets.
+ *
+ * @see collapse.js */
+/* line 2683, ../../sass/survivalkit/drupal7.scss */
+html.js fieldset.collapsible .fieldset-legend {
+  background: url('/images/drupal/menu-expanded.png?1339473922') 5px 65% no-repeat;
+  /* LTR */
+  padding-left: 15px;
+  /* LTR */
+}
+/* line 2689, ../../sass/survivalkit/drupal7.scss */
+html.js fieldset.collapsed .fieldset-legend {
+  background-image: url('/images/drupal/menu-collapsed.png?1339473922');
+  /* LTR */
+  background-position: 5px 50%;
+  /* LTR */
+}
+
+/* line 2697, ../../sass/survivalkit/drupal7.scss */
+.fieldset-legend span.summary {
+  color: #999999;
+  font-size: 0.9em;
+  margin-left: 0.5em;
+}
+
+/*
+ * TableDrag behavior.
+ *
+ * @see tabledrag.js */
+/* line 2709, ../../sass/survivalkit/drupal7.scss */
+tr.drag {
+  background-color: ivory;
+}
+/* line 2712, ../../sass/survivalkit/drupal7.scss */
+tr.drag-previous {
+  background-color: #ffffdd;
+}
+
+/* line 2717, ../../sass/survivalkit/drupal7.scss */
+.tabledrag-toggle-weight {
+  font-size: 0.9em;
+}
+
+/* line 2721, ../../sass/survivalkit/drupal7.scss */
+body div.tabledrag-changed-warning {
+  margin-bottom: 0.5em;
+}
+
+/*
+ * TableSelect behavior.
+ *
+ * @see tableselect.js */
+/* line 2730, ../../sass/survivalkit/drupal7.scss */
+tr.selected td {
+  background: #ffffcc;
+}
+
+/* line 2734, ../../sass/survivalkit/drupal7.scss */
+td.checkbox, th.checkbox {
+  text-align: center;
+}
+
+/*
+ * Progress bar.
+ *
+ * @see progress.js */
+/* line 2743, ../../sass/survivalkit/drupal7.scss */
+.progress {
+  font-weight: bold;
+}
+/* line 2745, ../../sass/survivalkit/drupal7.scss */
+.progress .bar {
+  background: #cccccc;
+  border-color: #666666;
+  margin: 0 0.2em;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+}
+/* line 2753, ../../sass/survivalkit/drupal7.scss */
+.progress .filled {
+  background: #0072b9 url('/images/drupal/progress.gif?1339473922');
+}
+
+/* line 2759, ../../sass/survivalkit/drupal7.scss */
+tr.taxonomy-term-preview {
+  background-color: #eeeeee;
+}
+/* line 2762, ../../sass/survivalkit/drupal7.scss */
+tr.taxonomy-term-divider-top {
+  border-bottom: none;
+}
+/* line 2765, ../../sass/survivalkit/drupal7.scss */
+tr.taxonomy-term-divider-bottom {
+  border-top: 1px dotted #cccccc;
+}
+
+/* line 2770, ../../sass/survivalkit/drupal7.scss */
+.taxonomy-term-description {
+  margin: 5px 0 20px;
+}
+
+/* line 2775, ../../sass/survivalkit/drupal7.scss */
+body.toolbar {
+  padding-top: 2.2em;
+}
+/* line 2778, ../../sass/survivalkit/drupal7.scss */
+body.toolbar-drawer {
+  padding-top: 5.3em;
+}
+
+/*
+ * Aggressive resets so we can achieve a consistent look in hostile CSS
+ * environments. */
+/* line 2787, ../../sass/survivalkit/drupal7.scss */
+#toolbar {
+  border: 0;
+  font-size: 100%;
+  line-height: inherit;
+  list-style: none;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+  text-align: left;
+  /* LTR */
+  vertical-align: baseline;
+  background: #666666;
+  color: #cccccc;
+  font: normal small "Lucida Grande", Verdana, sans-serif;
+  left: 0;
+  margin: 0 -20px;
+  padding: 0 20px;
+  position: fixed;
+  right: 0;
+  top: 0;
+  -moz-box-shadow: 0 3px 20px black;
+  -webkit-box-shadow: 0 3px 20px black;
+  box-shadow: 0 3px 20px black;
+  filter: progid:DXImageTransform.Microsoft.Shadow(color=#000000, direction='180', strength='10');
+  -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(color=#000000, direction='180', strength='10')";
+  z-index: 600;
+}
+/* line 2798, ../../sass/survivalkit/drupal7.scss */
+#toolbar * {
+  border: 0;
+  font-size: 100%;
+  line-height: inherit;
+  list-style: none;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+  text-align: left;
+  /* LTR */
+  vertical-align: baseline;
+}
+/* line 2825, ../../sass/survivalkit/drupal7.scss */
+#toolbar div.collapsed {
+  display: none;
+  visibility: hidden;
+}
+/* line 2829, ../../sass/survivalkit/drupal7.scss */
+#toolbar a {
+  color: white;
+  font-size: 0.846em;
+  text-decoration: none;
+}
+/* line 2834, ../../sass/survivalkit/drupal7.scss */
+#toolbar ul li {
+  float: left;
+  /* LTR */
+}
+/* line 2837, ../../sass/survivalkit/drupal7.scss */
+#toolbar ul li a {
+  float: left;
+  /* LTR */
+}
+/* line 2842, ../../sass/survivalkit/drupal7.scss */
+#toolbar div.toolbar-menu {
+  background: black;
+  line-height: 20px;
+  padding: 5px 50px 5px 10px;
+  /* LTR */
+  position: relative;
+}
+
+/*
+ * Base styles.
+ *
+ * We use a keyword for the toolbar font size to make it display consistently
+ * across different themes, while still allowing browsers to resize the text. */
+/*
+ * Administration menu. */
+/* line 2860, ../../sass/survivalkit/drupal7.scss */
+#toolbar-home a span {
+  background: url(toolbar.png) no-repeat 0 -45px;
+  display: block;
+  height: 14px;
+  margin: 3px 0px;
+  text-indent: -9999px;
+  vertical-align: text-bottom;
+  width: 11px;
+}
+
+/* line 2870, ../../sass/survivalkit/drupal7.scss */
+#toolbar-user {
+  float: right;
+  /* LTR */
+}
+
+/* line 2875, ../../sass/survivalkit/drupal7.scss */
+#toolbar-menu {
+  float: left;
+  /* LTR */
+}
+
+/* line 2883, ../../sass/survivalkit/drupal7.scss */
+#toolbar div.toolbar-menu a.toggle {
+  background: url(toolbar.png) 0 -20px no-repeat;
+  bottom: 0;
+  cursor: pointer;
+  height: 25px;
+  overflow: hidden;
+  position: absolute;
+  right: 10px;
+  /* LTR */
+  text-indent: -9999px;
+  width: 25px;
+}
+/* line 2894, ../../sass/survivalkit/drupal7.scss */
+#toolbar div.toolbar-menu a.toggle:focus, #toolbar div.toolbar-menu a.toggle:hover {
+  background-position: -50px -20px;
+}
+/* line 2898, ../../sass/survivalkit/drupal7.scss */
+#toolbar div.toolbar-menu a.toggle-active {
+  background-position: -25px -20px;
+}
+/* line 2901, ../../sass/survivalkit/drupal7.scss */
+#toolbar div.toolbar-menu a.toggle-active.toggle:focus, #toolbar div.toolbar-menu a.toggle-active.toggle:hover {
+  background-position: -75px -20px;
+}
+/* line 2908, ../../sass/survivalkit/drupal7.scss */
+#toolbar div.toolbar-menu ul li a {
+  padding: 0 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+/* line 2913, ../../sass/survivalkit/drupal7.scss */
+#toolbar div.toolbar-menu ul li a:focus, #toolbar div.toolbar-menu ul li a:hover, #toolbar div.toolbar-menu ul li a:active {
+  background: #444444;
+}
+/* line 2916, ../../sass/survivalkit/drupal7.scss */
+#toolbar div.toolbar-menu ul li a.active {
+  background: url(toolbar.png) 0 0 repeat-x;
+  text-shadow: #333333 0 1px 0;
+}
+/* line 2917, ../../sass/survivalkit/drupal7.scss */
+#toolbar div.toolbar-menu ul li a.active:focus {
+  background: #444444;
+}
+/* line 2920, ../../sass/survivalkit/drupal7.scss */
+#toolbar div.toolbar-menu ul li a.active:hover, #toolbar div.toolbar-menu ul li a.active:active {
+  background: url(toolbar.png) 0 0 repeat-x;
+  text-shadow: #333333 0 1px 0;
+}
+/* line 2928, ../../sass/survivalkit/drupal7.scss */
+#toolbar div.toolbar-menu ul li.active-trail a {
+  background: url(toolbar.png) 0 0 repeat-x;
+  text-shadow: #333333 0 1px 0;
+}
+/* line 2934, ../../sass/survivalkit/drupal7.scss */
+#toolbar div.toolbar-drawer {
+  position: relative;
+  padding: 0 10px;
+}
+
+/*
+ * Collapsed drawer of additional toolbar content. */
+/*
+ * IE 6 Fix.
+ *
+ * IE 6 shows elements with position:fixed as position:static so we replace
+ * it with position:absolute; toolbar needs its z-index to stay above overlay. */
+/* line 2949, ../../sass/survivalkit/drupal7.scss */
+* html #toolbar {
+  left: -20px;
+  margin: 0;
+  padding-right: 0;
+  position: absolute;
+  right: 0;
+  width: 100%;
+}
+
+/* line 2959, ../../sass/survivalkit/drupal7.scss */
+.page-tracker td.replies {
+  text-align: center;
+}
+/* line 2962, ../../sass/survivalkit/drupal7.scss */
+.page-tracker table {
+  width: 100%;
+}
+
+/* line 2968, ../../sass/survivalkit/drupal7.scss */
+.update .project {
+  font-weight: bold;
+  font-size: 110%;
+  padding-left: 0.25em;
+  /* LTR */
+  height: 22px;
+}
+/* line 2975, ../../sass/survivalkit/drupal7.scss */
+.update .version-status {
+  float: right;
+  /* LTR */
+  padding-right: 10px;
+  /* LTR */
+  font-size: 110%;
+  height: 20px;
+}
+/* line 2982, ../../sass/survivalkit/drupal7.scss */
+.update .version-status .icon {
+  padding-left: 0.5em;
+  /* LTR */
+}
+/* line 2987, ../../sass/survivalkit/drupal7.scss */
+.update .version-date {
+  white-space: nowrap;
+}
+/* line 2990, ../../sass/survivalkit/drupal7.scss */
+.update .info {
+  margin: 0;
+  padding: 1em 1em 0.25em 1em;
+}
+/* line 2995, ../../sass/survivalkit/drupal7.scss */
+.update tr.even, .update tr.odd {
+  border: none;
+}
+/* line 2998, ../../sass/survivalkit/drupal7.scss */
+.update tr td {
+  border-top: 1px solid #cccccc;
+  border-bottom: 1px solid #cccccc;
+}
+/* line 3002, ../../sass/survivalkit/drupal7.scss */
+.update tr.error {
+  background: #ffcccc;
+}
+/* line 3004, ../../sass/survivalkit/drupal7.scss */
+.update tr.error .version-recommended {
+  background: #ffdddd;
+}
+/* line 3008, ../../sass/survivalkit/drupal7.scss */
+.update tr.ok {
+  background: #ddffdd;
+}
+/* line 3011, ../../sass/survivalkit/drupal7.scss */
+.update tr.warning {
+  background: #ffffdd;
+}
+/* line 3013, ../../sass/survivalkit/drupal7.scss */
+.update tr.warning .version-recommended {
+  background: #ffffee;
+}
+
+/* line 3020, ../../sass/survivalkit/drupal7.scss */
+.current-version, .new-version {
+  direction: ltr;
+  /* Note: version numbers should always be LTR. */
+}
+
+/* line 3025, ../../sass/survivalkit/drupal7.scss */
+.update tr.unknown {
+  background: #dddddd;
+}
+
+/* line 3029, ../../sass/survivalkit/drupal7.scss */
+table.update {
+  width: 100%;
+  margin-top: 0.5em;
+  border: none;
+}
+
+/* line 3037, ../../sass/survivalkit/drupal7.scss */
+.update table.version {
+  width: 100%;
+  margin-top: 0.5em;
+  border: none;
+}
+/* line 3041, ../../sass/survivalkit/drupal7.scss */
+.update table.version tbody {
+  border: none;
+}
+/* line 3044, ../../sass/survivalkit/drupal7.scss */
+.update table.version tr, .update table.version td {
+  line-height: 0.9em;
+  padding: 0;
+  margin: 0;
+  border: none;
+  background: none;
+}
+/* line 3051, ../../sass/survivalkit/drupal7.scss */
+.update table.version .version-title {
+  padding-left: 1em;
+  /* LTR */
+  width: 14em;
+}
+/* line 3056, ../../sass/survivalkit/drupal7.scss */
+.update table.version .version-details {
+  padding-right: 0.5em;
+  /* LTR */
+}
+/* line 3060, ../../sass/survivalkit/drupal7.scss */
+.update table.version .version-links {
+  text-align: right;
+  /* LTR */
+  padding-right: 1em;
+  /* LTR */
+}
+/* line 3067, ../../sass/survivalkit/drupal7.scss */
+.update table.version-security .version-title {
+  color: #970f00;
+}
+/* line 3070, ../../sass/survivalkit/drupal7.scss */
+.update table.version-recommended-strong .version-title {
+  font-weight: bold;
+}
+/* line 3074, ../../sass/survivalkit/drupal7.scss */
+.update .security-error {
+  font-weight: bold;
+  color: #970f00;
+}
+/* line 3078, ../../sass/survivalkit/drupal7.scss */
+.update .check-manually {
+  padding-left: 1em;
+  /* LTR */
+}
+
+/* line 3084, ../../sass/survivalkit/drupal7.scss */
+.update-major-version-warning {
+  color: red;
+}
+
+/* line 3089, ../../sass/survivalkit/drupal7.scss */
+table tbody tr.update-security, table tbody tr.update-unsupported {
+  background: #ffcccc;
+}
+
+/* line 3094, ../../sass/survivalkit/drupal7.scss */
+th.update-project-name {
+  width: 50%;
+}
+
+/* line 3100, ../../sass/survivalkit/drupal7.scss */
+#permissions td.module {
+  font-weight: bold;
+}
+/* line 3103, ../../sass/survivalkit/drupal7.scss */
+#permissions td.permission {
+  padding-left: 1.5em;
+  /* LTR */
+}
+/* line 3109, ../../sass/survivalkit/drupal7.scss */
+#permissions tr.odd .form-item, #permissions tr.even .form-item {
+  white-space: normal;
+}
+
+/* line 3115, ../../sass/survivalkit/drupal7.scss */
+#user-admin-settings fieldset .fieldset-description {
+  font-size: 0.85em;
+  padding-bottom: 0.5em;
+}
+
+/*
+ * Override default textfield float to put the "Add role" button next to
+ * the input textfield. */
+/* line 3125, ../../sass/survivalkit/drupal7.scss */
+#user-admin-roles td.edit-name {
+  clear: both;
+}
+/* line 3128, ../../sass/survivalkit/drupal7.scss */
+#user-admin-roles .form-item-name {
+  float: left;
+  /* LTR */
+  margin-right: 1em;
+  /* LTR */
+}
+
+/*
+ * Password strength indicator. */
+/* line 3139, ../../sass/survivalkit/drupal7.scss */
+.password-strength {
+  width: 17em;
+  float: right;
+  /* LTR */
+  margin-top: 1.4em;
+}
+
+/* line 3146, ../../sass/survivalkit/drupal7.scss */
+.password-strength-title {
+  display: inline;
+}
+
+/* line 3150, ../../sass/survivalkit/drupal7.scss */
+.password-strength-text {
+  float: right;
+  /* LTR */
+  font-weight: bold;
+}
+
+/* line 3156, ../../sass/survivalkit/drupal7.scss */
+.password-indicator {
+  background-color: #c4c4c4;
+  height: 0.3em;
+  width: 100%;
+}
+/* line 3160, ../../sass/survivalkit/drupal7.scss */
+.password-indicator div {
+  height: 100%;
+  width: 0%;
+  background-color: #47c965;
+}
+
+/* line 3168, ../../sass/survivalkit/drupal7.scss */
+input.password-confirm, input.password-field {
+  width: 16em;
+  margin-bottom: 0.4em;
+}
+
+/* line 3175, ../../sass/survivalkit/drupal7.scss */
+div.password-confirm {
+  float: right;
+  /* LTR */
+  margin-top: 1.5em;
+  visibility: hidden;
+  width: 17em;
+}
+/* line 3182, ../../sass/survivalkit/drupal7.scss */
+div.form-item div.password-suggestions {
+  padding: 0.2em 0.5em;
+  margin: 0.7em 0;
+  width: 38.5em;
+  border: 1px solid #b4b4b4;
+}
+/* line 3188, ../../sass/survivalkit/drupal7.scss */
+div.password-suggestions ul {
+  margin-bottom: 0;
+}
+
+/* line 3193, ../../sass/survivalkit/drupal7.scss */
+.confirm-parent, .password-parent {
+  clear: left;
+  /* LTR */
+  margin: 0;
+  width: 36.3em;
+}
+
+/* Generated by user.module but used by profile.module: */
+/* line 3202, ../../sass/survivalkit/drupal7.scss */
+.profile {
+  clear: both;
+  margin: 1em 0;
+}
+/* line 3205, ../../sass/survivalkit/drupal7.scss */
+.profile .user-picture {
+  float: right;
+  /* LTR */
+  margin: 0 1em 1em 0;
+  /* LTR */
+}
+/* line 3211, ../../sass/survivalkit/drupal7.scss */
+.profile h3 {
+  border-bottom: 1px solid #cccccc;
+}
+/* line 3214, ../../sass/survivalkit/drupal7.scss */
+.profile dl {
+  margin: 0 0 1.5em 0;
+}
+/* line 3217, ../../sass/survivalkit/drupal7.scss */
+.profile dt {
+  margin: 0 0 0.2em 0;
+  font-weight: bold;
+}
+/* line 3221, ../../sass/survivalkit/drupal7.scss */
+.profile dd {
+  margin: 0 0 1em 0;
+}
