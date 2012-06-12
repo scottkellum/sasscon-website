@@ -31,7 +31,7 @@
 }
 
 /* Only use the fancy ampersand in <h#> tags */
-/* line 45, ../../sass/partials/03-extend/_typography.scss */
+/* line 36, ../../sass/partials/03-extend/_typography.sass */
 h1 .amp, h2 .amp, h3 .amp, h4 .amp, h5 .amp, h6 .amp {
   font-size: 1em;
   font-family: Georgia, serif;
@@ -93,7 +93,7 @@ body.survival-kit #page > header h1 a {
   text-indent: 110%;
   white-space: nowrap;
   overflow: hidden;
-  background-image: url('/images/survival-kit-logo.png?1339473922');
+  background-image: url('/images/survival-kit-logo.png?1339477631');
   background-repeat: no-repeat;
   background-position: 50% 50%;
   width: 220px;

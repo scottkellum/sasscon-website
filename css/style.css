@@ -565,19 +565,19 @@ strong, dfn, b {
   font-weight: bold;
 }
 
-/* line 10, ../sass/partials/03-extend/_typography.scss */
+/* line 8, ../sass/partials/03-extend/_typography.sass */
 pre, code, kbd, tt {
   font-family: Consolas, Menlo, "Courier New", monospace, monospace;
   _font-family: Consolas, Menlo, "Courier New", monospace, monospace;
 }
 
-/* line 20, ../sass/partials/03-extend/_typography.scss */
+/* line 16, ../sass/partials/03-extend/_typography.sass */
 h1, h2, h3, h4, h5, h6 {
   font-family: abril-display, prenton, sans-serif;
 }
 
 /* Only use the fancy ampersand in <h#> tags */
-/* line 45, ../sass/partials/03-extend/_typography.scss */
+/* line 36, ../sass/partials/03-extend/_typography.sass */
 h1 .amp, h2 .amp, h3 .amp, h4 .amp, h5 .amp, h6 .amp {
   font-size: 1em;
   font-family: Georgia, serif;
@@ -585,7 +585,7 @@ h1 .amp, h2 .amp, h3 .amp, h4 .amp, h5 .amp, h6 .amp {
 }
 
 /* import font files using @font-face, if not using a service such as typekit */
-/* line 16, ../sass/partials/04-defaults/_common.scss */
+/* line 13, ../sass/partials/04-defaults/_common.sass */
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -601,7 +601,7 @@ html {
   line-height: 1.5em;
 }
 
-/* line 28, ../sass/partials/04-defaults/_common.scss */
+/* line 23, ../sass/partials/04-defaults/_common.sass */
 body {
   font-family: Georgia, serif;
   color: black;
@@ -622,14 +622,14 @@ body {
 }
 /* Selected Text -------------------------------------------------------------- */
 /* -moz- must be declared separately */
-/* line 41, ../sass/partials/04-defaults/_common.scss */
+/* line 34, ../sass/partials/04-defaults/_common.sass */
 ::-moz-selection {
   color: white;
   background: #bada55;
   text-shadow: none;
 }
 
-/* line 48, ../sass/partials/04-defaults/_common.scss */
+/* line 40, ../sass/partials/04-defaults/_common.sass */
 ::selection {
   color: white;
   background: #bada55;
@@ -637,7 +637,7 @@ body {
 }
 
 /* Links -------------------------------------------------------------- */
-/* line 56, ../sass/partials/04-defaults/_common.scss */
+/* line 48, ../sass/partials/04-defaults/_common.sass */
 a {
   color: #bada55;
 }
@@ -671,12 +671,12 @@ a:active {
   border-bottom-color: #7555da;
 }
 
-/* line 70, ../sass/partials/04-defaults/_common.scss */
+/* line 59, ../sass/partials/04-defaults/_common.sass */
 p {
   margin-bottom: 1.5em;
 }
 
-/* line 76, ../sass/partials/04-defaults/_common.scss */
+/* line 64, ../sass/partials/04-defaults/_common.sass */
 pre {
   white-space: pre;
   white-space: pre-wrap;
@@ -685,75 +685,75 @@ pre {
 }
 
 /* Lists -------------------------------------------------------------- */
-/* line 98, ../sass/partials/04-defaults/_common.scss */
+/* line 83, ../sass/partials/04-defaults/_common.sass */
 dl {
   margin-left: 0;
 }
 
-/* line 102, ../sass/partials/04-defaults/_common.scss */
+/* line 86, ../sass/partials/04-defaults/_common.sass */
 ol {
   list-style: decimal;
 }
 
-/* line 106, ../sass/partials/04-defaults/_common.scss */
+/* line 89, ../sass/partials/04-defaults/_common.sass */
 ul {
   list-style: disc;
 }
-/* line 108, ../sass/partials/04-defaults/_common.scss */
+/* line 91, ../sass/partials/04-defaults/_common.sass */
 li ul {
   list-style-type: circle;
 }
 
 /* Headings -------------------------------------------------------------- */
-/* line 4, ../sass/partials/04-defaults/_headers.scss */
+/* line 4, ../sass/partials/04-defaults/_headers.sass */
 h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
   text-rendering: optimizeLegibility;
 }
 
 /* Images -------------------------------------------------------------- */
-/* line 3, ../sass/partials/04-defaults/_images.scss */
+/* line 3, ../sass/partials/04-defaults/_images.sass */
 img {
   vertical-align: text-bottom;
   height: auto;
 }
-/* line 11, ../sass/partials/04-defaults/_images.scss */
+/* line 10, ../sass/partials/04-defaults/_images.sass */
 img.left {
   float: left;
   margin: 12px 25px 12px 0;
 }
-/* line 15, ../sass/partials/04-defaults/_images.scss */
+/* line 13, ../sass/partials/04-defaults/_images.sass */
 img.right {
   float: right;
   margin: 12px 0 12px 25px;
 }
 
-/* line 1, ../sass/partials/04-defaults/_semantics.scss */
+/* line 1, ../sass/partials/04-defaults/_semantics.sass */
 small {
   font-size: 0.813em;
   line-height: 1.846em;
 }
 
-/* line 11, ../sass/partials/04-defaults/_semantics.scss */
+/* line 9, ../sass/partials/04-defaults/_semantics.sass */
 q {
   quotes: "“" "”";
 }
-/* line 14, ../sass/partials/04-defaults/_semantics.scss */
+/* line 12, ../sass/partials/04-defaults/_semantics.sass */
 q:before {
   content: open-quote;
 }
-/* line 17, ../sass/partials/04-defaults/_semantics.scss */
+/* line 14, ../sass/partials/04-defaults/_semantics.sass */
 q:after {
   content: close-quote;
 }
 
-/* line 27, ../sass/partials/04-defaults/_semantics.scss */
+/* line 21, ../sass/partials/04-defaults/_semantics.sass */
 abbr, acronym {
   border-bottom: 1px dotted;
   cursor: help;
 }
 
-/* line 50, ../sass/partials/04-defaults/_semantics.scss */
+/* line 40, ../sass/partials/04-defaults/_semantics.sass */
 sup, sub {
   font-size: 75%;
   line-height: 0;
@@ -761,75 +761,75 @@ sup, sub {
   vertical-align: baseline;
 }
 
-/* line 57, ../sass/partials/04-defaults/_semantics.scss */
+/* line 46, ../sass/partials/04-defaults/_semantics.sass */
 sup {
   top: -0.5em;
 }
 
-/* line 61, ../sass/partials/04-defaults/_semantics.scss */
+/* line 49, ../sass/partials/04-defaults/_semantics.sass */
 sub {
   bottom: -0.25em;
 }
 
-/* line 75, ../sass/partials/04-defaults/_semantics.scss */
+/* line 60, ../sass/partials/04-defaults/_semantics.sass */
 mark {
   background: red;
   background-color: rgba(255, 255, 0, 0.5);
   text-shadow: none;
 }
 
-/* line 8, ../sass/partials/04-defaults/forms/_formalize.scss */
+/* line 8, ../sass/partials/04-defaults/forms/_formalize.sass */
 .input_tiny {
   width: 50px;
 }
 
-/* line 12, ../sass/partials/04-defaults/forms/_formalize.scss */
+/* line 11, ../sass/partials/04-defaults/forms/_formalize.sass */
 .input_small {
   width: 100px;
 }
 
-/* line 16, ../sass/partials/04-defaults/forms/_formalize.scss */
+/* line 14, ../sass/partials/04-defaults/forms/_formalize.sass */
 .input_medium {
   width: 150px;
 }
 
-/* line 20, ../sass/partials/04-defaults/forms/_formalize.scss */
+/* line 17, ../sass/partials/04-defaults/forms/_formalize.sass */
 .input_large {
   width: 200px;
 }
 
-/* line 24, ../sass/partials/04-defaults/forms/_formalize.scss */
+/* line 20, ../sass/partials/04-defaults/forms/_formalize.sass */
 .input_xlarge {
   width: 250px;
 }
 
-/* line 28, ../sass/partials/04-defaults/forms/_formalize.scss */
+/* line 23, ../sass/partials/04-defaults/forms/_formalize.sass */
 .input_xxlarge {
   width: 300px;
 }
 
-/* line 32, ../sass/partials/04-defaults/forms/_formalize.scss */
+/* line 26, ../sass/partials/04-defaults/forms/_formalize.sass */
 .input_full {
   width: 100%;
 }
 
-/* line 38, ../sass/partials/04-defaults/forms/_formalize.scss */
+/* line 31, ../sass/partials/04-defaults/forms/_formalize.sass */
 .input_full_wrap {
   display: block;
   padding-right: 8px;
 }
 
-/* line 46, ../sass/partials/04-defaults/forms/_formalize.scss */
+/* line 38, ../sass/partials/04-defaults/forms/_formalize.sass */
 ::-moz-focus-inner {
   border: 0;
 }
 
-/* line 50, ../sass/partials/04-defaults/forms/_formalize.scss */
+/* line 41, ../sass/partials/04-defaults/forms/_formalize.sass */
 input[type="search"]::-webkit-search-decoration {
   display: none;
 }
 
-/* line 57, ../sass/partials/04-defaults/forms/_formalize.scss */
+/* line 44, ../sass/partials/04-defaults/forms/_formalize.sass */
 input,
 button,
 select,
@@ -841,7 +841,7 @@ textarea {
   vertical-align: middle;
 }
 
-/* line 68, ../sass/partials/04-defaults/forms/_formalize.scss */
+/* line 54, ../sass/partials/04-defaults/forms/_formalize.sass */
 button,
 input[type="reset"],
 input[type="submit"],
@@ -873,13 +873,13 @@ input[type="button"] {
   *padding-bottom: 0px;
 }
 
-/* line 88, ../sass/partials/04-defaults/forms/_formalize.scss */
+/* line 77, ../sass/partials/04-defaults/forms/_formalize.sass */
 button {
   *padding-top: 1px;
   *padding-bottom: 1px;
 }
 
-/* line 97, ../sass/partials/04-defaults/forms/_formalize.scss */
+/* line 82, ../sass/partials/04-defaults/forms/_formalize.sass */
 button[disabled],
 input[type="reset"][disabled],
 input[type="submit"][disabled],
@@ -887,7 +887,7 @@ input[type="button"][disabled] {
   color: #888888;
 }
 
-/* line 115, ../sass/partials/04-defaults/forms/_formalize.scss */
+/* line 88, ../sass/partials/04-defaults/forms/_formalize.sass */
 textarea,
 select,
 input[type="date"],
@@ -923,18 +923,18 @@ input[type="week"] {
   *height: auto;
 }
 
-/* line 139, ../sass/partials/04-defaults/forms/_formalize.scss */
+/* line 124, ../sass/partials/04-defaults/forms/_formalize.sass */
 input.placeholder-text,
 textarea.placeholder-text {
   color: #888888;
 }
 
-/* line 143, ../sass/partials/04-defaults/forms/_formalize.scss */
+/* line 128, ../sass/partials/04-defaults/forms/_formalize.sass */
 ::-webkit-input-placeholder {
   color: #888888;
 }
 
-/* line 161, ../sass/partials/04-defaults/forms/_formalize.scss */
+/* line 131, ../sass/partials/04-defaults/forms/_formalize.sass */
 textarea[disabled],
 select[disabled],
 input[type="date"][disabled],
@@ -954,7 +954,7 @@ input[type="week"][disabled] {
   color: #888888;
 }
 
-/* line 173, ../sass/partials/04-defaults/forms/_formalize.scss */
+/* line 149, ../sass/partials/04-defaults/forms/_formalize.sass */
 button:focus,
 button:active,
 input:focus,
@@ -969,7 +969,7 @@ textarea:active {
   z-index: 1;
 }
 
-/* line 184, ../sass/partials/04-defaults/forms/_formalize.scss */
+/* line 164, ../sass/partials/04-defaults/forms/_formalize.sass */
 input[type="radio"]:focus,
 input[type="radio"]:active,
 input[type="checkbox"]:focus,
@@ -979,7 +979,7 @@ input[type="checkbox"]:active {
   box-shadow: none;
 }
 
-/* line 190, ../sass/partials/04-defaults/forms/_formalize.scss */
+/* line 172, ../sass/partials/04-defaults/forms/_formalize.sass */
 .is_webkit select {
   background-image: url(../images/select_arrow.gif);
   background-repeat: no-repeat;
@@ -987,20 +987,20 @@ input[type="checkbox"]:active {
   padding-right: 20px;
 }
 
-/* line 201, ../sass/partials/04-defaults/forms/_formalize.scss */
+/* line 180, ../sass/partials/04-defaults/forms/_formalize.sass */
 textarea,
 select[multiple] {
   height: auto;
 }
 
-/* line 206, ../sass/partials/04-defaults/forms/_formalize.scss */
+/* line 184, ../sass/partials/04-defaults/forms/_formalize.sass */
 select[multiple],
 .is_webkit select[multiple] {
   background-image: none;
   padding: 0;
 }
 
-/* line 211, ../sass/partials/04-defaults/forms/_formalize.scss */
+/* line 189, ../sass/partials/04-defaults/forms/_formalize.sass */
 textarea {
   min-height: 40px;
   overflow: auto;
@@ -1008,14 +1008,14 @@ textarea {
   width: 100%;
 }
 
-/* line 218, ../sass/partials/04-defaults/forms/_formalize.scss */
+/* line 195, ../sass/partials/04-defaults/forms/_formalize.sass */
 optgroup {
   color: black;
   font-style: normal;
   font-weight: normal;
 }
 
-/* line 248, ../sass/partials/04-defaults/forms/_formalize.scss */
+/* line 223, ../sass/partials/04-defaults/forms/_formalize.sass */
 .ie6_button,
 * html button {
   background: #dddddd url(../images/button.png) repeat-x;
@@ -1029,13 +1029,13 @@ optgroup {
   width: auto;
 }
 
-/* line 260, ../sass/partials/04-defaults/forms/_formalize.scss */
+/* line 235, ../sass/partials/04-defaults/forms/_formalize.sass */
 * html button {
   padding-top: 1px;
   padding-bottom: 1px;
 }
 
-/* line 267, ../sass/partials/04-defaults/forms/_formalize.scss */
+/* line 239, ../sass/partials/04-defaults/forms/_formalize.sass */
 .ie6_input,
 * html textarea,
 * html select {
@@ -1049,25 +1049,25 @@ optgroup {
   vertical-align: top;
 }
 
-/* line 278, ../sass/partials/04-defaults/forms/_formalize.scss */
+/* line 251, ../sass/partials/04-defaults/forms/_formalize.sass */
 * html select {
   margin-top: 1px;
 }
 
-/* line 284, ../sass/partials/04-defaults/forms/_formalize.scss */
+/* line 254, ../sass/partials/04-defaults/forms/_formalize.sass */
 .placeholder_text,
 .ie6_input_disabled,
 .ie6_button_disabled {
   color: #888888;
 }
 
-/* line 288, ../sass/partials/04-defaults/forms/_formalize.scss */
+/* line 259, ../sass/partials/04-defaults/forms/_formalize.sass */
 .ie6_input_disabled {
   background: #eeeeee;
 }
 
 /* Forms -------------------------------------------------------------- */
-/* line 8, ../sass/partials/04-defaults/forms/_form-defaults.scss */
+/* line 8, ../sass/partials/04-defaults/forms/_form-defaults.sass */
 fieldset {
   margin-bottom: 1.5em;
   border-style: solid;
@@ -1077,23 +1077,23 @@ fieldset {
   border-style: dotted;
 }
 
-/* line 15, ../sass/partials/04-defaults/forms/_form-defaults.scss */
+/* line 14, ../sass/partials/04-defaults/forms/_form-defaults.sass */
 legend {
   padding: 0 0.25em;
 }
 
-/* line 19, ../sass/partials/04-defaults/forms/_form-defaults.scss */
+/* line 17, ../sass/partials/04-defaults/forms/_form-defaults.sass */
 label {
   cursor: pointer;
 }
 
-/* line 23, ../sass/partials/04-defaults/forms/_form-defaults.scss */
+/* line 20, ../sass/partials/04-defaults/forms/_form-defaults.sass */
 label {
   font-weight: bold;
   margin-right: 0.5em;
 }
 
-/* line 28, ../sass/partials/04-defaults/forms/_form-defaults.scss */
+/* line 24, ../sass/partials/04-defaults/forms/_form-defaults.sass */
 textarea, input[type=text], input[type=password], input[type=email], input[type=url], input[type=tel], input[type=date], input[type=datetime], input[type=datetime-local], input[type=month], input[type=week], input[type=time], input[type=number], input[type=range], input[type=search], input[type=color] {
   font-size: 1em;
   line-height: 1.5em;
@@ -1108,26 +1108,26 @@ textarea, input[type=text], input[type=password], input[type=email], input[type=
   height: 2.25em;
 }
 
-/* line 40, ../sass/partials/04-defaults/forms/_form-defaults.scss */
+/* line 35, ../sass/partials/04-defaults/forms/_form-defaults.sass */
 textarea {
   height: 9.75;
 }
 
-/* line 52, ../sass/partials/04-defaults/forms/_form-defaults.scss */
+/* line 45, ../sass/partials/04-defaults/forms/_form-defaults.sass */
 input[type=search] {
   -webkit-appearance: none;
 }
-/* line 54, ../sass/partials/04-defaults/forms/_form-defaults.scss */
+/* line 47, ../sass/partials/04-defaults/forms/_form-defaults.sass */
 input[type=search]::-webkit-search-decoration {
   display: none;
 }
 
-/* line 60, ../sass/partials/04-defaults/forms/_form-defaults.scss */
+/* line 50, ../sass/partials/04-defaults/forms/_form-defaults.sass */
 textarea {
   width: 305px;
 }
 
-/* line 65, ../sass/partials/04-defaults/forms/_form-defaults.scss */
+/* line 54, ../sass/partials/04-defaults/forms/_form-defaults.sass */
 input[type="radio"], input[type="checkbox"] {
   margin-left: 0.25em;
   margin-right: 0.25em;
@@ -1135,13 +1135,13 @@ input[type="radio"], input[type="checkbox"] {
 
 /* Tables -------------------------------------------------------------- */
 /* tables still need 'cellspacing="0"' in the markup */
-/* line 1, ../sass/partials/04-defaults/_edits.scss */
+/* line 1, ../sass/partials/04-defaults/_edits.sass */
 ins {
   text-decoration: none;
   border-bottom: 1px solid gray;
 }
 
-/* line 6, ../sass/partials/04-defaults/_edits.scss */
+/* line 5, ../sass/partials/04-defaults/_edits.sass */
 del {
   text-decoration: line-through;
 }
@@ -1496,7 +1496,7 @@ del {
 }
 
 /* SITE-WIDE DESIGN -------------------------------------------------------------- */
-/* line 4, ../sass/partials/09-styletile/_tile-design.scss */
+/* line 4, ../sass/partials/09-styletile/_tile-design.sass */
 header {
   *zoom: 1;
   margin-bottom: 1.5em;
@@ -1507,13 +1507,13 @@ header:after {
   display: table;
   clear: both;
 }
-/* line 7, ../sass/partials/09-styletile/_tile-design.scss */
+/* line 7, ../sass/partials/09-styletile/_tile-design.sass */
 header aside {
   text-align: right;
   color: gray;
 }
 
-/* line 14, ../sass/partials/09-styletile/_tile-design.scss */
+/* line 13, ../sass/partials/09-styletile/_tile-design.sass */
 .group {
   *zoom: 1;
   margin-bottom: 3em;
@@ -1525,7 +1525,7 @@ header aside {
   clear: both;
 }
 
-/* line 19, ../sass/partials/09-styletile/_tile-design.scss */
+/* line 17, ../sass/partials/09-styletile/_tile-design.sass */
 .label, .styletile-1 .text-examples .logos h1:before {
   color: gray;
   font-size: 1em;
@@ -1534,23 +1534,23 @@ header aside {
   font-family: prenton, sans-serif;
 }
 
-/* line 28, ../sass/partials/09-styletile/_tile-design.scss */
+/* line 25, ../sass/partials/09-styletile/_tile-design.sass */
 .colors ul li {
   -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 4px;
   -moz-box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 4px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 4px;
 }
 
-/* line 35, ../sass/partials/09-styletile/_tile-design.scss */
+/* line 30, ../sass/partials/09-styletile/_tile-design.sass */
 .images ul {
   counter-reset: section;
 }
-/* line 37, ../sass/partials/09-styletile/_tile-design.scss */
+/* line 32, ../sass/partials/09-styletile/_tile-design.sass */
 .images ul li {
   position: relative;
   overflow: visible;
 }
-/* line 41, ../sass/partials/09-styletile/_tile-design.scss */
+/* line 36, ../sass/partials/09-styletile/_tile-design.sass */
 .images ul li:after {
   position: relative;
   top: 102%;
@@ -1559,7 +1559,7 @@ header aside {
   counter-increment: section;
   content: "Image " counter(section);
 }
-/* line 49, ../sass/partials/09-styletile/_tile-design.scss */
+/* line 43, ../sass/partials/09-styletile/_tile-design.sass */
 .images ul li img {
   -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 4px;
   -moz-box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 4px;
@@ -1571,88 +1571,88 @@ header aside {
 /* CLIENT NAME ------------------------------------------------------------------------------------------------------------------------------ */
 /* STYLE TILE #1 ------------------------------------------------------------------------------------------------------------------------------ */
 /* type examples */
-/* line 73, ../sass/partials/09-styletile/_tile-design.scss */
+/* line 61, ../sass/partials/09-styletile/_tile-design.sass */
 .styletile-1 .text-examples .logos {
   counter-reset: logos;
 }
-/* line 75, ../sass/partials/09-styletile/_tile-design.scss */
+/* line 63, ../sass/partials/09-styletile/_tile-design.sass */
 .styletile-1 .text-examples .logos h1 {
   counter-increment: logos;
 }
-/* line 77, ../sass/partials/09-styletile/_tile-design.scss */
+/* line 65, ../sass/partials/09-styletile/_tile-design.sass */
 .styletile-1 .text-examples .logos h1:before {
   display: block;
   font-weight: normal;
   line-height: 1;
 }
-/* line 87, ../sass/partials/09-styletile/_tile-design.scss */
+/* line 74, ../sass/partials/09-styletile/_tile-design.sass */
 .styletile-1 .text-examples .logos h1.opt-1:before {
   content: counter(logos) " - prenton, sans-serif";
 }
-/* line 110, ../sass/partials/09-styletile/_tile-design.scss */
+/* line 86, ../sass/partials/09-styletile/_tile-design.sass */
 .styletile-1 .text-examples .serif {
   font-family: Georgia, serif;
 }
-/* line 112, ../sass/partials/09-styletile/_tile-design.scss */
+/* line 88, ../sass/partials/09-styletile/_tile-design.sass */
 .styletile-1 .text-examples .serif .label:after, .styletile-1 .text-examples .serif .logos h1:after:before, .styletile-1 .text-examples .logos .serif h1:after:before {
   content: " - Georgia, serif";
 }
-/* line 134, ../sass/partials/09-styletile/_tile-design.scss */
+/* line 100, ../sass/partials/09-styletile/_tile-design.sass */
 .styletile-1 .text-examples .sans, .styletile-1 .text-examples header aside, header .styletile-1 .text-examples aside {
   font-family: prenton, sans-serif;
 }
-/* line 136, ../sass/partials/09-styletile/_tile-design.scss */
+/* line 102, ../sass/partials/09-styletile/_tile-design.sass */
 .styletile-1 .text-examples .sans .label:after, .styletile-1 .text-examples header aside .label:after, header .styletile-1 .text-examples aside .label:after, .styletile-1 .text-examples .sans .logos h1:after:before, .styletile-1 .text-examples .logos .sans h1:after:before, .styletile-1 .text-examples header aside .logos h1:after:before, .styletile-1 .text-examples .logos header aside h1:after:before, header .styletile-1 .text-examples aside .logos h1:after:before, header .styletile-1 .text-examples .logos aside h1:after:before {
   content: " - prenton, sans-serif";
 }
 
 /* graphic examples */
 /* colors */
-/* line 154, ../sass/partials/09-styletile/_tile-design.scss */
+/* line 114, ../sass/partials/09-styletile/_tile-design.sass */
 .styletile-1 .colors ul li.color-1 {
   background-color: gray;
 }
-/* line 156, ../sass/partials/09-styletile/_tile-design.scss */
+/* line 116, ../sass/partials/09-styletile/_tile-design.sass */
 .styletile-1 .colors ul li.color-1:after {
-  content: gray;
+  content: "gray";
 }
-/* line 160, ../sass/partials/09-styletile/_tile-design.scss */
+/* line 118, ../sass/partials/09-styletile/_tile-design.sass */
 .styletile-1 .colors ul li.color-2 {
   background-color: gray;
 }
-/* line 162, ../sass/partials/09-styletile/_tile-design.scss */
+/* line 120, ../sass/partials/09-styletile/_tile-design.sass */
 .styletile-1 .colors ul li.color-2:after {
-  content: gray;
+  content: "gray";
 }
-/* line 166, ../sass/partials/09-styletile/_tile-design.scss */
+/* line 122, ../sass/partials/09-styletile/_tile-design.sass */
 .styletile-1 .colors ul li.color-3 {
   background-color: gray;
 }
-/* line 168, ../sass/partials/09-styletile/_tile-design.scss */
+/* line 124, ../sass/partials/09-styletile/_tile-design.sass */
 .styletile-1 .colors ul li.color-3:after {
-  content: gray;
+  content: "gray";
 }
-/* line 172, ../sass/partials/09-styletile/_tile-design.scss */
+/* line 126, ../sass/partials/09-styletile/_tile-design.sass */
 .styletile-1 .colors ul li.color-4 {
   background-color: gray;
 }
-/* line 174, ../sass/partials/09-styletile/_tile-design.scss */
+/* line 128, ../sass/partials/09-styletile/_tile-design.sass */
 .styletile-1 .colors ul li.color-4:after {
-  content: gray;
+  content: "gray";
 }
-/* line 178, ../sass/partials/09-styletile/_tile-design.scss */
+/* line 130, ../sass/partials/09-styletile/_tile-design.sass */
 .styletile-1 .colors ul li.color-5 {
   background-color: gray;
 }
-/* line 180, ../sass/partials/09-styletile/_tile-design.scss */
+/* line 132, ../sass/partials/09-styletile/_tile-design.sass */
 .styletile-1 .colors ul li.color-5:after {
-  content: gray;
+  content: "gray";
 }
-/* line 184, ../sass/partials/09-styletile/_tile-design.scss */
+/* line 134, ../sass/partials/09-styletile/_tile-design.sass */
 .styletile-1 .colors ul li.color-6 {
   background-color: gray;
 }
-/* line 186, ../sass/partials/09-styletile/_tile-design.scss */
+/* line 136, ../sass/partials/09-styletile/_tile-design.sass */
 .styletile-1 .colors ul li.color-6:after {
-  content: gray;
+  content: "gray";
 }
