@@ -573,7 +573,7 @@ pre, code, kbd, tt {
 
 /* line 20, ../sass/partials/03-extend/_typography.scss */
 h1, h2, h3, h4, h5, h6 {
-  font-family: sans-serif;
+  font-family: abril-display, prenton, sans-serif;
 }
 
 /* Only use the fancy ampersand in <h#> tags */
@@ -1531,7 +1531,7 @@ header aside {
   font-size: 1em;
   line-height: 1.5em;
   text-transform: uppercase;
-  font-family: sans-serif;
+  font-family: prenton, sans-serif;
 }
 
 /* line 28, ../sass/partials/09-styletile/_tile-design.scss */
@@ -1587,7 +1587,7 @@ header aside {
 }
 /* line 87, ../sass/partials/09-styletile/_tile-design.scss */
 .styletile-1 .text-examples .logos h1.opt-1:before {
-  content: counter(logos) " - sans-serif";
+  content: counter(logos) " - prenton, sans-serif";
 }
 /* line 110, ../sass/partials/09-styletile/_tile-design.scss */
 .styletile-1 .text-examples .serif {
@@ -1599,11 +1599,11 @@ header aside {
 }
 /* line 134, ../sass/partials/09-styletile/_tile-design.scss */
 .styletile-1 .text-examples .sans, .styletile-1 .text-examples header aside, header .styletile-1 .text-examples aside {
-  font-family: sans-serif;
+  font-family: prenton, sans-serif;
 }
 /* line 136, ../sass/partials/09-styletile/_tile-design.scss */
 .styletile-1 .text-examples .sans .label:after, .styletile-1 .text-examples header aside .label:after, header .styletile-1 .text-examples aside .label:after, .styletile-1 .text-examples .sans .logos h1:after:before, .styletile-1 .text-examples .logos .sans h1:after:before, .styletile-1 .text-examples header aside .logos h1:after:before, .styletile-1 .text-examples .logos header aside h1:after:before, header .styletile-1 .text-examples aside .logos h1:after:before, header .styletile-1 .text-examples .logos aside h1:after:before {
-  content: " - sans-serif";
+  content: " - prenton, sans-serif";
 }
 
 /* graphic examples */
