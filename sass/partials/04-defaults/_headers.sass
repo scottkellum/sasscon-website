@@ -6,18 +6,22 @@
   font-weight: normal
   text-rendering: optimizeLegibility
 
+
 %h1
-  // +adjust-font-size-to(ms(6))
+  +adjust-font-size-to(ms(6),3)
+  @extend %italic
 %h2
-  // +adjust-font-size-to(ms(5))
+  +adjust-font-size-to(ms(3))
+  @extend %italic
 %h3
-  // +adjust-font-size-to(ms(4))
+  +adjust-font-size-to(ms(2))
+  @extend %italic
 %h4
-  // +adjust-font-size-to(ms(3))
+  +adjust-font-size-to(ms(2))
 %h5
-  // +adjust-font-size-to(ms(2))
+  +adjust-font-size-to(ms(1))
 %h6
-  // +adjust-font-size-to(ms(1))
+  +adjust-font-size-to(ms(0))
 
 h1
   @extend %h1

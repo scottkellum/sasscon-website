@@ -1,2 +1,39 @@
 // Create the design for your site below
 /* SITE-WIDE DESIGN --------------------------------------------------------------
+
+body
+  @if $show-baseline == true
+    +baseline-grid-background
+  @else
+    background-image: linear-gradient(-55deg, rgba(tint($pink-light, 60%), 0.8) 12em, $transparent 12em), linear-gradient(-60deg, rgba(tint($pink-light, 40%), 0.8) 12em, $transparent 12em), linear-gradient(-65deg, rgba(tint($pink-light, 20%), 0.8) 12em, $transparent 12em), linear-gradient(-69deg, $pink-light 12em, $transparent 12em)
+
+header
+  +leader(1)
+  +backface-visibility(visible)
+  +perspective(800)
+  hgroup
+    +perspective(800)
+    +transform(rotatez(-10deg))
+  #{headings(3)}
+    font-family: $font-logo
+    margin-top: 0
+    margin-bottom: 0
+  #{headings(2,3)}
+    @extend %text-right
+    +apply-origin(100% 50%, false)
+  h1
+    @extend %pink
+    padding-right: 0.125em
+    +text-shadow(rgba($white, 0.9) 0.5px 1px 1px)
+    +apply-origin(50% 50%, false)
+    +transform(rotateX(-13deg) rotateY(-30deg))
+    position: relative
+    left: 15px
+  h2
+    +transform(rotateY(-10deg) translateX(-30px))
+  h3
+    +transform(rotateY(20deg) translateX(-30px))
+
+
+form
+  display: none

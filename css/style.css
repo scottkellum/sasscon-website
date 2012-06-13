@@ -556,13 +556,18 @@ img, textarea, input[type=text], input[type=password], input[type=email], input[
 }
 
 /* line 25, ../../../../../Library/Ruby/Gems/1.8/gems/survivalkit-0.3.4/stylesheets/survivalkit/extend/_helpers.sass */
-em, address, cite, q, dfn, i {
+em, address, h1, h2, h3, cite, q, dfn, i {
   font-style: italic;
 }
 
 /* line 28, ../../../../../Library/Ruby/Gems/1.8/gems/survivalkit-0.3.4/stylesheets/survivalkit/extend/_helpers.sass */
 strong, dfn, b {
   font-weight: bold;
+}
+
+/* line 4, ../sass/partials/03-extend/_colors.sass */
+header h1 {
+  color: #ce4dd6;
 }
 
 /* line 8, ../sass/partials/03-extend/_typography.sass */
@@ -573,7 +578,7 @@ pre, code, kbd, tt {
 
 /* line 16, ../sass/partials/03-extend/_typography.sass */
 h1, h2, h3, h4, h5, h6 {
-  font-family: abril-display, prenton, sans-serif;
+  font-family: abril-display, Georgia, serif;
 }
 
 /* Only use the fancy ampersand in <h#> tags */
@@ -582,6 +587,11 @@ h1 .amp, h2 .amp, h3 .amp, h4 .amp, h5 .amp, h6 .amp {
   font-size: 1em;
   font-family: Georgia, serif;
   font-style: italic;
+}
+
+/* line 41, ../sass/partials/03-extend/_typography.sass */
+header h2, header h3 {
+  text-align: right;
 }
 
 /* import font files using @font-face, if not using a service such as typekit */
@@ -598,14 +608,14 @@ h1 .amp, h2 .amp, h3 .amp, h4 .amp, h5 .amp, h6 .amp {
 /* line 66, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.13.alpha.0/frameworks/compass/stylesheets/compass/typography/_vertical_rhythm.scss */
 html {
   font-size: 100%;
-  line-height: 1.5em;
+  line-height: 1.625em;
 }
 
 /* line 23, ../sass/partials/04-defaults/_common.sass */
 body {
   font-family: Georgia, serif;
-  color: white;
-  background: #333333;
+  color: #333333;
+  background: #f2f2f2;
 }
 
 @media screen and (-webkit-device-pixel-ratio: 1) and (device-width: 1024px) and (max-device-height: 600px) and (orientation: landscape), screen and (-webkit-device-pixel-ratio: 1) and (device-width: 600px) and (max-device-height: 1024px) and (orientation: portrait), screen and (-o-device-pixel-ratio: 1) and (device-width: 1024px) and (max-device-height: 600px) and (orientation: landscape), screen and (-o-device-pixel-ratio: 1) and (device-width: 600px) and (max-device-height: 1024px) and (orientation: portrait), screen and (device-pixel-ratio: 1) and (device-width: 1024px) and (max-device-height: 600px) and (orientation: landscape), screen and (device-pixel-ratio: 1) and (device-width: 600px) and (max-device-height: 1024px) and (orientation: portrait) {
@@ -624,14 +634,14 @@ body {
 /* -moz- must be declared separately */
 /* line 34, ../sass/partials/04-defaults/_common.sass */
 ::-moz-selection {
-  color: white;
+  color: #333333;
   background: #e096e0;
   text-shadow: none;
 }
 
 /* line 40, ../sass/partials/04-defaults/_common.sass */
 ::selection {
-  color: white;
+  color: #333333;
   background: #e096e0;
   text-shadow: none;
 }
@@ -673,7 +683,7 @@ a:active {
 
 /* line 59, ../sass/partials/04-defaults/_common.sass */
 p {
-  margin-bottom: 1.5em;
+  margin-bottom: 1.625em;
 }
 
 /* line 64, ../sass/partials/04-defaults/_common.sass */
@@ -711,6 +721,42 @@ h1, h2, h3, h4, h5, h6 {
   text-rendering: optimizeLegibility;
 }
 
+/* line 10, ../sass/partials/04-defaults/_headers.sass */
+h1 {
+  font-size: 4.25em;
+  line-height: 1.147em;
+}
+
+/* line 13, ../sass/partials/04-defaults/_headers.sass */
+h2 {
+  font-size: 1.688em;
+  line-height: 1.926em;
+}
+
+/* line 16, ../sass/partials/04-defaults/_headers.sass */
+h3 {
+  font-size: 1.625em;
+  line-height: 2em;
+}
+
+/* line 19, ../sass/partials/04-defaults/_headers.sass */
+h4 {
+  font-size: 1.625em;
+  line-height: 2em;
+}
+
+/* line 21, ../sass/partials/04-defaults/_headers.sass */
+h5 {
+  font-size: 1.063em;
+  line-height: 1.529em;
+}
+
+/* line 23, ../sass/partials/04-defaults/_headers.sass */
+h6 {
+  font-size: 1em;
+  line-height: 1.625em;
+}
+
 /* Images -------------------------------------------------------------- */
 /* line 3, ../sass/partials/04-defaults/_images.sass */
 img {
@@ -720,18 +766,18 @@ img {
 /* line 10, ../sass/partials/04-defaults/_images.sass */
 img.left {
   float: left;
-  margin: 12px 25px 12px 0;
+  margin: 13px 26px 13px 0;
 }
 /* line 13, ../sass/partials/04-defaults/_images.sass */
 img.right {
   float: right;
-  margin: 12px 0 12px 25px;
+  margin: 13px 0 13px 26px;
 }
 
 /* line 1, ../sass/partials/04-defaults/_semantics.sass */
 small {
-  font-size: 0.813em;
-  line-height: 1.846em;
+  font-size: 0.625em;
+  line-height: 2.6em;
 }
 
 /* line 9, ../sass/partials/04-defaults/_semantics.sass */
@@ -1069,10 +1115,10 @@ optgroup {
 /* Forms -------------------------------------------------------------- */
 /* line 8, ../sass/partials/04-defaults/forms/_form-defaults.sass */
 fieldset {
-  margin-bottom: 1.5em;
+  margin-bottom: 1.625em;
   border-style: solid;
   border-width: 0.063em;
-  padding: 1.438em;
+  padding: 1.563em;
   border-color: #b3b3b3;
   border-style: dotted;
 }
@@ -1096,21 +1142,21 @@ label {
 /* line 24, ../sass/partials/04-defaults/forms/_form-defaults.sass */
 textarea, input[type=text], input[type=password], input[type=email], input[type=url], input[type=tel], input[type=date], input[type=datetime], input[type=datetime-local], input[type=month], input[type=week], input[type=time], input[type=number], input[type=range], input[type=search], input[type=color] {
   font-size: 1em;
-  line-height: 1.5em;
+  line-height: 1.625em;
   border-style: solid;
   border-width: 0.063em;
-  padding: 0.313em;
+  padding: 0.344em;
   border-width: 1px;
-  margin-bottom: 0.75em;
-  width: 305px;
+  margin-bottom: 0.813em;
+  width: 306px;
   margin-top: 0;
   border-color: #b3b3b3;
-  height: 2.25em;
+  height: 2.438em;
 }
 
 /* line 35, ../sass/partials/04-defaults/forms/_form-defaults.sass */
 textarea {
-  height: 9.75;
+  height: 10.563;
 }
 
 /* line 45, ../sass/partials/04-defaults/forms/_form-defaults.sass */
@@ -1124,7 +1170,7 @@ input[type=search]::-webkit-search-decoration {
 
 /* line 50, ../sass/partials/04-defaults/forms/_form-defaults.sass */
 textarea {
-  width: 305px;
+  width: 306px;
 }
 
 /* line 54, ../sass/partials/04-defaults/forms/_form-defaults.sass */
@@ -1146,4 +1192,93 @@ del {
   text-decoration: line-through;
 }
 
+/* line 18, ../sass/partials/05-grids/_grids-susy.sass */
+body {
+  margin: 0 0.5em;
+}
+
 /* SITE-WIDE DESIGN -------------------------------------------------------------- */
+/* line 4, ../sass/partials/08-your-design-here/_design.sass */
+body {
+  background-image: linear-gradient(-55deg, rgba(242, 213, 242, 0.8) 12em, rgba(0, 0, 0, 0) 12em), linear-gradient(-60deg, rgba(236, 192, 236, 0.8) 12em, rgba(0, 0, 0, 0) 12em), linear-gradient(-65deg, rgba(230, 171, 230, 0.8) 12em, rgba(0, 0, 0, 0) 12em), linear-gradient(-69deg, #e096e0 12em, rgba(0, 0, 0, 0) 12em);
+}
+
+/* line 10, ../sass/partials/08-your-design-here/_design.sass */
+header {
+  margin-top: 1.625em;
+  -webkit-backface-visibility: visible;
+  -moz-backface-visibility: visible;
+  -ms-backface-visibility: visible;
+  -o-backface-visibility: visible;
+  backface-visibility: visible;
+  -webkit-perspective: 800;
+  -moz-perspective: 800;
+  -ms-perspective: 800;
+  -o-perspective: 800;
+  perspective: 800;
+}
+/* line 14, ../sass/partials/08-your-design-here/_design.sass */
+header hgroup {
+  -webkit-perspective: 800;
+  -moz-perspective: 800;
+  -ms-perspective: 800;
+  -o-perspective: 800;
+  perspective: 800;
+  -webkit-transform: rotatez(-10deg);
+  -moz-transform: rotatez(-10deg);
+  -ms-transform: rotatez(-10deg);
+  -o-transform: rotatez(-10deg);
+  transform: rotatez(-10deg);
+}
+/* line 17, ../sass/partials/08-your-design-here/_design.sass */
+header h1, header h2, header h3 {
+  font-family: abril-fatface, Georgia, serif;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+/* line 21, ../sass/partials/08-your-design-here/_design.sass */
+header h2, header h3 {
+  -webkit-transform-origin: 100% 50%;
+  -moz-transform-origin: 100% 50%;
+  -ms-transform-origin: 100% 50%;
+  -o-transform-origin: 100% 50%;
+  transform-origin: 100% 50%;
+}
+/* line 24, ../sass/partials/08-your-design-here/_design.sass */
+header h1 {
+  padding-right: 0.125em;
+  text-shadow: rgba(255, 255, 255, 0.9) 0.5px 1px 1px;
+  -webkit-transform-origin: 50% 50%;
+  -moz-transform-origin: 50% 50%;
+  -ms-transform-origin: 50% 50%;
+  -o-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+  -webkit-transform: rotateX(-13deg) rotateY(-30deg);
+  -moz-transform: rotateX(-13deg) rotateY(-30deg);
+  -ms-transform: rotateX(-13deg) rotateY(-30deg);
+  -o-transform: rotateX(-13deg) rotateY(-30deg);
+  transform: rotateX(-13deg) rotateY(-30deg);
+  position: relative;
+  left: 15px;
+}
+/* line 32, ../sass/partials/08-your-design-here/_design.sass */
+header h2 {
+  -webkit-transform: rotateY(-10deg) translateX(-30px);
+  -moz-transform: rotateY(-10deg) translateX(-30px);
+  -ms-transform: rotateY(-10deg) translateX(-30px);
+  -o-transform: rotateY(-10deg) translateX(-30px);
+  transform: rotateY(-10deg) translateX(-30px);
+}
+/* line 34, ../sass/partials/08-your-design-here/_design.sass */
+header h3 {
+  -webkit-transform: rotateY(20deg) translateX(-30px);
+  -moz-transform: rotateY(20deg) translateX(-30px);
+  -ms-transform: rotateY(20deg) translateX(-30px);
+  -o-transform: rotateY(20deg) translateX(-30px);
+  transform: rotateY(20deg) translateX(-30px);
+}
+
+/* line 38, ../sass/partials/08-your-design-here/_design.sass */
+form {
+  display: none;
+}
