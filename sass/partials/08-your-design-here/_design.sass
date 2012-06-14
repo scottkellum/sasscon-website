@@ -5,34 +5,55 @@ body
   @if $show-baseline == true
     +baseline-grid-background
   @else
-    background-image: linear-gradient(-55deg, rgba(tint($pink-light, 60%), 0.8) 12em, $transparent 12em), linear-gradient(-60deg, rgba(tint($pink-light, 40%), 0.8) 12em, $transparent 12em), linear-gradient(-65deg, rgba(tint($pink-light, 20%), 0.8) 12em, $transparent 12em), linear-gradient(-69deg, $pink-light 12em, $transparent 12em)
+    background-image: linear-gradient(-55deg, $pink-trans-1 12em, $transparent 12em), linear-gradient(-60deg, $pink-trans-2 12em, $transparent 12em), linear-gradient(-65deg, $pink-trans-3 12em, $transparent 12em), linear-gradient(-69deg, $pink-light 12em, $transparent 12em), repeating-linear-gradient(-50deg, $transparent, $transparent (26px / 2), $pink-trans-4 (26px / 2), $pink-trans-4 26px)
 
 header
   +leader(1)
   +backface-visibility(visible)
-  +perspective(800)
+  position: relative
   hgroup
-    +perspective(800)
-    +transform(rotatez(-10deg))
+    position: relative
   #{headings(3)}
+    position: relative
     font-family: $font-logo
     margin-top: 0
     margin-bottom: 0
   #{headings(2,3)}
     @extend %text-right
-    +apply-origin(100% 50%, false)
+    @extend %white
+    +text-shadow(rgba($dark-gray, 0.2) 0.5px 1px 1px)
+    b
+      background-color: rgba($pink-light, 0.5)
+      padding: 0.125em
   h1
     @extend %pink
     padding-right: 0.125em
     +text-shadow(rgba($white, 0.9) 0.5px 1px 1px)
-    +apply-origin(50% 50%, false)
-    +transform(rotateX(-13deg) rotateY(-30deg))
     position: relative
     left: 15px
+    +apply-origin(50% 50%, false)
   h2
-    +transform(rotateY(-10deg) translateX(-30px))
+    +apply-origin(80% 50%, false)
   h3
-    +transform(rotateY(20deg) translateX(-30px))
+    +apply-origin(100% 50%, false)
+  .no-csstransforms3d &
+    h2
+      position: relative
+      top: -20px
+  .csstransforms3d &
+    +perspective(500)
+    *
+      +transform-style(preserve-3d)
+    h1
+      font-size: 5em
+      +transform3d(rotateX(-13deg) rotateY(-30deg) rotateZ(-10deg) translateZ(80px) scale(0.85))
+    #{headings(2,3)}
+      font-size: 2em
+    h2
+      +transform3d(rotateY(-28deg) rotateZ(1deg) translateX(3px) translateY(-26px) scale(0.8))
+    h3
+      +transform3d(rotateY(20deg) translateX(-10px) scale(0.7))
+
 
 
 form

@@ -570,6 +570,11 @@ header h1 {
   color: #ce4dd6;
 }
 
+/* line 14, ../sass/partials/03-extend/_colors.sass */
+header h2, header h3 {
+  color: white;
+}
+
 /* line 8, ../sass/partials/03-extend/_typography.sass */
 pre, code, kbd, tt {
   font-family: Consolas, Menlo, "Courier New", monospace, monospace;
@@ -1200,7 +1205,7 @@ body {
 /* SITE-WIDE DESIGN -------------------------------------------------------------- */
 /* line 4, ../sass/partials/08-your-design-here/_design.sass */
 body {
-  background-image: linear-gradient(-55deg, rgba(242, 213, 242, 0.8) 12em, rgba(0, 0, 0, 0) 12em), linear-gradient(-60deg, rgba(236, 192, 236, 0.8) 12em, rgba(0, 0, 0, 0) 12em), linear-gradient(-65deg, rgba(230, 171, 230, 0.8) 12em, rgba(0, 0, 0, 0) 12em), linear-gradient(-69deg, #e096e0 12em, rgba(0, 0, 0, 0) 12em);
+  background-image: linear-gradient(-55deg, rgba(242, 213, 242, 0.8) 12em, rgba(0, 0, 0, 0) 12em), linear-gradient(-60deg, rgba(236, 192, 236, 0.8) 12em, rgba(0, 0, 0, 0) 12em), linear-gradient(-65deg, rgba(230, 171, 230, 0.8) 12em, rgba(0, 0, 0, 0) 12em), linear-gradient(-69deg, #e096e0 12em, rgba(0, 0, 0, 0) 12em), repeating-linear-gradient(-50deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 13px, rgba(245, 223, 245, 0.8) 13px, rgba(245, 223, 245, 0.8) 26px);
 }
 
 /* line 10, ../sass/partials/08-your-design-here/_design.sass */
@@ -1211,74 +1216,108 @@ header {
   -ms-backface-visibility: visible;
   -o-backface-visibility: visible;
   backface-visibility: visible;
-  -webkit-perspective: 800;
-  -moz-perspective: 800;
-  -ms-perspective: 800;
-  -o-perspective: 800;
-  perspective: 800;
+  position: relative;
 }
 /* line 14, ../sass/partials/08-your-design-here/_design.sass */
 header hgroup {
-  -webkit-perspective: 800;
-  -moz-perspective: 800;
-  -ms-perspective: 800;
-  -o-perspective: 800;
-  perspective: 800;
-  -webkit-transform: rotatez(-10deg);
-  -moz-transform: rotatez(-10deg);
-  -ms-transform: rotatez(-10deg);
-  -o-transform: rotatez(-10deg);
-  transform: rotatez(-10deg);
+  position: relative;
 }
-/* line 17, ../sass/partials/08-your-design-here/_design.sass */
+/* line 16, ../sass/partials/08-your-design-here/_design.sass */
 header h1, header h2, header h3 {
+  position: relative;
   font-family: abril-fatface, Georgia, serif;
   margin-top: 0;
   margin-bottom: 0;
 }
 /* line 21, ../sass/partials/08-your-design-here/_design.sass */
 header h2, header h3 {
+  text-shadow: rgba(51, 51, 51, 0.2) 0.5px 1px 1px;
+}
+/* line 25, ../sass/partials/08-your-design-here/_design.sass */
+header h2 b, header h3 b {
+  background-color: rgba(224, 150, 224, 0.5);
+  padding: 0.125em;
+}
+/* line 28, ../sass/partials/08-your-design-here/_design.sass */
+header h1 {
+  padding-right: 0.125em;
+  text-shadow: rgba(255, 255, 255, 0.9) 0.5px 1px 1px;
+  position: relative;
+  left: 15px;
+  -webkit-transform-origin: 50% 50%;
+  -moz-transform-origin: 50% 50%;
+  -ms-transform-origin: 50% 50%;
+  -o-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+}
+/* line 35, ../sass/partials/08-your-design-here/_design.sass */
+header h2 {
+  -webkit-transform-origin: 80% 50%;
+  -moz-transform-origin: 80% 50%;
+  -ms-transform-origin: 80% 50%;
+  -o-transform-origin: 80% 50%;
+  transform-origin: 80% 50%;
+}
+/* line 37, ../sass/partials/08-your-design-here/_design.sass */
+header h3 {
   -webkit-transform-origin: 100% 50%;
   -moz-transform-origin: 100% 50%;
   -ms-transform-origin: 100% 50%;
   -o-transform-origin: 100% 50%;
   transform-origin: 100% 50%;
 }
-/* line 24, ../sass/partials/08-your-design-here/_design.sass */
-header h1 {
-  padding-right: 0.125em;
-  text-shadow: rgba(255, 255, 255, 0.9) 0.5px 1px 1px;
-  -webkit-transform-origin: 50% 50%;
-  -moz-transform-origin: 50% 50%;
-  -ms-transform-origin: 50% 50%;
-  -o-transform-origin: 50% 50%;
-  transform-origin: 50% 50%;
-  -webkit-transform: rotateX(-13deg) rotateY(-30deg);
-  -moz-transform: rotateX(-13deg) rotateY(-30deg);
-  -ms-transform: rotateX(-13deg) rotateY(-30deg);
-  -o-transform: rotateX(-13deg) rotateY(-30deg);
-  transform: rotateX(-13deg) rotateY(-30deg);
+/* line 40, ../sass/partials/08-your-design-here/_design.sass */
+.no-csstransforms3d header h2 {
   position: relative;
-  left: 15px;
+  top: -20px;
 }
-/* line 32, ../sass/partials/08-your-design-here/_design.sass */
-header h2 {
-  -webkit-transform: rotateY(-10deg) translateX(-30px);
-  -moz-transform: rotateY(-10deg) translateX(-30px);
-  -ms-transform: rotateY(-10deg) translateX(-30px);
-  -o-transform: rotateY(-10deg) translateX(-30px);
-  transform: rotateY(-10deg) translateX(-30px);
+/* line 43, ../sass/partials/08-your-design-here/_design.sass */
+.csstransforms3d header {
+  -webkit-perspective: 500;
+  -moz-perspective: 500;
+  -ms-perspective: 500;
+  -o-perspective: 500;
+  perspective: 500;
 }
-/* line 34, ../sass/partials/08-your-design-here/_design.sass */
-header h3 {
-  -webkit-transform: rotateY(20deg) translateX(-30px);
-  -moz-transform: rotateY(20deg) translateX(-30px);
-  -ms-transform: rotateY(20deg) translateX(-30px);
-  -o-transform: rotateY(20deg) translateX(-30px);
-  transform: rotateY(20deg) translateX(-30px);
+/* line 45, ../sass/partials/08-your-design-here/_design.sass */
+.csstransforms3d header * {
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+/* line 47, ../sass/partials/08-your-design-here/_design.sass */
+.csstransforms3d header h1 {
+  font-size: 5em;
+  -webkit-transform: rotateX(-13deg) rotateY(-30deg) rotateZ(-10deg) translateZ(80px) scale(0.85);
+  -moz-transform: rotateX(-13deg) rotateY(-30deg) rotateZ(-10deg) translateZ(80px) scale(0.85);
+  -ms-transform: rotateX(-13deg) rotateY(-30deg) rotateZ(-10deg) translateZ(80px) scale(0.85);
+  -o-transform: rotateX(-13deg) rotateY(-30deg) rotateZ(-10deg) translateZ(80px) scale(0.85);
+  transform: rotateX(-13deg) rotateY(-30deg) rotateZ(-10deg) translateZ(80px) scale(0.85);
+}
+/* line 50, ../sass/partials/08-your-design-here/_design.sass */
+.csstransforms3d header h2, .csstransforms3d header h3 {
+  font-size: 2em;
+}
+/* line 52, ../sass/partials/08-your-design-here/_design.sass */
+.csstransforms3d header h2 {
+  -webkit-transform: rotateY(-28deg) rotateZ(1deg) translateX(3px) translateY(-26px) scale(0.8);
+  -moz-transform: rotateY(-28deg) rotateZ(1deg) translateX(3px) translateY(-26px) scale(0.8);
+  -ms-transform: rotateY(-28deg) rotateZ(1deg) translateX(3px) translateY(-26px) scale(0.8);
+  -o-transform: rotateY(-28deg) rotateZ(1deg) translateX(3px) translateY(-26px) scale(0.8);
+  transform: rotateY(-28deg) rotateZ(1deg) translateX(3px) translateY(-26px) scale(0.8);
+}
+/* line 54, ../sass/partials/08-your-design-here/_design.sass */
+.csstransforms3d header h3 {
+  -webkit-transform: rotateY(20deg) translateX(-10px) scale(0.7);
+  -moz-transform: rotateY(20deg) translateX(-10px) scale(0.7);
+  -ms-transform: rotateY(20deg) translateX(-10px) scale(0.7);
+  -o-transform: rotateY(20deg) translateX(-10px) scale(0.7);
+  transform: rotateY(20deg) translateX(-10px) scale(0.7);
 }
 
-/* line 38, ../sass/partials/08-your-design-here/_design.sass */
+/* line 59, ../sass/partials/08-your-design-here/_design.sass */
 form {
   display: none;
 }
