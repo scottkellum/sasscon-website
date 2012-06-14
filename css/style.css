@@ -1197,18 +1197,16 @@ del {
   text-decoration: line-through;
 }
 
-/* line 18, ../sass/partials/05-grids/_grids-susy.sass */
-body {
-  margin: 0 0.5em;
-}
-
 /* SITE-WIDE DESIGN -------------------------------------------------------------- */
 /* line 4, ../sass/partials/08-your-design-here/_design.sass */
 body {
   background-image: linear-gradient(-55deg, rgba(242, 213, 242, 0.8) 12em, rgba(0, 0, 0, 0) 12em), linear-gradient(-60deg, rgba(236, 192, 236, 0.8) 12em, rgba(0, 0, 0, 0) 12em), linear-gradient(-65deg, rgba(230, 171, 230, 0.8) 12em, rgba(0, 0, 0, 0) 12em), linear-gradient(-69deg, #e096e0 12em, rgba(0, 0, 0, 0) 12em), repeating-linear-gradient(-50deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 13px, rgba(245, 223, 245, 0.8) 13px, rgba(245, 223, 245, 0.8) 26px);
+  max-width: 488px;
+  margin: 0 auto;
+  padding: 0 0.5em;
 }
 
-/* line 10, ../sass/partials/08-your-design-here/_design.sass */
+/* line 14, ../sass/partials/08-your-design-here/_design.sass */
 header {
   margin-top: 1.625em;
   -webkit-backface-visibility: visible;
@@ -1218,27 +1216,27 @@ header {
   backface-visibility: visible;
   position: relative;
 }
-/* line 14, ../sass/partials/08-your-design-here/_design.sass */
+/* line 18, ../sass/partials/08-your-design-here/_design.sass */
 header hgroup {
   position: relative;
 }
-/* line 16, ../sass/partials/08-your-design-here/_design.sass */
+/* line 20, ../sass/partials/08-your-design-here/_design.sass */
 header h1, header h2, header h3 {
   position: relative;
   font-family: abril-fatface, Georgia, serif;
   margin-top: 0;
   margin-bottom: 0;
 }
-/* line 21, ../sass/partials/08-your-design-here/_design.sass */
+/* line 25, ../sass/partials/08-your-design-here/_design.sass */
 header h2, header h3 {
   text-shadow: rgba(51, 51, 51, 0.2) 0.5px 1px 1px;
 }
-/* line 25, ../sass/partials/08-your-design-here/_design.sass */
+/* line 29, ../sass/partials/08-your-design-here/_design.sass */
 header h2 b, header h3 b {
   background-color: rgba(224, 150, 224, 0.5);
   padding: 0.125em;
 }
-/* line 28, ../sass/partials/08-your-design-here/_design.sass */
+/* line 32, ../sass/partials/08-your-design-here/_design.sass */
 header h1 {
   padding-right: 0.125em;
   text-shadow: rgba(255, 255, 255, 0.9) 0.5px 1px 1px;
@@ -1250,7 +1248,7 @@ header h1 {
   -o-transform-origin: 50% 50%;
   transform-origin: 50% 50%;
 }
-/* line 35, ../sass/partials/08-your-design-here/_design.sass */
+/* line 39, ../sass/partials/08-your-design-here/_design.sass */
 header h2 {
   -webkit-transform-origin: 80% 50%;
   -moz-transform-origin: 80% 50%;
@@ -1258,7 +1256,7 @@ header h2 {
   -o-transform-origin: 80% 50%;
   transform-origin: 80% 50%;
 }
-/* line 37, ../sass/partials/08-your-design-here/_design.sass */
+/* line 41, ../sass/partials/08-your-design-here/_design.sass */
 header h3 {
   -webkit-transform-origin: 100% 50%;
   -moz-transform-origin: 100% 50%;
@@ -1266,12 +1264,12 @@ header h3 {
   -o-transform-origin: 100% 50%;
   transform-origin: 100% 50%;
 }
-/* line 40, ../sass/partials/08-your-design-here/_design.sass */
+/* line 44, ../sass/partials/08-your-design-here/_design.sass */
 .no-csstransforms3d header h2 {
   position: relative;
   top: -20px;
 }
-/* line 43, ../sass/partials/08-your-design-here/_design.sass */
+/* line 47, ../sass/partials/08-your-design-here/_design.sass */
 .csstransforms3d header {
   -webkit-perspective: 500;
   -moz-perspective: 500;
@@ -1279,7 +1277,7 @@ header h3 {
   -o-perspective: 500;
   perspective: 500;
 }
-/* line 45, ../sass/partials/08-your-design-here/_design.sass */
+/* line 49, ../sass/partials/08-your-design-here/_design.sass */
 .csstransforms3d header * {
   -webkit-transform-style: preserve-3d;
   -moz-transform-style: preserve-3d;
@@ -1287,7 +1285,7 @@ header h3 {
   -o-transform-style: preserve-3d;
   transform-style: preserve-3d;
 }
-/* line 47, ../sass/partials/08-your-design-here/_design.sass */
+/* line 51, ../sass/partials/08-your-design-here/_design.sass */
 .csstransforms3d header h1 {
   font-size: 5em;
   -webkit-transform: rotateX(-13deg) rotateY(-30deg) rotateZ(-10deg) translateZ(80px) scale(0.85);
@@ -1296,11 +1294,11 @@ header h3 {
   -o-transform: rotateX(-13deg) rotateY(-30deg) rotateZ(-10deg) translateZ(80px) scale(0.85);
   transform: rotateX(-13deg) rotateY(-30deg) rotateZ(-10deg) translateZ(80px) scale(0.85);
 }
-/* line 50, ../sass/partials/08-your-design-here/_design.sass */
+/* line 54, ../sass/partials/08-your-design-here/_design.sass */
 .csstransforms3d header h2, .csstransforms3d header h3 {
   font-size: 2em;
 }
-/* line 52, ../sass/partials/08-your-design-here/_design.sass */
+/* line 56, ../sass/partials/08-your-design-here/_design.sass */
 .csstransforms3d header h2 {
   -webkit-transform: rotateY(-28deg) rotateZ(1deg) translateX(3px) translateY(-26px) scale(0.8);
   -moz-transform: rotateY(-28deg) rotateZ(1deg) translateX(3px) translateY(-26px) scale(0.8);
@@ -1308,7 +1306,7 @@ header h3 {
   -o-transform: rotateY(-28deg) rotateZ(1deg) translateX(3px) translateY(-26px) scale(0.8);
   transform: rotateY(-28deg) rotateZ(1deg) translateX(3px) translateY(-26px) scale(0.8);
 }
-/* line 54, ../sass/partials/08-your-design-here/_design.sass */
+/* line 58, ../sass/partials/08-your-design-here/_design.sass */
 .csstransforms3d header h3 {
   -webkit-transform: rotateY(20deg) translateX(-10px) scale(0.7);
   -moz-transform: rotateY(20deg) translateX(-10px) scale(0.7);
@@ -1317,7 +1315,39 @@ header h3 {
   transform: rotateY(20deg) translateX(-10px) scale(0.7);
 }
 
-/* line 59, ../sass/partials/08-your-design-here/_design.sass */
-form {
-  display: none;
+/* line 61, ../sass/partials/08-your-design-here/_design.sass */
+#page {
+  position: relative;
+}
+
+/* line 63, ../sass/partials/08-your-design-here/_design.sass */
+.sass-robot {
+  float: right;
+  position: relative;
+  width: 33%;
+  overflow: hidden;
+  margin-left: 1em;
+  margin-top: -90px;
+  max-height: 519px;
+}
+/* line 71, ../sass/partials/08-your-design-here/_design.sass */
+.sass-robot img {
+  position: relative;
+  max-width: 270%;
+  left: -105%;
+}
+
+/* line 77, ../sass/partials/08-your-design-here/_design.sass */
+article > figure {
+  width: 88px;
+  float: left;
+  margin: 0 0.5em 0.5em -2em;
+}
+/* line 81, ../sass/partials/08-your-design-here/_design.sass */
+article > figure img {
+  width: 100%;
+}
+/* line 83, ../sass/partials/08-your-design-here/_design.sass */
+article p {
+  clear: left;
 }
