@@ -6,7 +6,7 @@ body
     +baseline-grid-background
   @else
     background:
-      image: linear-gradient(-55deg, $pink-trans-1 12em, $transparent 12em), linear-gradient(-60deg, $pink-trans-2 12em, $transparent 12em), linear-gradient(-65deg, $pink-trans-3 12em, $transparent 12em), repeating-linear-gradient(-50deg, $transparent, $transparent (26px / 2), $pink-trans-4 (26px / 2), $pink-trans-4 26px)
+      image: linear-gradient(-55deg, $pink-trans-1 12em, $transparent 12em), linear-gradient(-60deg, $pink-trans-2 12em, $transparent 12em), linear-gradient(-65deg, $pink-trans-3 12em, $transparent 12em), linear-gradient(-70deg, $pink-trans-4 12em, $transparent 12em), repeating-linear-gradient(-50deg, $transparent, $transparent (26px / 2), $pink-trans-4 (26px / 2), $pink-trans-4 26px)
   max-width: ms(15)
   margin: 0 auto
   padding: 0 0.5em
@@ -39,11 +39,6 @@ header
     +text-shadow(rgba($white, 0.9) 0.5px 1px 1px)
     position: relative
     left: 15px
-    +apply-origin(50% 50%, false)
-  h2
-    +apply-origin(80% 50%, false)
-  h3
-    +apply-origin(100% 50%, false)
   .no-csstransforms3d &
     h2
       position: relative
@@ -52,16 +47,20 @@ header
     +perspective(500)
     *
       +transform-style(preserve-3d)
+    #{headings(3)}
+      white-space: nowrap
     h1
       font-size: 6em
       text-transform: uppercase
-      white-space: nowrap
-      +transform3d(rotateX(13deg) rotateY(36deg) rotateZ(-5deg) translateZ(67px) scale(0.65) translateX(-121px) translateY(51px))
+      +apply-origin(33% 50%, false)
+      +transform3d(rotateX(13deg) rotateY(36deg) rotateZ(-5deg) translateZ(67px) scale(0.6) translateX(-140px) translateY(51px))
     #{headings(2,3)}
       font-size: 2em
     h2
+      +apply-origin(80% 50%, false)
       +transform3d(rotateY(-28deg) rotateZ(1deg) translateX(3px) translateY(-26px) scale(0.8))
     h3
+      +apply-origin(100% 50%, false)
       +transform3d(rotateY(20deg) translateX(-10px) scale(0.7))
 
 #page
@@ -76,14 +75,28 @@ header
     repeat: no-repeat
     position: top right
   min-height: image-height("sass-robot.png")
-  padding-top: 12em
-  padding-right: 14em
+  margin-right: -44px
+  padding-top: 19em
+  padding-right: 128px
+  .csstransforms3d &
+    +perspective(250)
+    *
+      +transform-style(preserve-3d)
+  +breakpoint($bp-not-phone)
+    margin-right: 0px
+    padding-top: 12em
+    padding-right: 14em
 form[name=mc-embedded-subscribe-form]
   [type=email]
     display: block
     max-width: 100%
+    background-color: rgba($white, 0.9)
   [type=submit]
     float: right
+  .csstransforms3d &
+    [type=email]
+      +transform3d(rotateY(-23deg))
+      +box-shadow($dark-gray-trans 16px 4px 6px)
 
 
 article
