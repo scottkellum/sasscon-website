@@ -41,7 +41,7 @@ h1 .amp, h2 .amp, h3 .amp, h4 .amp, h5 .amp, h6 .amp {
 /* line 14, ../../../../../../Library/Ruby/Gems/1.8/gems/survivalkit-0.3.4/stylesheets/survivalkit/survival_kit/_survival-kit.sass */
 body.survival-kit #page > header {
   background: #d2c5d3;
-  font-family: futura, prenton, sans-serif;
+  font-family: futura, sans-serif;
   padding: 0 0.5em;
   margin-bottom: 0;
 }
@@ -86,14 +86,14 @@ body.survival-kit #page > header h1 {
   padding-right: 26px;
   margin-right: 26px;
   border-right: 1px solid white;
-  font-family: futura, prenton, sans-serif;
+  font-family: futura, sans-serif;
 }
 /* line 31, ../../../../../../Library/Ruby/Gems/1.8/gems/survivalkit-0.3.4/stylesheets/survivalkit/survival_kit/_survival-kit.sass */
 body.survival-kit #page > header h1 a {
   text-indent: 110%;
   white-space: nowrap;
   overflow: hidden;
-  background-image: url('/images/survival-kit-logo.png?1339477631');
+  background-image: url('/images/survival-kit-logo.png?1339766852');
   background-repeat: no-repeat;
   background-position: 50% 50%;
   width: 220px;
@@ -114,7 +114,7 @@ body.survival-kit #page > header h2 {
   font-size: 1.625em;
   line-height: 2em;
   margin-top: 0;
-  font-family: futura, prenton, sans-serif;
+  font-family: futura, sans-serif;
 }
 /* line 40, ../../../../../../Library/Ruby/Gems/1.8/gems/survivalkit-0.3.4/stylesheets/survivalkit/survival_kit/_survival-kit.sass */
 body.survival-kit #page > header .intro {
@@ -179,7 +179,7 @@ body.survival-kit .back-to-top:hover {
 body.survival-kit .kit-nav, body.survival-kit .section-nav {
   margin-bottom: 1.625em;
   padding: 0 0.5em;
-  font-family: futura, prenton, sans-serif;
+  font-family: futura, sans-serif;
   color: #d2c5d3;
 }
 /* line 61, ../../../../../../Library/Ruby/Gems/1.8/gems/survivalkit-0.3.4/stylesheets/survivalkit/survival_kit/_survival-kit.sass */

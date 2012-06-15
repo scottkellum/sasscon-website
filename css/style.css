@@ -556,18 +556,23 @@ img, textarea, input[type=text], input[type=password], input[type=email], input[
 }
 
 /* line 25, ../../../../../Library/Ruby/Gems/1.8/gems/survivalkit-0.3.4/stylesheets/survivalkit/extend/_helpers.sass */
-em, address, h1, h2, h3, cite, q, dfn, i {
+em, address, h2, h3, cite, q, dfn, i {
   font-style: italic;
 }
 
 /* line 28, ../../../../../Library/Ruby/Gems/1.8/gems/survivalkit-0.3.4/stylesheets/survivalkit/extend/_helpers.sass */
-strong, dfn, b {
+strong, h1, dfn, b {
   font-weight: bold;
 }
 
 /* line 4, ../sass/partials/03-extend/_colors.sass */
 header h1 {
   color: #ce4dd6;
+}
+
+/* line 8, ../sass/partials/03-extend/_colors.sass */
+header h2 b, header h3 b {
+  color: #fffb7b;
 }
 
 /* line 14, ../sass/partials/03-extend/_colors.sass */
@@ -583,7 +588,7 @@ pre, code, kbd, tt {
 
 /* line 16, ../sass/partials/03-extend/_typography.sass */
 h1, h2, h3, h4, h5, h6 {
-  font-family: abril-display, Georgia, serif;
+  font-family: futura-pt, sans-serif;
 }
 
 /* Only use the fancy ampersand in <h#> tags */
@@ -618,7 +623,7 @@ html {
 
 /* line 23, ../sass/partials/04-defaults/_common.sass */
 body {
-  font-family: Georgia, serif;
+  font-family: sans-serif;
   color: #333333;
   background: #f2f2f2;
 }
@@ -722,41 +727,40 @@ li ul {
 /* Headings -------------------------------------------------------------- */
 /* line 4, ../sass/partials/04-defaults/_headers.sass */
 h1, h2, h3, h4, h5, h6 {
-  font-weight: normal;
   text-rendering: optimizeLegibility;
 }
 
-/* line 10, ../sass/partials/04-defaults/_headers.sass */
+/* line 8, ../sass/partials/04-defaults/_headers.sass */
 h1 {
   font-size: 4.25em;
   line-height: 1.147em;
 }
 
-/* line 13, ../sass/partials/04-defaults/_headers.sass */
+/* line 12, ../sass/partials/04-defaults/_headers.sass */
 h2 {
   font-size: 1.688em;
   line-height: 1.926em;
 }
 
-/* line 16, ../sass/partials/04-defaults/_headers.sass */
+/* line 15, ../sass/partials/04-defaults/_headers.sass */
 h3 {
   font-size: 1.625em;
   line-height: 2em;
 }
 
-/* line 19, ../sass/partials/04-defaults/_headers.sass */
+/* line 18, ../sass/partials/04-defaults/_headers.sass */
 h4 {
   font-size: 1.625em;
   line-height: 2em;
 }
 
-/* line 21, ../sass/partials/04-defaults/_headers.sass */
+/* line 20, ../sass/partials/04-defaults/_headers.sass */
 h5 {
   font-size: 1.063em;
   line-height: 1.529em;
 }
 
-/* line 23, ../sass/partials/04-defaults/_headers.sass */
+/* line 22, ../sass/partials/04-defaults/_headers.sass */
 h6 {
   font-size: 1em;
   line-height: 1.625em;
@@ -1200,7 +1204,7 @@ del {
 /* SITE-WIDE DESIGN -------------------------------------------------------------- */
 /* line 4, ../sass/partials/08-your-design-here/_design.sass */
 body {
-  background-image: linear-gradient(-55deg, rgba(242, 213, 242, 0.8) 12em, rgba(0, 0, 0, 0) 12em), linear-gradient(-60deg, rgba(236, 192, 236, 0.8) 12em, rgba(0, 0, 0, 0) 12em), linear-gradient(-65deg, rgba(230, 171, 230, 0.8) 12em, rgba(0, 0, 0, 0) 12em), linear-gradient(-69deg, #e096e0 12em, rgba(0, 0, 0, 0) 12em), repeating-linear-gradient(-50deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 13px, rgba(245, 223, 245, 0.8) 13px, rgba(245, 223, 245, 0.8) 26px);
+  background-image: linear-gradient(-55deg, rgba(242, 213, 242, 0.8) 12em, rgba(0, 0, 0, 0) 12em), linear-gradient(-60deg, rgba(236, 192, 236, 0.8) 12em, rgba(0, 0, 0, 0) 12em), linear-gradient(-65deg, rgba(230, 171, 230, 0.8) 12em, rgba(0, 0, 0, 0) 12em), repeating-linear-gradient(-50deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 13px, rgba(245, 223, 245, 0.8) 13px, rgba(245, 223, 245, 0.8) 26px);
   max-width: 488px;
   margin: 0 auto;
   padding: 0 0.5em;
@@ -1219,28 +1223,29 @@ header {
   -o-backface-visibility: visible;
   backface-visibility: visible;
   position: relative;
+  z-index: 1;
 }
-/* line 20, ../sass/partials/08-your-design-here/_design.sass */
+/* line 21, ../sass/partials/08-your-design-here/_design.sass */
 header hgroup {
   position: relative;
 }
-/* line 22, ../sass/partials/08-your-design-here/_design.sass */
+/* line 23, ../sass/partials/08-your-design-here/_design.sass */
 header h1, header h2, header h3 {
   position: relative;
-  font-family: abril-fatface, Georgia, serif;
+  font-family: futura-pt, sans-serif;
   margin-top: 0;
   margin-bottom: 0;
 }
-/* line 27, ../sass/partials/08-your-design-here/_design.sass */
+/* line 28, ../sass/partials/08-your-design-here/_design.sass */
 header h2, header h3 {
   text-shadow: rgba(51, 51, 51, 0.2) 0.5px 1px 1px;
 }
-/* line 31, ../sass/partials/08-your-design-here/_design.sass */
+/* line 32, ../sass/partials/08-your-design-here/_design.sass */
 header h2 b, header h3 b {
-  background-color: rgba(224, 150, 224, 0.5);
+  background-color: rgba(179, 179, 179, 0.6);
   padding: 0.125em;
 }
-/* line 34, ../sass/partials/08-your-design-here/_design.sass */
+/* line 36, ../sass/partials/08-your-design-here/_design.sass */
 header h1 {
   padding-right: 0.125em;
   text-shadow: rgba(255, 255, 255, 0.9) 0.5px 1px 1px;
@@ -1252,7 +1257,7 @@ header h1 {
   -o-transform-origin: 50% 50%;
   transform-origin: 50% 50%;
 }
-/* line 41, ../sass/partials/08-your-design-here/_design.sass */
+/* line 43, ../sass/partials/08-your-design-here/_design.sass */
 header h2 {
   -webkit-transform-origin: 80% 50%;
   -moz-transform-origin: 80% 50%;
@@ -1260,7 +1265,7 @@ header h2 {
   -o-transform-origin: 80% 50%;
   transform-origin: 80% 50%;
 }
-/* line 43, ../sass/partials/08-your-design-here/_design.sass */
+/* line 45, ../sass/partials/08-your-design-here/_design.sass */
 header h3 {
   -webkit-transform-origin: 100% 50%;
   -moz-transform-origin: 100% 50%;
@@ -1268,12 +1273,12 @@ header h3 {
   -o-transform-origin: 100% 50%;
   transform-origin: 100% 50%;
 }
-/* line 46, ../sass/partials/08-your-design-here/_design.sass */
+/* line 48, ../sass/partials/08-your-design-here/_design.sass */
 .no-csstransforms3d header h2 {
   position: relative;
   top: -20px;
 }
-/* line 49, ../sass/partials/08-your-design-here/_design.sass */
+/* line 51, ../sass/partials/08-your-design-here/_design.sass */
 .csstransforms3d header {
   -webkit-perspective: 500;
   -moz-perspective: 500;
@@ -1281,7 +1286,7 @@ header h3 {
   -o-perspective: 500;
   perspective: 500;
 }
-/* line 51, ../sass/partials/08-your-design-here/_design.sass */
+/* line 53, ../sass/partials/08-your-design-here/_design.sass */
 .csstransforms3d header * {
   -webkit-transform-style: preserve-3d;
   -moz-transform-style: preserve-3d;
@@ -1289,20 +1294,22 @@ header h3 {
   -o-transform-style: preserve-3d;
   transform-style: preserve-3d;
 }
-/* line 53, ../sass/partials/08-your-design-here/_design.sass */
+/* line 55, ../sass/partials/08-your-design-here/_design.sass */
 .csstransforms3d header h1 {
-  font-size: 5em;
-  -webkit-transform: rotateX(-13deg) rotateY(-30deg) rotateZ(-10deg) translateZ(80px) scale(0.85);
-  -moz-transform: rotateX(-13deg) rotateY(-30deg) rotateZ(-10deg) translateZ(80px) scale(0.85);
-  -ms-transform: rotateX(-13deg) rotateY(-30deg) rotateZ(-10deg) translateZ(80px) scale(0.85);
-  -o-transform: rotateX(-13deg) rotateY(-30deg) rotateZ(-10deg) translateZ(80px) scale(0.85);
-  transform: rotateX(-13deg) rotateY(-30deg) rotateZ(-10deg) translateZ(80px) scale(0.85);
+  font-size: 6em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  -webkit-transform: rotateX(13deg) rotateY(36deg) rotateZ(-5deg) translateZ(67px) scale(0.65) translateX(-121px) translateY(51px);
+  -moz-transform: rotateX(13deg) rotateY(36deg) rotateZ(-5deg) translateZ(67px) scale(0.65) translateX(-121px) translateY(51px);
+  -ms-transform: rotateX(13deg) rotateY(36deg) rotateZ(-5deg) translateZ(67px) scale(0.65) translateX(-121px) translateY(51px);
+  -o-transform: rotateX(13deg) rotateY(36deg) rotateZ(-5deg) translateZ(67px) scale(0.65) translateX(-121px) translateY(51px);
+  transform: rotateX(13deg) rotateY(36deg) rotateZ(-5deg) translateZ(67px) scale(0.65) translateX(-121px) translateY(51px);
 }
-/* line 56, ../sass/partials/08-your-design-here/_design.sass */
+/* line 60, ../sass/partials/08-your-design-here/_design.sass */
 .csstransforms3d header h2, .csstransforms3d header h3 {
   font-size: 2em;
 }
-/* line 58, ../sass/partials/08-your-design-here/_design.sass */
+/* line 62, ../sass/partials/08-your-design-here/_design.sass */
 .csstransforms3d header h2 {
   -webkit-transform: rotateY(-28deg) rotateZ(1deg) translateX(3px) translateY(-26px) scale(0.8);
   -moz-transform: rotateY(-28deg) rotateZ(1deg) translateX(3px) translateY(-26px) scale(0.8);
@@ -1310,7 +1317,7 @@ header h3 {
   -o-transform: rotateY(-28deg) rotateZ(1deg) translateX(3px) translateY(-26px) scale(0.8);
   transform: rotateY(-28deg) rotateZ(1deg) translateX(3px) translateY(-26px) scale(0.8);
 }
-/* line 60, ../sass/partials/08-your-design-here/_design.sass */
+/* line 64, ../sass/partials/08-your-design-here/_design.sass */
 .csstransforms3d header h3 {
   -webkit-transform: rotateY(20deg) translateX(-10px) scale(0.7);
   -moz-transform: rotateY(20deg) translateX(-10px) scale(0.7);
@@ -1319,39 +1326,70 @@ header h3 {
   transform: rotateY(20deg) translateX(-10px) scale(0.7);
 }
 
-/* line 63, ../sass/partials/08-your-design-here/_design.sass */
+/* line 67, ../sass/partials/08-your-design-here/_design.sass */
 #page {
   position: relative;
 }
 
-/* line 65, ../sass/partials/08-your-design-here/_design.sass */
-.sass-robot {
-  float: right;
+/* line 70, ../sass/partials/08-your-design-here/_design.sass */
+#mc_embed_signup {
   position: relative;
-  width: 33%;
-  overflow: hidden;
-  margin-left: 1em;
-  margin-top: -90px;
-  max-height: 519px;
-}
-/* line 73, ../sass/partials/08-your-design-here/_design.sass */
-.sass-robot img {
-  position: relative;
-  max-width: 270%;
-  left: -105%;
+  z-index: 0;
+  margin-top: -5em;
+  background-image: url('/images/sass-robot.png?1339770585');
+  background-repeat: no-repeat;
+  background-position: top right;
+  min-height: 435px;
+  padding-top: 12em;
+  padding-right: 14em;
 }
 
-/* line 79, ../sass/partials/08-your-design-here/_design.sass */
+/* line 82, ../sass/partials/08-your-design-here/_design.sass */
+form[name=mc-embedded-subscribe-form] [type=email] {
+  display: block;
+  max-width: 100%;
+}
+/* line 85, ../sass/partials/08-your-design-here/_design.sass */
+form[name=mc-embedded-subscribe-form] [type=submit] {
+  float: right;
+}
+
+/* line 90, ../sass/partials/08-your-design-here/_design.sass */
 article > figure {
   width: 88px;
   float: left;
-  margin: 0 0.5em 0.5em -2em;
+  margin: 0 0.5em 0.5em 0em;
+  position: relative;
+  z-index: 1;
 }
-/* line 83, ../sass/partials/08-your-design-here/_design.sass */
+/* line 96, ../sass/partials/08-your-design-here/_design.sass */
 article > figure img {
   width: 100%;
 }
-/* line 85, ../sass/partials/08-your-design-here/_design.sass */
+/* line 98, ../sass/partials/08-your-design-here/_design.sass */
+article h3 {
+  background-color: rgba(242, 213, 242, 0.8);
+}
+/* line 100, ../sass/partials/08-your-design-here/_design.sass */
+.csstransforms article h3 {
+  -webkit-transform: skewX(15deg);
+  -moz-transform: skewX(15deg);
+  -ms-transform: skewX(15deg);
+  -o-transform: skewX(15deg);
+  transform: skewX(15deg);
+  position: relative;
+  z-index: 0;
+}
+/* line 104, ../sass/partials/08-your-design-here/_design.sass */
+.csstransforms article h3 b {
+  -webkit-transform: skewX(-15deg);
+  -moz-transform: skewX(-15deg);
+  -ms-transform: skewX(-15deg);
+  -o-transform: skewX(-15deg);
+  transform: skewX(-15deg);
+  display: block;
+}
+/* line 107, ../sass/partials/08-your-design-here/_design.sass */
 article p {
   clear: left;
 }
