@@ -1,6 +1,7 @@
 require 'survivalkit'
 require 'breakpoint'
 require 'susy'
+require 'sassy-buttons'
 # Require any additional compass plugins here.
 
 

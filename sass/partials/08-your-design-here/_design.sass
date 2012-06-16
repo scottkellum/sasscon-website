@@ -82,17 +82,17 @@ header
     repeat: no-repeat
     position: top right
   min-height: image-height("sass-robot.png")
-  margin-right: -44px
+  margin-right: -48px
   padding-top: 19em
-  padding-right: 128px
+  padding-right: 132px
   .csstransforms3d &
     +perspective(250)
     *
       +transform-style(preserve-3d)
-  +breakpoint($bp-not-phone)
-    margin-right: 0px
-    padding-top: 12em
-    padding-right: 14em
+  // +breakpoint($bp-not-phone)
+  //   margin-right: 0px
+  //   padding-top: 12em
+  //   padding-right: 14em
 form[name=mc-embedded-subscribe-form]
   [type=email]
     display: block
@@ -100,6 +100,7 @@ form[name=mc-embedded-subscribe-form]
     background-color: rgba($white, 0.9)
   [type=submit]
     float: right
+    +sassy-button("matte", 3px, $base-font-size, $pink-light, false, $not-white, "inset")
   .csstransforms3d &
     [type=email]
       +transform3d(rotateY(-23deg))

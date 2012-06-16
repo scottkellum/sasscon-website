@@ -1177,9 +1177,9 @@ header h1 {
   background-repeat: no-repeat;
   background-position: top right;
   min-height: 435px;
-  margin-right: -44px;
+  margin-right: -48px;
   padding-top: 19em;
-  padding-right: 128px;
+  padding-right: 132px;
 }
 .csstransforms3d #mc_embed_signup {
   -webkit-perspective: 250;
@@ -1195,13 +1195,6 @@ header h1 {
   -o-transform-style: preserve-3d;
   transform-style: preserve-3d;
 }
-@media screen and (min-width:  321px) {
-  #mc_embed_signup {
-    margin-right: 0px;
-    padding-top: 12em;
-    padding-right: 14em;
-  }
-}
 
 form[name=mc-embedded-subscribe-form] [type=email] {
   display: block;
@@ -1210,6 +1203,43 @@ form[name=mc-embedded-subscribe-form] [type=email] {
 }
 form[name=mc-embedded-subscribe-form] [type=submit] {
   float: right;
+  font-size: 16px;
+  padding: 0.3em 1.5em;
+  display: inline-block;
+  cursor: pointer;
+  line-height: 1.5;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  background-color: #e096e0;
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f1d1f1), color-stop(70%, #e096e0));
+  background: -webkit-linear-gradient(#f1d1f1, #e096e0 70%);
+  background: -moz-linear-gradient(#f1d1f1, #e096e0 70%);
+  background: -o-linear-gradient(#f1d1f1, #e096e0 70%);
+  background: -ms-linear-gradient(#f1d1f1, #e096e0 70%);
+  background: linear-gradient(#f1d1f1, #e096e0 70%);
+  -webkit-box-shadow: white 0 1px 0 inset;
+  -moz-box-shadow: white 0 1px 0 inset;
+  box-shadow: white 0 1px 0 inset;
+  border: 1px solid #da82da;
+  color: #f2f2f2;
+  text-shadow: #d369d3 0 -1px 0;
+}
+form[name=mc-embedded-subscribe-form] [type=submit]:hover {
+  background-color: #da82da;
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(3%, #ecbdec), color-stop(75%, #da82da));
+  background: -webkit-linear-gradient(#ecbdec 3%, #da82da 75%);
+  background: -moz-linear-gradient(#ecbdec 3%, #da82da 75%);
+  background: -o-linear-gradient(#ecbdec 3%, #da82da 75%);
+  background: -ms-linear-gradient(#ecbdec 3%, #da82da 75%);
+  background: linear-gradient(#ecbdec 3%, #da82da 75%);
+}
+form[name=mc-embedded-subscribe-form] [type=submit]:active {
+  -webkit-box-shadow: #d777d7 0 1px 2px inset;
+  -moz-box-shadow: #d777d7 0 1px 2px inset;
+  box-shadow: #d777d7 0 1px 2px inset;
 }
 .csstransforms3d form[name=mc-embedded-subscribe-form] [type=email] {
   -webkit-transform: rotateY(-23deg);
