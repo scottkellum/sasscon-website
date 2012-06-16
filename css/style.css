@@ -1058,8 +1058,9 @@ del {
 
 /* SITE-WIDE DESIGN -------------------------------------------------------------- */
 body {
-  background-image: linear-gradient(-55deg, rgba(242, 213, 242, 0.8) 12em, rgba(0, 0, 0, 0) 12em), linear-gradient(-60deg, rgba(236, 192, 236, 0.8) 12em, rgba(0, 0, 0, 0) 12em), linear-gradient(-65deg, rgba(230, 171, 230, 0.8) 12em, rgba(0, 0, 0, 0) 12em), linear-gradient(-70deg, rgba(245, 223, 245, 0.8) 12em, rgba(0, 0, 0, 0) 12em), repeating-linear-gradient(-50deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 13px, rgba(245, 223, 245, 0.8) 13px, rgba(245, 223, 245, 0.8) 26px);
+  background-image: repeating-linear-gradient(-50deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 13px, rgba(242, 213, 242, 0.5) 13px, rgba(242, 213, 242, 0.5) 26px);
   max-width: 488px;
+  max-width: 320px;
   margin: 0 auto;
   padding: 0 0.5em;
 }
@@ -1068,7 +1069,7 @@ body.survival-kit {
 }
 
 header {
-  margin-top: 1.625em;
+  padding-top: 1.625em;
   -webkit-backface-visibility: visible;
   -moz-backface-visibility: visible;
   -ms-backface-visibility: visible;
@@ -1076,6 +1077,7 @@ header {
   backface-visibility: visible;
   position: relative;
   z-index: 1;
+  background-image: linear-gradient(-55deg, rgba(242, 213, 242, 0.8) 12em, rgba(0, 0, 0, 0) 12em), linear-gradient(-60deg, rgba(236, 192, 236, 0.8) 12em, rgba(0, 0, 0, 0) 12em), linear-gradient(-65deg, rgba(230, 171, 230, 0.8) 12em, rgba(0, 0, 0, 0) 12em), linear-gradient(-70deg, rgba(245, 223, 245, 0.8) 12em, rgba(0, 0, 0, 0) 12em);
 }
 header hgroup {
   position: relative;
@@ -1097,7 +1099,6 @@ header h1 {
   padding-right: 0.125em;
   text-shadow: rgba(255, 255, 255, 0.9) 0.5px 1px 1px;
   position: relative;
-  left: 15px;
 }
 .no-csstransforms3d header h2 {
   position: relative;
@@ -1121,18 +1122,18 @@ header h1 {
   white-space: nowrap;
 }
 .csstransforms3d header h1 {
-  font-size: 6em;
+  font-size: 5.5em;
   text-transform: uppercase;
   -webkit-transform-origin: 33% 50%;
   -moz-transform-origin: 33% 50%;
   -ms-transform-origin: 33% 50%;
   -o-transform-origin: 33% 50%;
   transform-origin: 33% 50%;
-  -webkit-transform: rotateX(13deg) rotateY(36deg) rotateZ(-5deg) translateZ(67px) scale(0.6) translateX(-140px) translateY(51px);
-  -moz-transform: rotateX(13deg) rotateY(36deg) rotateZ(-5deg) translateZ(67px) scale(0.6) translateX(-140px) translateY(51px);
-  -ms-transform: rotateX(13deg) rotateY(36deg) rotateZ(-5deg) translateZ(67px) scale(0.6) translateX(-140px) translateY(51px);
-  -o-transform: rotateX(13deg) rotateY(36deg) rotateZ(-5deg) translateZ(67px) scale(0.6) translateX(-140px) translateY(51px);
-  transform: rotateX(13deg) rotateY(36deg) rotateZ(-5deg) translateZ(67px) scale(0.6) translateX(-140px) translateY(51px);
+  -webkit-transform: rotateX(13deg) rotateY(36deg) rotateZ(-5deg) translateZ(67px) scale(0.7) translateX(-63px) translateY(-1px);
+  -moz-transform: rotateX(13deg) rotateY(36deg) rotateZ(-5deg) translateZ(67px) scale(0.7) translateX(-63px) translateY(-1px);
+  -ms-transform: rotateX(13deg) rotateY(36deg) rotateZ(-5deg) translateZ(67px) scale(0.7) translateX(-63px) translateY(-1px);
+  -o-transform: rotateX(13deg) rotateY(36deg) rotateZ(-5deg) translateZ(67px) scale(0.7) translateX(-63px) translateY(-1px);
+  transform: rotateX(13deg) rotateY(36deg) rotateZ(-5deg) translateZ(67px) scale(0.7) translateX(-63px) translateY(-1px);
 }
 .csstransforms3d header h2, .csstransforms3d header h3 {
   font-size: 2em;
@@ -1143,11 +1144,11 @@ header h1 {
   -ms-transform-origin: 80% 50%;
   -o-transform-origin: 80% 50%;
   transform-origin: 80% 50%;
-  -webkit-transform: rotateY(-28deg) rotateZ(1deg) translateX(3px) translateY(-26px) scale(0.8);
-  -moz-transform: rotateY(-28deg) rotateZ(1deg) translateX(3px) translateY(-26px) scale(0.8);
-  -ms-transform: rotateY(-28deg) rotateZ(1deg) translateX(3px) translateY(-26px) scale(0.8);
-  -o-transform: rotateY(-28deg) rotateZ(1deg) translateX(3px) translateY(-26px) scale(0.8);
-  transform: rotateY(-28deg) rotateZ(1deg) translateX(3px) translateY(-26px) scale(0.8);
+  -webkit-transform: rotateY(-28deg) rotateZ(1deg) translateX(-26px) translateY(-26px) scale(0.8);
+  -moz-transform: rotateY(-28deg) rotateZ(1deg) translateX(-26px) translateY(-26px) scale(0.8);
+  -ms-transform: rotateY(-28deg) rotateZ(1deg) translateX(-26px) translateY(-26px) scale(0.8);
+  -o-transform: rotateY(-28deg) rotateZ(1deg) translateX(-26px) translateY(-26px) scale(0.8);
+  transform: rotateY(-28deg) rotateZ(1deg) translateX(-26px) translateY(-26px) scale(0.8);
 }
 .csstransforms3d header h3 {
   -webkit-transform-origin: 100% 50%;
@@ -1160,17 +1161,19 @@ header h1 {
   -ms-transform: rotateY(20deg) translateX(-10px) scale(0.7);
   -o-transform: rotateY(20deg) translateX(-10px) scale(0.7);
   transform: rotateY(20deg) translateX(-10px) scale(0.7);
+  margin-top: -1em;
 }
 
 #page {
   position: relative;
+  overflow: hidden;
+  margin-top: -5em;
 }
 
 #mc_embed_signup {
   position: relative;
   z-index: 0;
-  margin-top: -5em;
-  background-image: url('../images/sass-robot.png?1339770585');
+  background-image: url('../images/sass-robot.png?1339815907');
   background-repeat: no-repeat;
   background-position: top right;
   min-height: 435px;

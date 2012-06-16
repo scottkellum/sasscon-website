@@ -6,18 +6,24 @@ body
     +baseline-grid-background
   @else
     background:
-      image: linear-gradient(-55deg, $pink-trans-1 12em, $transparent 12em), linear-gradient(-60deg, $pink-trans-2 12em, $transparent 12em), linear-gradient(-65deg, $pink-trans-3 12em, $transparent 12em), linear-gradient(-70deg, $pink-trans-4 12em, $transparent 12em), repeating-linear-gradient(-50deg, $transparent, $transparent (26px / 2), $pink-trans-4 (26px / 2), $pink-trans-4 26px)
+      image: repeating-linear-gradient(-50deg, $transparent, $transparent (26px / 2), $pink-trans-6 (26px / 2), $pink-trans-6 26px)
+
+      // image: repeating-linear-gradient(-50deg, $transparent, $transparent (26px / 2), $pink-trans-4 (26px / 2), $pink-trans-4 26px), repeating-linear-gradient(-55deg, $transparent, $transparent (18px / 2), $pink-trans-6 (18px / 2), $pink-trans-6 18px)
+
   max-width: ms(15)
+  max-width: 320px
   margin: 0 auto
   padding: 0 0.5em
   &.survival-kit
     max-width: 95%
 
 header
-  +leader(1)
+  +padding-leader(1)
   +backface-visibility(visible)
   position: relative
   z-index: 1
+  background:
+    image: linear-gradient(-55deg, $pink-trans-1 12em, $transparent 12em), linear-gradient(-60deg, $pink-trans-2 12em, $transparent 12em), linear-gradient(-65deg, $pink-trans-3 12em, $transparent 12em), linear-gradient(-70deg, $pink-trans-4 12em, $transparent 12em)
   hgroup
     position: relative
   #{headings(3)}
@@ -38,7 +44,6 @@ header
     padding-right: 0.125em
     +text-shadow(rgba($white, 0.9) 0.5px 1px 1px)
     position: relative
-    left: 15px
   .no-csstransforms3d &
     h2
       position: relative
@@ -50,26 +55,28 @@ header
     #{headings(3)}
       white-space: nowrap
     h1
-      font-size: 6em
+      font-size: 5.5em
       text-transform: uppercase
       +apply-origin(33% 50%, false)
-      +transform3d(rotateX(13deg) rotateY(36deg) rotateZ(-5deg) translateZ(67px) scale(0.6) translateX(-140px) translateY(51px))
+      +transform3d(rotateX(13deg) rotateY(36deg) rotateZ(-5deg) translateZ(67px) scale(0.7) translateX(-63px) translateY(-1px))
     #{headings(2,3)}
       font-size: 2em
     h2
       +apply-origin(80% 50%, false)
-      +transform3d(rotateY(-28deg) rotateZ(1deg) translateX(3px) translateY(-26px) scale(0.8))
+      +transform3d(rotateY(-28deg) rotateZ(1deg) translateX(-26px) translateY(-26px) scale(0.8))
     h3
       +apply-origin(100% 50%, false)
       +transform3d(rotateY(20deg) translateX(-10px) scale(0.7))
+      margin-top: -1em
 
 #page
   position: relative
+  overflow: hidden
+  margin-top: -5em
 
 #mc_embed_signup
   position: relative
   z-index: 0
-  margin-top: -5em
   background:
     image: image-url("sass-robot.png")
     repeat: no-repeat
