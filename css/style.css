@@ -502,7 +502,7 @@ img, textarea, input[type=text], input[type=password], input[type=email], input[
   max-width: 100%;
 }
 
-em, address, h2, h3, cite, q, dfn, i {
+em, address, cite, q, dfn, i {
   font-style: italic;
 }
 
@@ -511,11 +511,11 @@ strong, h1, dfn, b {
 }
 
 header h1 {
-  color: #ce4dd6;
+  color: #eb5094;
 }
 
 header h2 b, header h3 b {
-  color: #fffb7b;
+  color: #fdf001;
 }
 
 header h2, header h3 {
@@ -527,7 +527,7 @@ pre, code, kbd, tt {
   _font-family: Consolas, Menlo, "Courier New", monospace, monospace;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, form[name=mc-embedded-subscribe-form] label, h5, h6 {
   font-family: futura-pt, sans-serif;
 }
 
@@ -559,7 +559,7 @@ html {
 
 body {
   font-family: sans-serif;
-  color: #333333;
+  color: #444444;
   background: #f2f2f2;
 }
 
@@ -576,42 +576,42 @@ body {
 /* Selected Text -------------------------------------------------------------- */
 /* -moz- must be declared separately */
 ::-moz-selection {
-  color: #333333;
-  background: #e096e0;
+  color: #444444;
+  background: #ec99b8;
   text-shadow: none;
 }
 
 ::selection {
-  color: #333333;
-  background: #e096e0;
+  color: #444444;
+  background: #ec99b8;
   text-shadow: none;
 }
 
 /* Links -------------------------------------------------------------- */
 a {
-  color: #e096e0;
+  color: #ec99b8;
 }
 a:visited {
-  color: #e096e0;
+  color: #ec99b8;
 }
 a:hover {
-  color: #96e096;
+  color: #99eccc;
 }
 a:active {
-  color: #96e096;
+  color: #99eccc;
 }
 a {
   text-decoration: none;
-  border-bottom: 1px solid #e096e0;
+  border-bottom: 1px solid #ec99b8;
 }
 a:visited {
-  border-bottom-color: #e096e0;
+  border-bottom-color: #ec99b8;
 }
 a:hover {
-  border-bottom-color: #96e096;
+  border-bottom-color: #99eccc;
 }
 a:active {
-  border-bottom-color: #96e096;
+  border-bottom-color: #99eccc;
 }
 
 p {
@@ -642,7 +642,7 @@ li ul {
 }
 
 /* Headings -------------------------------------------------------------- */
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, form[name=mc-embedded-subscribe-form] label, h5, h6 {
   text-rendering: optimizeLegibility;
 }
 
@@ -661,7 +661,7 @@ h3 {
   line-height: 2em;
 }
 
-h4 {
+h4, form[name=mc-embedded-subscribe-form] label {
   font-size: 1.625em;
   line-height: 2em;
 }
@@ -727,7 +727,7 @@ sub {
 
 mark {
   background: red;
-  background-color: rgba(255, 251, 123, 0.5);
+  background-color: rgba(253, 240, 1, 0.5);
   text-shadow: none;
 }
 
@@ -1058,11 +1058,7 @@ del {
 
 /* SITE-WIDE DESIGN -------------------------------------------------------------- */
 body {
-  background-image: repeating-linear-gradient(-50deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 13px, rgba(242, 213, 242, 0.5) 13px, rgba(242, 213, 242, 0.5) 26px);
-  max-width: 488px;
-  max-width: 320px;
-  margin: 0 auto;
-  padding: 0 0.5em;
+  background-image: repeating-linear-gradient(-50deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 13px, rgba(247, 214, 226, 0.5) 13px, rgba(247, 214, 226, 0.5) 26px);
 }
 body.survival-kit {
   max-width: 95%;
@@ -1077,7 +1073,9 @@ header {
   backface-visibility: visible;
   position: relative;
   z-index: 1;
-  background-image: linear-gradient(-55deg, rgba(242, 213, 242, 0.8) 12em, rgba(0, 0, 0, 0) 12em), linear-gradient(-60deg, rgba(236, 192, 236, 0.8) 12em, rgba(0, 0, 0, 0) 12em), linear-gradient(-65deg, rgba(230, 171, 230, 0.8) 12em, rgba(0, 0, 0, 0) 12em), linear-gradient(-70deg, rgba(245, 223, 245, 0.8) 12em, rgba(0, 0, 0, 0) 12em);
+  overflow: hidden;
+  min-height: 15.125em;
+  background-image: linear-gradient(-55deg, rgba(247, 214, 226, 0.8) 12em, rgba(0, 0, 0, 0) 12em), linear-gradient(-60deg, rgba(243, 193, 212, 0.8) 12em, rgba(0, 0, 0, 0) 12em), linear-gradient(-65deg, rgba(239, 173, 198, 0.8) 12em, rgba(0, 0, 0, 0) 12em), linear-gradient(-70deg, rgba(249, 224, 233, 0.8) 12em, rgba(0, 0, 0, 0) 12em);
 }
 header hgroup {
   position: relative;
@@ -1088,17 +1086,18 @@ header h1, header h2, header h3 {
   margin-top: 0;
   margin-bottom: 0;
 }
-header h2, header h3 {
-  text-shadow: rgba(51, 51, 51, 0.2) 0.5px 1px 1px;
-}
 header h2 b, header h3 b {
-  background-color: rgba(179, 179, 179, 0.6);
+  background-color: rgba(235, 80, 148, 0.8);
   padding: 0.125em;
 }
 header h1 {
-  padding-right: 0.125em;
-  text-shadow: rgba(255, 255, 255, 0.9) 0.5px 1px 1px;
+  text-shadow: rgba(68, 68, 68, 0.5) 0.5px 1px 1px;
+  text-transform: uppercase;
   position: relative;
+  font-size: 3.5em;
+}
+header h1 b {
+  background-color: #f2f2f2;
 }
 .no-csstransforms3d header h2 {
   position: relative;
@@ -1123,7 +1122,6 @@ header h1 {
 }
 .csstransforms3d header h1 {
   font-size: 5.5em;
-  text-transform: uppercase;
   -webkit-transform-origin: 33% 50%;
   -moz-transform-origin: 33% 50%;
   -ms-transform-origin: 33% 50%;
@@ -1135,8 +1133,14 @@ header h1 {
   -o-transform: rotateX(13deg) rotateY(36deg) rotateZ(-5deg) translateZ(67px) scale(0.7) translateX(-63px) translateY(-1px);
   transform: rotateX(13deg) rotateY(36deg) rotateZ(-5deg) translateZ(67px) scale(0.7) translateX(-63px) translateY(-1px);
 }
+.csstransforms3d header h1 b {
+  padding-right: 2em;
+}
 .csstransforms3d header h2, .csstransforms3d header h3 {
   font-size: 2em;
+}
+.csstransforms3d header h2 b, .csstransforms3d header h3 b {
+  padding-left: 0.6em;
 }
 .csstransforms3d header h2 {
   -webkit-transform-origin: 80% 50%;
@@ -1166,8 +1170,8 @@ header h1 {
 
 #page {
   position: relative;
-  overflow: hidden;
   margin-top: -5em;
+  padding: 0 0.5em;
 }
 
 #mc_embed_signup {
@@ -1175,25 +1179,11 @@ header h1 {
   z-index: 0;
   background-image: url('../images/sass-robot.png?1339815907');
   background-repeat: no-repeat;
-  background-position: top right;
+  background-position: 100px 0;
   min-height: 435px;
-  margin-right: -48px;
-  padding-top: 19em;
-  padding-right: 132px;
-}
-.csstransforms3d #mc_embed_signup {
-  -webkit-perspective: 250;
-  -moz-perspective: 250;
-  -ms-perspective: 250;
-  -o-perspective: 250;
-  perspective: 250;
-}
-.csstransforms3d #mc_embed_signup * {
-  -webkit-transform-style: preserve-3d;
-  -moz-transform-style: preserve-3d;
-  -ms-transform-style: preserve-3d;
-  -o-transform-style: preserve-3d;
-  transform-style: preserve-3d;
+  margin-right: -8px;
+  padding-top: 15em;
+  padding-right: 95px;
 }
 
 form[name=mc-embedded-subscribe-form] [type=email] {
@@ -1203,6 +1193,8 @@ form[name=mc-embedded-subscribe-form] [type=email] {
 }
 form[name=mc-embedded-subscribe-form] [type=submit] {
   float: right;
+  font-family: futura-pt, sans-serif;
+  text-transform: uppercase;
   font-size: 16px;
   padding: 0.3em 1.5em;
   display: inline-block;
@@ -1213,49 +1205,39 @@ form[name=mc-embedded-subscribe-form] [type=submit] {
   -ms-border-radius: 3px;
   -o-border-radius: 3px;
   border-radius: 3px;
-  background-color: #e096e0;
-  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f1d1f1), color-stop(70%, #e096e0));
-  background: -webkit-linear-gradient(#f1d1f1, #e096e0 70%);
-  background: -moz-linear-gradient(#f1d1f1, #e096e0 70%);
-  background: -o-linear-gradient(#f1d1f1, #e096e0 70%);
-  background: -ms-linear-gradient(#f1d1f1, #e096e0 70%);
-  background: linear-gradient(#f1d1f1, #e096e0 70%);
-  -webkit-box-shadow: white 0 1px 0 inset;
-  -moz-box-shadow: white 0 1px 0 inset;
-  box-shadow: white 0 1px 0 inset;
-  border: 1px solid #da82da;
+  background-color: #eb5094;
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f395be), color-stop(70%, #eb5094));
+  background: -webkit-linear-gradient(#f395be, #eb5094 70%);
+  background: -moz-linear-gradient(#f395be, #eb5094 70%);
+  background: -o-linear-gradient(#f395be, #eb5094 70%);
+  background: -ms-linear-gradient(#f395be, #eb5094 70%);
+  background: linear-gradient(#f395be, #eb5094 70%);
+  -webkit-box-shadow: #fbd9e8 0 1px 0 inset;
+  -moz-box-shadow: #fbd9e8 0 1px 0 inset;
+  box-shadow: #fbd9e8 0 1px 0 inset;
+  border: 1px solid #e83986;
   color: #f2f2f2;
-  text-shadow: #d369d3 0 -1px 0;
+  text-shadow: #e51b74 0 -1px 0;
 }
 form[name=mc-embedded-subscribe-form] [type=submit]:hover {
-  background-color: #da82da;
-  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(3%, #ecbdec), color-stop(75%, #da82da));
-  background: -webkit-linear-gradient(#ecbdec 3%, #da82da 75%);
-  background: -moz-linear-gradient(#ecbdec 3%, #da82da 75%);
-  background: -o-linear-gradient(#ecbdec 3%, #da82da 75%);
-  background: -ms-linear-gradient(#ecbdec 3%, #da82da 75%);
-  background: linear-gradient(#ecbdec 3%, #da82da 75%);
+  background-color: #e83986;
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(3%, #f07eb0), color-stop(75%, #e83986));
+  background: -webkit-linear-gradient(#f07eb0 3%, #e83986 75%);
+  background: -moz-linear-gradient(#f07eb0 3%, #e83986 75%);
+  background: -o-linear-gradient(#f07eb0 3%, #e83986 75%);
+  background: -ms-linear-gradient(#f07eb0 3%, #e83986 75%);
+  background: linear-gradient(#f07eb0 3%, #e83986 75%);
 }
 form[name=mc-embedded-subscribe-form] [type=submit]:active {
-  -webkit-box-shadow: #d777d7 0 1px 2px inset;
-  -moz-box-shadow: #d777d7 0 1px 2px inset;
-  box-shadow: #d777d7 0 1px 2px inset;
-}
-.csstransforms3d form[name=mc-embedded-subscribe-form] [type=email] {
-  -webkit-transform: rotateY(-23deg);
-  -moz-transform: rotateY(-23deg);
-  -ms-transform: rotateY(-23deg);
-  -o-transform: rotateY(-23deg);
-  transform: rotateY(-23deg);
-  -webkit-box-shadow: rgba(51, 51, 51, 0.1) 16px 4px 6px;
-  -moz-box-shadow: rgba(51, 51, 51, 0.1) 16px 4px 6px;
-  box-shadow: rgba(51, 51, 51, 0.1) 16px 4px 6px;
+  -webkit-box-shadow: #e72b7e 0 1px 2px inset;
+  -moz-box-shadow: #e72b7e 0 1px 2px inset;
+  box-shadow: #e72b7e 0 1px 2px inset;
 }
 
 article > figure {
   width: 88px;
   float: left;
-  margin: 0 0.5em 0.5em 0em;
+  margin: -1em 0.5em 0.5em 0em;
   position: relative;
   z-index: 1;
 }
@@ -1263,24 +1245,9 @@ article > figure img {
   width: 100%;
 }
 article h3 {
-  background-color: rgba(242, 213, 242, 0.8);
-}
-.csstransforms article h3 {
-  -webkit-transform: skewX(15deg);
-  -moz-transform: skewX(15deg);
-  -ms-transform: skewX(15deg);
-  -o-transform: skewX(15deg);
-  transform: skewX(15deg);
-  position: relative;
-  z-index: 0;
-}
-.csstransforms article h3 b {
-  -webkit-transform: skewX(-15deg);
-  -moz-transform: skewX(-15deg);
-  -ms-transform: skewX(-15deg);
-  -o-transform: skewX(-15deg);
-  transform: skewX(-15deg);
-  display: block;
+  margin: 0 -8px;
+  background-color: rgba(247, 214, 226, 0.8);
+  background-image: linear-gradient(-230deg, rgba(0, 0, 0, 0) 45px, rgba(235, 80, 148, 0.8) 45px);
 }
 article p {
   clear: left;

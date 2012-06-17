@@ -20,7 +20,7 @@ var flickrbombAPIkey = '66b5c17019403c96779e8fe88d5b576d',  //your Flickr API ke
 	5: Attribution-ShareAlike License http://creativecommons.org/licenses/by-sa/2.0/
 	7: No known copyright restrictions http://www.flickr.com/commons/usage/
 	8: United States Government Work http://www.usa.gov/copyright.shtml
-	
+
 	ex. flickrbombLicenseTypes = '5,7,8';
 */
 	flickrbombLicenseTypes = '';
@@ -149,9 +149,9 @@ var flickrbombAPIkey = '66b5c17019403c96779e8fe88d5b576d',  //your Flickr API ke
 	        tagName: "div",
 
 	        className: "flickrbombContainer",
-	
+
 			lock: false,
-			
+
 	        template: _.template('<div id="<%= this.image.id.replace(" ","") %>" class="flickrbombWrapper"><img class="flickrbomb" src="" /><a href="#" title="Setup" class="setupIcon"></a></div><div class="flickrbombFlyout"><div class="content"><a href="#" title="Previous Page" class="prev">&#9664;</a><a href="#" title="Next Page" class="next">&#9654;</a></div></div>'),
 
 	        initialize: function (options) {
@@ -243,10 +243,10 @@ var flickrbombAPIkey = '66b5c17019403c96779e8fe88d5b576d',  //your Flickr API ke
 	          this.toggleFlyout();
 	        },
 
-	        toggleFlyout: function (event) {			
+	        toggleFlyout: function (event) {
 	          this.$('.flickrbombFlyout').toggle();
 	        },
-			
+
 	        selectImage: function (event) {
 	          event.preventDefault();
 
@@ -278,7 +278,7 @@ var flickrbombAPIkey = '66b5c17019403c96779e8fe88d5b576d',  //your Flickr API ke
 
 	        resize: function () {
 	          this.$('div.flickrbombWrapper').css({
-	              width: this.width() + 'px', 
+	              width: this.width() + 'px',
 	              height: this.height() + 'px'
 	          });
 	        },
@@ -297,7 +297,7 @@ var flickrbombAPIkey = '66b5c17019403c96779e8fe88d5b576d',  //your Flickr API ke
 	    var imageView = new ImageView({img: img});
 	    img.replaceWith(imageView.render().el);
 	  });
-	
+
 	  $('body').click(function(event) {
 	    if (!$(event.target).closest('.setupIcon').length && !$(event.target).closest('.flickrbombFlyout').length) {
 	      $('.flickrbombFlyout').hide();

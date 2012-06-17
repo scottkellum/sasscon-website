@@ -1,10 +1,15 @@
 // Project Colors
-$pink: #ce4dd6
-$pink-light: #e096e0
-$yellow: #fffb7b
-$dark-gray: #333333
+// $pink: #ce4dd6
+$pink: #e46ee3
+$pink: #ea4c88
+$pink: #eb5094
+$pink-light: scale-color(adjust-hue($pink, 3.504deg), $saturation: -13.021%, $lightness: 37.9%)
+// $yellow: #fffb7b
+$yellow: #fdf001
+$dark-gray: #444444
 $light-gray: #b3b3b3
 $not-white: shade($white, 5%)
+
 
 $pink-trans-1: rgba(tint($pink-light, 60%), 0.8)
 $pink-trans-2: rgba(tint($pink-light, 40%), 0.8)
@@ -12,11 +17,15 @@ $pink-trans-3: rgba(tint($pink-light, 20%), 0.8)
 $pink-trans-4: rgba(tint($pink-light, 70%), 0.8)
 $pink-trans-5: rgba($pink-light, 0.5)
 $pink-trans-6: rgba(tint($pink-light, 60%), 0.5)
+$pink-trans-7: rgba($pink, 0.8)
 $gray-trans-1: rgba($light-gray, 0.6)
 $gray-trans-2: rgba($light-gray, 0.4)
 $yellow-trans: rgba(tint($yellow, 20%), 0.4)
 $dark-gray-trans: rgba($dark-gray, 0.1)
+$dark-gray-trans-1: rgba($dark-gray, 0.6)
 
+// @debug hack-colors($pink $pink-light)
+// @debug hack-colors(rgba($gray-trans-1, 1) rgba(hsla(0, 0%, 35%, 0.6), 1))
 
 
 // DEFAULT COLORS

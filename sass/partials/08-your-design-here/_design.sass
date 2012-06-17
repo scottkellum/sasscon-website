@@ -1,6 +1,10 @@
 // Create the design for your site below
 /* SITE-WIDE DESIGN --------------------------------------------------------------
 
+//
+  *
+    outline: 1px dashed $badass
+
 body
   @if $show-baseline == true
     +baseline-grid-background
@@ -10,10 +14,10 @@ body
 
       // image: repeating-linear-gradient(-50deg, $transparent, $transparent (26px / 2), $pink-trans-4 (26px / 2), $pink-trans-4 26px), repeating-linear-gradient(-55deg, $transparent, $transparent (18px / 2), $pink-trans-6 (18px / 2), $pink-trans-6 18px)
 
-  max-width: ms(15)
-  max-width: 320px
-  margin: 0 auto
-  padding: 0 0.5em
+  // max-width: ms(15)
+  // max-width: 320px
+  // margin: 0 auto
+  // overflow: hidden
   &.survival-kit
     max-width: 95%
 
@@ -22,6 +26,8 @@ header
   +backface-visibility(visible)
   position: relative
   z-index: 1
+  overflow: hidden
+  min-height: calc-em(242px, $base-font-size)
   background:
     image: linear-gradient(-55deg, $pink-trans-1 12em, $transparent 12em), linear-gradient(-60deg, $pink-trans-2 12em, $transparent 12em), linear-gradient(-65deg, $pink-trans-3 12em, $transparent 12em), linear-gradient(-70deg, $pink-trans-4 12em, $transparent 12em)
   hgroup
@@ -34,16 +40,22 @@ header
   #{headings(2,3)}
     @extend %text-right
     @extend %white
-    +text-shadow(rgba($dark-gray, 0.2) 0.5px 1px 1px)
+    // +text-shadow(rgba($dark-gray, 0.2) 0.5px 1px 1px)
+    // +text-shadow(rgba($dark-gray, 0.5) 0.5px 1px 1px)
+    // +text-shadow($pink 0.5px 1px 1px)
     b
-      background-color: $gray-trans-1
+      background-color: $pink-trans-7
       @extend %yellow
       padding: 0.125em
   h1
     @extend %pink
-    padding-right: 0.125em
-    +text-shadow(rgba($white, 0.9) 0.5px 1px 1px)
+    // padding-right: 0.125em
+    +text-shadow(rgba($dark-gray, 0.5) 0.5px 1px 1px)
+    text-transform: uppercase
     position: relative
+    font-size: 3.5em
+    b
+      background-color: $not-white
   .no-csstransforms3d &
     h2
       position: relative
@@ -56,11 +68,14 @@ header
       white-space: nowrap
     h1
       font-size: 5.5em
-      text-transform: uppercase
       +apply-origin(33% 50%, false)
       +transform3d(rotateX(13deg) rotateY(36deg) rotateZ(-5deg) translateZ(67px) scale(0.7) translateX(-63px) translateY(-1px))
+      b
+        padding-right: 2em
     #{headings(2,3)}
       font-size: 2em
+      b
+        padding-left: 0.6em
     h2
       +apply-origin(80% 50%, false)
       +transform3d(rotateY(-28deg) rotateZ(1deg) translateX(-26px) translateY(-26px) scale(0.8))
@@ -68,11 +83,10 @@ header
       +apply-origin(100% 50%, false)
       +transform3d(rotateY(20deg) translateX(-10px) scale(0.7))
       margin-top: -1em
-
 #page
   position: relative
-  overflow: hidden
   margin-top: -5em
+  padding: 0 0.5em
 
 #mc_embed_signup
   position: relative
@@ -80,51 +94,38 @@ header
   background:
     image: image-url("sass-robot.png")
     repeat: no-repeat
-    position: top right
+    position: 100px 0
   min-height: image-height("sass-robot.png")
-  margin-right: -48px
-  padding-top: 19em
-  padding-right: 132px
-  .csstransforms3d &
-    +perspective(250)
-    *
-      +transform-style(preserve-3d)
-  // +breakpoint($bp-not-phone)
-  //   margin-right: 0px
-  //   padding-top: 12em
-  //   padding-right: 14em
+  margin-right: -8px
+  padding-top: 15em
+  padding-right: 95px
 form[name=mc-embedded-subscribe-form]
+  label
+    @extend %h4
   [type=email]
     display: block
     max-width: 100%
     background-color: rgba($white, 0.9)
   [type=submit]
     float: right
-    +sassy-button("matte", 3px, $base-font-size, $pink-light, false, $not-white, "inset")
-  .csstransforms3d &
-    [type=email]
-      +transform3d(rotateY(-23deg))
-      +box-shadow($dark-gray-trans 16px 4px 6px)
-
+    font-family: $font-headline
+    text-transform: uppercase
+    +sassy-button("matte", 3px, $base-font-size, $pink, false, $not-white, "inset")
 
 article
   > figure
     width: 88px
     float: left
-    margin: 0 0.5em 0.5em 0em
+    margin: -1em 0.5em 0.5em 0em
     position: relative
     z-index: 1
     img
       width: 100%
   h3
-    background-color: $pink-trans-1
-    .csstransforms &
-      +transform(skewX(15deg))
-      position: relative
-      z-index: 0
-      b
-        +transform(skewX(-15deg))
-        display: block
+    margin: 0 -8px
+    background:
+      color: $pink-trans-1
+      image: linear-gradient(-230deg, $transparent 45px, $pink-trans-7 45px)
   p
     clear: left
 
