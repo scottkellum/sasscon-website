@@ -647,8 +647,8 @@ h1, h2, h3, h4, form[name=mc-embedded-subscribe-form] label, h5, h6 {
 }
 
 h1 {
-  font-size: 4.25em;
-  line-height: 1.147em;
+  font-size: 2.625em;
+  line-height: 1.238em;
 }
 
 h2 {
@@ -1091,6 +1091,8 @@ header h2 b, header h3 b {
   padding: 0.125em;
 }
 header h1 {
+  font-size: 4.25em;
+  line-height: 1.147em;
   text-shadow: rgba(68, 68, 68, 0.5) 0.5px 1px 1px;
   text-transform: uppercase;
   position: relative;
@@ -1148,11 +1150,11 @@ header h1 b {
   -ms-transform-origin: 80% 50%;
   -o-transform-origin: 80% 50%;
   transform-origin: 80% 50%;
-  -webkit-transform: rotateY(-28deg) rotateZ(1deg) translateX(-26px) translateY(-26px) scale(0.8);
-  -moz-transform: rotateY(-28deg) rotateZ(1deg) translateX(-26px) translateY(-26px) scale(0.8);
-  -ms-transform: rotateY(-28deg) rotateZ(1deg) translateX(-26px) translateY(-26px) scale(0.8);
-  -o-transform: rotateY(-28deg) rotateZ(1deg) translateX(-26px) translateY(-26px) scale(0.8);
-  transform: rotateY(-28deg) rotateZ(1deg) translateX(-26px) translateY(-26px) scale(0.8);
+  -webkit-transform: rotateY(-28deg) rotateZ(1deg) translateX(-100px) translateY(-26px) scale(0.8);
+  -moz-transform: rotateY(-28deg) rotateZ(1deg) translateX(-100px) translateY(-26px) scale(0.8);
+  -ms-transform: rotateY(-28deg) rotateZ(1deg) translateX(-100px) translateY(-26px) scale(0.8);
+  -o-transform: rotateY(-28deg) rotateZ(1deg) translateX(-100px) translateY(-26px) scale(0.8);
+  transform: rotateY(-28deg) rotateZ(1deg) translateX(-100px) translateY(-26px) scale(0.8);
 }
 .csstransforms3d header h3 {
   -webkit-transform-origin: 100% 50%;
@@ -1160,15 +1162,15 @@ header h1 b {
   -ms-transform-origin: 100% 50%;
   -o-transform-origin: 100% 50%;
   transform-origin: 100% 50%;
-  -webkit-transform: rotateY(20deg) translateX(-10px) scale(0.7);
-  -moz-transform: rotateY(20deg) translateX(-10px) scale(0.7);
-  -ms-transform: rotateY(20deg) translateX(-10px) scale(0.7);
-  -o-transform: rotateY(20deg) translateX(-10px) scale(0.7);
-  transform: rotateY(20deg) translateX(-10px) scale(0.7);
+  -webkit-transform: rotateY(20deg) translateX(-21px) scale(0.7);
+  -moz-transform: rotateY(20deg) translateX(-21px) scale(0.7);
+  -ms-transform: rotateY(20deg) translateX(-21px) scale(0.7);
+  -o-transform: rotateY(20deg) translateX(-21px) scale(0.7);
+  transform: rotateY(20deg) translateX(-21px) scale(0.7);
   margin-top: -1em;
 }
 
-#page {
+#all-content {
   position: relative;
   margin-top: -5em;
   padding: 0 0.5em;
@@ -1177,10 +1179,10 @@ header h1 b {
 #mc_embed_signup {
   position: relative;
   z-index: 0;
-  background-image: url('../images/sass-robot.png?1339913284');
+  background-image: url('../images/sass-robot.png?1339997682');
   background-repeat: no-repeat;
   background-position: 100px 0;
-  min-height: 435px;
+  min-height: 500px;
   margin-right: -8px;
   padding-top: 15em;
   padding-right: 95px;
@@ -1234,20 +1236,28 @@ form[name=mc-embedded-subscribe-form] [type=submit]:active {
   box-shadow: #e72b7e 0 1px 2px inset;
 }
 
-article > figure {
+.icon {
   width: 88px;
-  float: left;
-  margin: -1em 0.5em 0.5em 0em;
+  margin: 0 auto;
   position: relative;
   z-index: 1;
 }
-article > figure img {
+.icon img {
   width: 100%;
 }
+.learn .icon {
+  margin-bottom: -2.625em;
+}
+.build .icon {
+  margin-bottom: -2.625em;
+}
+.share .icon {
+  margin-bottom: -1.75em;
+}
+
 article h3 {
   margin: 0 -8px;
-  background-color: rgba(247, 214, 226, 0.8);
-  background-image: linear-gradient(-230deg, rgba(0, 0, 0, 0) 45px, rgba(235, 80, 148, 0.8) 45px);
+  background-image: linear-gradient(-165deg, rgba(0, 0, 0, 0) 16px, rgba(235, 80, 148, 0.8) 16px);
 }
 article p {
   clear: left;

@@ -11,10 +11,6 @@ body
   @else
     background:
       image: repeating-linear-gradient(0deg, $transparent, $transparent 1em, $gray-trans-3 1em, $gray-trans-3 1.1em)
-  // max-width: ms(15)
-  // max-width: 320px
-  // margin: 0 auto
-  // overflow: hidden
   &.survival-kit
     max-width: 95%
 
@@ -37,14 +33,12 @@ header
   #{headings(2,3)}
     @extend %text-right
     @extend %white
-    // +text-shadow(rgba($dark-gray, 0.2) 0.5px 1px 1px)
-    // +text-shadow(rgba($dark-gray, 0.5) 0.5px 1px 1px)
-    // +text-shadow($pink 0.5px 1px 1px)
     b
       background-color: $pink-trans-7
       @extend %yellow
       padding: 0.125em
   h1
+    +adjust-font-size-to(ms(6),3)
     @extend %pink
     // padding-right: 0.125em
     +text-shadow(rgba($dark-gray, 0.5) 0.5px 1px 1px)
@@ -75,12 +69,12 @@ header
         padding-left: 0.6em
     h2
       +apply-origin(80% 50%, false)
-      +transform3d(rotateY(-28deg) rotateZ(1deg) translateX(-26px) translateY(-26px) scale(0.8))
+      +transform3d(rotateY(-28deg) rotateZ(1deg) translateX(-100px) translateY(-26px) scale(0.8))
     h3
       +apply-origin(100% 50%, false)
-      +transform3d(rotateY(20deg) translateX(-10px) scale(0.7))
+      +transform3d(rotateY(20deg) translateX(-21px) scale(0.7))
       margin-top: -1em
-#page
+#all-content
   position: relative
   margin-top: -5em
   padding: 0 0.5em
@@ -109,20 +103,24 @@ form[name=mc-embedded-subscribe-form]
     text-transform: uppercase
     +sassy-button("matte", 3px, $base-font-size, $pink, false, $not-white, "inset")
 
+.icon
+  width: 88px
+  margin: 0 auto
+  position: relative
+  z-index: 1
+  img
+    width: 100%
+  .learn &
+    margin-bottom: calc-em(-42px, $base-font-size)
+  .build &
+    margin-bottom: calc-em(-42px, $base-font-size)
+  .share &
+    margin-bottom: calc-em(-28px, $base-font-size)
 article
-  > figure
-    width: 88px
-    float: left
-    margin: -1em 0.5em 0.5em 0em
-    position: relative
-    z-index: 1
-    img
-      width: 100%
   h3
     margin: 0 -8px
     background:
-      color: $pink-trans-1
-      image: linear-gradient(-230deg, $transparent 45px, $pink-trans-7 45px)
+      image: linear-gradient(-165deg, $transparent ms(0), $pink-trans-7 ms(0))
   p
     clear: left
 
