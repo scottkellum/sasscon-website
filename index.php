@@ -132,32 +132,32 @@
       <section class="speakers">
         <h3><b>Speakers</b></h3>
         <article class="speaker">
-          <img src="/images/speaker1.png" alt="" width="320" height="320" class="headshot">
+          <img src="/images/speaker1.jpg" alt="" width="320" height="320" class="headshot">
           <h1>Robbie Bot</h1>
           <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.</p>
         </article>
         <article class="speaker">
-          <img src="/images/speaker2.png" alt="" width="320" height="320" class="headshot">
+          <img src="/images/speaker2.jpg" alt="" width="320" height="320" class="headshot">
           <h1>Andy Bot</h1>
           <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.</p>
         </article>
         <article class="speaker">
-          <img src="/images/speaker3.png" alt="" width="320" height="320" class="headshot">
+          <img src="/images/speaker3.jpg" alt="" width="320" height="320" class="headshot">
           <h1>R2D2 Bot</h1>
           <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.</p>
         </article>
         <article class="speaker">
-          <img src="/images/speaker4.png" alt="" width="320" height="320" class="headshot">
+          <img src="/images/speaker4.jpg" alt="" width="320" height="320" class="headshot">
           <h1>Rosie Bot</h1>
           <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.</p>
         </article>
         <article class="speaker">
-          <img src="/images/speaker5.png" alt="" width="320" height="320" class="headshot">
+          <img src="/images/sammyj.jpg" alt="" width="320" height="320" class="headshot">
           <h1>Beep Bot</h1>
           <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.</p>
         </article>
         <article class="speaker">
-          <img src="/images/speaker6.png" alt="" width="320" height="320" class="headshot">
+          <img src="/images/speaker6.jpg" alt="" width="320" height="320" class="headshot">
           <h1>Blorp Bot</h1>
           <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.</p>
         </article>

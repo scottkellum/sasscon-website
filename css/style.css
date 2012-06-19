@@ -1211,6 +1211,11 @@ header h1 b {
     padding-right: 48%;
   }
 }
+@media screen and (min-width:  28.75em) {
+  #mc_embed_signup {
+    padding-right: 51%;
+  }
+}
 @media screen and (min-width:  30.063em) {
   #mc_embed_signup {
     padding-right: 0;
