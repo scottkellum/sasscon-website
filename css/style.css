@@ -683,11 +683,11 @@ img {
 }
 img.left {
   float: left;
-  margin: 13px 26px 13px 0;
+  margin: 13px 1.625em 13px 0;
 }
 img.right {
   float: right;
-  margin: 13px 0 13px 26px;
+  margin: 13px 0 13px 1.625em;
 }
 
 small {
@@ -1019,7 +1019,7 @@ textarea, input[type=text], input[type=password], input[type=email], input[type=
   padding: 0.344em;
   border-width: 1px;
   margin-bottom: 0.813em;
-  width: 306px;
+  width: 23.75em;
   margin-top: 0;
   border-color: #b3b3b3;
   height: 2.438em;
@@ -1037,7 +1037,7 @@ input[type=search]::-webkit-search-decoration {
 }
 
 textarea {
-  width: 306px;
+  width: 23.75em;
 }
 
 input[type="radio"], input[type="checkbox"] {
@@ -1080,6 +1080,12 @@ header {
 header hgroup {
   position: relative;
 }
+@media screen and (min-width:  43.75em) {
+  header hgroup {
+    width: 43.75em;
+    margin: 0 auto;
+  }
+}
 header h1, header h2, header h3 {
   position: relative;
   font-family: futura-pt, sans-serif;
@@ -1111,6 +1117,15 @@ header h1 b {
   -ms-perspective: 500;
   -o-perspective: 500;
   perspective: 500;
+}
+@media screen and (min-width:  30.063em) {
+  .csstransforms3d header {
+    -webkit-perspective: 700;
+    -moz-perspective: 700;
+    -ms-perspective: 700;
+    -o-perspective: 700;
+    perspective: 700;
+  }
 }
 .csstransforms3d header * {
   -webkit-transform-style: preserve-3d;
@@ -1191,6 +1206,22 @@ header h1 b {
   padding-top: 15em;
   padding-right: 95px;
 }
+@media screen and (min-width:  20.063em) {
+  #mc_embed_signup {
+    padding-right: 48%;
+  }
+}
+@media screen and (min-width:  30.063em) {
+  #mc_embed_signup {
+    padding-right: 0;
+    background-position: top right;
+    margin: 0 auto;
+    max-width: 30.063em;
+  }
+  #mc_embed_signup form[name=mc-embedded-subscribe-form] {
+    max-width: 52%;
+  }
+}
 
 form[name=mc-embedded-subscribe-form] [type=email] {
   display: block;
@@ -1246,6 +1277,11 @@ form[name=mc-embedded-subscribe-form] [type=submit]:active {
   position: relative;
   z-index: 1;
 }
+@media screen and (min-width:  30.063em) {
+  .icon {
+    margin-left: 3em;
+  }
+}
 .icon img {
   width: 100%;
 }
@@ -1259,12 +1295,12 @@ form[name=mc-embedded-subscribe-form] [type=submit]:active {
   margin-bottom: -1.75em;
 }
 
-article h3 {
+article.point h3 {
   margin: 0 -8px;
   padding-left: 8px;
   background-image: linear-gradient(-165deg, rgba(0, 0, 0, 0) 16px, rgba(235, 80, 148, 0.8) 16px);
 }
-article p {
+article.point p {
   clear: left;
 }
 
@@ -1302,4 +1338,118 @@ article p {
 }
 .csstransforms3d .speaker h1 {
   text-align: center;
+}
+
+@media (min-width: 30.063em) {
+  .points {
+    *zoom: 1;
+    max-width: 49.125em;
+    _width: 49.125em;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .points:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .points .point {
+    width: 48.909%;
+    float: left;
+    margin-right: 2.181%;
+    display: inline;
+  }
+  .points .point:nth-of-type(even) {
+    float: right;
+    margin-right: 0;
+    #margin-left: -1.625em;
+    display: inline;
+  }
+
+  .speakers {
+    *zoom: 1;
+    max-width: 49.125em;
+    _width: 49.125em;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .speakers:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .speakers .speaker {
+    width: 31.879%;
+    float: left;
+    margin-right: 2.181%;
+    display: inline;
+  }
+  .speakers .speaker:nth-of-type(3n+3) {
+    float: right;
+    margin-right: 0;
+    #margin-left: -1.625em;
+    display: inline;
+  }
+  .speakers .speaker:nth-of-type(3n+4) {
+    clear: both;
+  }
+}
+@media (min-width: 62.5em) {
+  #all-content {
+    *zoom: 1;
+    max-width: 49.125em;
+    _width: 49.125em;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  #all-content:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  #all-content #mc_embed_signup {
+    width: 58.948%;
+    float: right;
+    margin-right: 0;
+    #margin-left: -1.625em;
+    display: inline;
+  }
+  #all-content .points {
+    *zoom: 1;
+    max-width: 49.125em;
+    _width: 49.125em;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  #all-content .points:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  #all-content .points .point {
+    width: 38.423%;
+    float: left;
+    margin-right: 2.629%;
+    display: inline;
+  }
+  #all-content .points .point:first-child {
+    margin-top: 8.125em;
+  }
+  #all-content .points .point:nth-of-type(2n+2) {
+    clear: both;
+  }
+  #all-content .points .point:nth-of-type(3n+3) {
+    float: right;
+    margin-right: 0;
+    #margin-left: -1.625em;
+    display: inline;
+  }
 }

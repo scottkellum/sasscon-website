@@ -11,7 +11,7 @@ body
   @else
     background:
       // image: repeating-linear-gradient(0deg, $transparent, $transparent $base-font-size, $gray-trans-3 $base-font-size, $gray-trans-3 ($base-font-size + 1))
-      // use a png instead of the gradient because of weird chrome and ios rendering
+      // *** use a png instead of the gradient because of weird chrome and ios rendering
       image: image-url("stripe-bg.png")
   &.survival-kit
     max-width: 95%
@@ -30,6 +30,9 @@ header
     image: linear-gradient(-55deg, $pink-trans-1 12em, $transparent 12em), linear-gradient(-60deg, $pink-trans-2 12em, $transparent 12em), linear-gradient(-65deg, $pink-trans-3 12em, $transparent 12em), linear-gradient(-70deg, $pink-trans-4 12em, $transparent 12em)
   hgroup
     position: relative
+    +breakpoint($bp-header-max)
+      width: $bp-header-max
+      margin: 0 auto
   #{headings(3)}
     position: relative
     font-family: $font-logo
@@ -58,6 +61,8 @@ header
       top: -20px
   .csstransforms3d &
     +perspective(500)
+    +breakpoint($bp-whole-robot)
+      +perspective(700)
     *
       +transform-style(preserve-3d)
     #{headings(3)}
@@ -103,6 +108,15 @@ header
   margin-right: -8px
   padding-top: 15em
   padding-right: 95px
+  +breakpoint($bp-not-phone-portrait)
+    padding-right: 48%
+  +breakpoint($bp-whole-robot)
+    padding-right: 0
+    background-position: top right
+    margin: 0 auto
+    max-width: $bp-whole-robot
+    form[name=mc-embedded-subscribe-form]
+      max-width: 52%
 form[name=mc-embedded-subscribe-form]
   label
     @extend %h4
@@ -124,6 +138,8 @@ form[name=mc-embedded-subscribe-form]
   margin: 0 auto
   position: relative
   z-index: 1
+  +breakpoint($bp-whole-robot)
+    margin-left: 3em
   img
     width: 100%
   .learn &
@@ -136,7 +152,7 @@ form[name=mc-embedded-subscribe-form]
 ////////////////////////////
 // section articles
 ////////////////////////////
-article
+article.point
   h3
     margin: 0 -8px
     padding-left: 8px
@@ -144,6 +160,7 @@ article
       image: linear-gradient(-165deg, $transparent ms(0), $pink-trans-5 ms(0))
   p
     clear: left
+
 
 ////////////////////////////
 // speaker bios
@@ -162,3 +179,41 @@ article
       +transform3d(rotateX(-10deg) scale(0.9))
     h1
       text-align: center
+
+
+
+////////////////////////////
+// layout changes
+////////////////////////////
++at-breakpoint($susy-six-col)
+  .points
+    +container
+    .point
+      +span-columns(3, 6)
+      &:nth-of-type(even)
+        +omega
+  .speakers
+    +container
+    .speaker
+      +span-columns(2, 6)
+      &:nth-of-type(3n+3)
+        +omega
+      &:nth-of-type(3n+4)
+        clear: both
++at-breakpoint($susy-five-col)
+  #all-content
+    +container
+    #mc_embed_signup
+      +span-columns(3 omega)
+    .points
+      +container
+      .point
+        +span-columns(2, 5)
+        &:first-child
+          +leader(5)
+        &:nth-of-type(2n+2)
+          clear: both
+        &:nth-of-type(3n+3)
+          +omega
+
+

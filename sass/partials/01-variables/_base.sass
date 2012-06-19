@@ -17,7 +17,7 @@ $base-size: $base-font-size 44px
 $kit-baseline: $base-line-height
 $kit-baseline-half: $kit-baseline * 0.5
 $kit-baseline-neg: $kit-baseline * -1
-$kit-gutter: ms(2)
+$kit-gutter: calc-em(ms(2), $base-font-size)
 $kit-gutter-half: $kit-gutter * 0.5
 $kit-gutter-neg: $kit-gutter * -1
 
@@ -34,12 +34,12 @@ $init-type: normalize
 // Grid Variables --------------------------------------------------------------
 // Define the dimensions of the grid.
 // These values populate other supported grid systems
-$kit-total-cols: 6
-$kit-col-width: 140px
-$kit-gutter-width: $kit-gutter
-$kit-side-gutter-width: 0px
+$total-columns: 4
+$column-width: calc-em(ms(10), $base-font-size)
+$gutter-width: $kit-gutter
+$grid-padding: 0
 
-$kit-container-width: ($kit-col-width * $kit-total-cols) + ($kit-gutter-width * ($kit-total-cols - 1))
+$container-width: ($column-width * $total-columns) + ($gutter-width * ($total-columns - 1))
 
 $show-grid: false
 $show-baseline: false
@@ -51,7 +51,16 @@ $establish-baseline: true
 ////////////////////////////
 // Breakpoints
 ////////////////////////////
-$bp-not-phone: 321px
+$bp-not-phone-portrait: calc-em(321px, $base-font-size)
+$bp-whole-robot: calc-em(481px, $base-font-size)
+$bp-header-max: calc-em(700px, $base-font-size)
+$bp-desktop: calc-em(1000px, $base-font-size)
+
+////////////////////////////
+// SUSY LAYOUTS
+////////////////////////////
+$susy-six-col: $bp-whole-robot 6
+$susy-five-col: $bp-desktop 5
 
 // ////////////////////////////
 // COMPASS DEFAULTS

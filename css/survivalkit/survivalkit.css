@@ -69,8 +69,8 @@ body.survival-kit #page > header h1 {
   font-size: 1.063em;
   line-height: 1.529em;
   float: left;
-  padding-right: 26px;
-  margin-right: 26px;
+  padding-right: 1.625em;
+  margin-right: 1.625em;
   border-right: 1px solid white;
   font-family: futura, sans-serif;
 }
@@ -106,7 +106,7 @@ body.survival-kit h1.section-title {
   line-height: 1.926em;
   background-color: #d5c5cc;
   text-transform: uppercase;
-  padding-left: 13px;
+  padding-left: 0.813em;
   margin-top: 0;
 }
 body.survival-kit h1.section-title a {
@@ -250,7 +250,7 @@ body.survival-kit div.element h2.element-title {
   background-color: #8a7b82;
   color: white;
   text-transform: uppercase;
-  padding-left: 13px;
+  padding-left: 0.813em;
 }
 body.survival-kit div.element h2.element-title a {
   color: white;
