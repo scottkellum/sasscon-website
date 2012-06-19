@@ -1,7 +1,7 @@
 // Create the design for your site below
 /* SITE-WIDE DESIGN --------------------------------------------------------------
 
-//
+// debugging outlines
   *
     outline: 1px dashed $badass
 
@@ -16,6 +16,9 @@ body
   &.survival-kit
     max-width: 95%
 
+////////////////////////////
+// site header
+////////////////////////////
 header
   +padding-leader(1)
   +backface-visibility(visible)
@@ -36,7 +39,7 @@ header
     @extend %text-right
     @extend %white
     b
-      background-color: $pink-trans-7
+      background-color: $pink-trans-5
       @extend %yellow
       padding: 0.125em
   h1
@@ -76,11 +79,18 @@ header
       +apply-origin(100% 50%, false)
       +transform3d(rotateY(20deg) translateX(-21px) scale(0.7))
       margin-top: -1em
+
+////////////////////////////
+// all content below the header
+////////////////////////////
 #all-content
   position: relative
   margin-top: -5em
   padding: 0 0.5em
 
+////////////////////////////
+// sign up form
+////////////////////////////
 #mc_embed_signup
   position: relative
   z-index: 0
@@ -106,6 +116,9 @@ form[name=mc-embedded-subscribe-form]
     text-transform: uppercase
     +sassy-button("matte", 3px, $base-font-size, $pink, false, $not-white, "inset")
 
+////////////////////////////
+// section icons
+////////////////////////////
 .icon
   width: 88px
   margin: 0 auto
@@ -119,15 +132,22 @@ form[name=mc-embedded-subscribe-form]
     margin-bottom: calc-em(-42px, $base-font-size)
   .share &
     margin-bottom: calc-em(-28px, $base-font-size)
+
+////////////////////////////
+// section articles
+////////////////////////////
 article
   h3
     margin: 0 -8px
     padding-left: 8px
     background:
-      image: linear-gradient(-165deg, $transparent ms(0), $pink-trans-7 ms(0))
+      image: linear-gradient(-165deg, $transparent ms(0), $pink-trans-5 ms(0))
   p
     clear: left
 
+////////////////////////////
+// speaker bios
+////////////////////////////
 .speaker
   img
     display: block

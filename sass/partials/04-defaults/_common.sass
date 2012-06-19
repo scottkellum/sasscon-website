@@ -46,8 +46,9 @@ body
 
 /* Links --------------------------------------------------------------
 a
-  +link-colors($alt-color, complement($alt-color), complement($alt-color), $alt-color, false)
-  +underline-links($alt-color, complement($alt-color), complement($alt-color), $alt-color, false)
+  +link-colors(nth($link-colors, 1), nth($link-colors, 2), nth($link-colors, 3), nth($link-colors, 4), false)
+  @if $link-underline-colors != false
+    +underline-links(nth($link-underline-colors, 1), nth($link-underline-colors, 2), nth($link-underline-colors, 3), nth($link-underline-colors, 4), false)
   // +link-transitions
 
 em
@@ -59,7 +60,7 @@ strong
 p
   +trailer
 
-hr
+// hr
 
 pre
   @extend %mono
@@ -100,10 +101,10 @@ dt
 dd
   // padding-left: $kit-gutter
 
-//
-figure
 
-figcaption
+// figure
+
+// figcaption
 
 address
   @extend %italic

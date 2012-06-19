@@ -595,23 +595,23 @@ a:visited {
   color: #ec99b8;
 }
 a:hover {
-  color: #99eccc;
+  color: white;
 }
 a:active {
-  color: #99eccc;
+  color: white;
 }
 a {
   text-decoration: none;
-  border-bottom: 1px solid #ec99b8;
+  border-bottom: 1px solid white;
 }
 a:visited {
-  border-bottom-color: #ec99b8;
+  border-bottom-color: white;
 }
 a:hover {
-  border-bottom-color: #99eccc;
+  border-bottom-color: #ec99b8;
 }
 a:active {
-  border-bottom-color: #99eccc;
+  border-bottom-color: #ec99b8;
 }
 
 p {

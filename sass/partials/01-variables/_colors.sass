@@ -1,67 +1,30 @@
 // Project Colors
-// $pink: #ce4dd6
-// $pink: #e46ee3
-// $pink: #ea4c88
 $pink: #eb5094
 $pink-light: scale-color(adjust-hue($pink, 3.504deg), $saturation: -13.021%, $lightness: 37.9%)
-// $yellow: #fffb7b
 $yellow: #fdf001
 $dark-gray: #444444
 $light-gray: #b3b3b3
 $not-white: shade($white, 5%)
 
-
+// transparent variations
 $pink-trans-1: rgba(tint($pink-light, 60%), 0.8)
 $pink-trans-2: rgba(tint($pink-light, 40%), 0.8)
 $pink-trans-3: rgba(tint($pink-light, 20%), 0.8)
 $pink-trans-4: rgba(tint($pink-light, 70%), 0.8)
-$pink-trans-5: rgba($pink-light, 0.5)
-$pink-trans-6: rgba(tint($pink-light, 60%), 0.5)
-$pink-trans-7: rgba($pink, 0.8)
+$pink-trans-5: rgba($pink, 0.8)
 $gray-trans-1: rgba($light-gray, 0.6)
-$gray-trans-2: rgba($light-gray, 0.4)
 $gray-trans-3: rgba($light-gray, 0.1)
-$yellow-trans: rgba(tint($yellow, 20%), 0.4)
-$dark-gray-trans: rgba($dark-gray, 0.1)
-$dark-gray-trans-1: rgba($dark-gray, 0.6)
-
-// @debug hack-colors($pink $pink-light)
-// @debug hack-colors(rgba($gray-trans-1, 1) rgba(hsla(0, 0%, 35%, 0.6), 1))
-
-
-// DEFAULT COLORS
-$c-primary:   $pink
-$c-secondary: $yellow
-$c-tertiary:  $dark-gray
-$c-quadrary:  $light-gray
-
-// COLOR SCHEMES
-// use color-schemer if it's loaded
-@if $color-schemer-loaded
-  // Color schemes to choose from
-      mono, complement, triad, tetrad, analogic, accented-analogic
-  // Pick the base color for your scheme:
-  $base-color: $c-primary
-  // Select your scheme from the list and place it here:
-  $color-scheme: accented-analogic
-  // How distant do you want the hue offset to be:
-  $hue-offset: 30
-  // How distant do you want tints and shades to be from their base:
-  $brightness-offset: 10%
-  // Use Claude Boutet complements instead of RGB complements.
-  // $color-theory: boutet
-  // Set saturation to 100% and lightness to 50% on all colors
-  // $equalize: true
-  $c-primary:   color-schemer(primary)
-  $c-secondary: color-schemer(secondary)
-  $c-tertiary:  color-schemer(tertiary)
-  $c-quadrary:  color-schemer(quadrary)
-
 
 
 // Color variables expected by _defaults.sass ------------------
+$background-color: $dark-gray
 $base-color: $not-white
 $text-color: $not-white
+$link-colors: $pink-light $white $white $pink-light
+$link-underline-colors: false !default
+$link-underline-colors: $white $pink-light $pink-light $white
 $alt-color: $pink-light
-$background-color: $dark-gray
 $border-color: $light-gray
+
+// DEFAULT COLORS FOR SURVIVAL KIT
+$c-primary:   $pink
