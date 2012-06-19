@@ -100,7 +100,7 @@ header
   position: relative
   z-index: 0
   background:
-    image: image-url("sass-robot.svg")
+    image: inline-image("sass-robot.svg")
     repeat: no-repeat
     position: 100px 0
   +background-size(contain)
@@ -135,21 +135,50 @@ form[name=mc-embedded-subscribe-form]
 ////////////////////////////
 // section icons
 ////////////////////////////
-.icon
-  width: 88px
-  margin: 0 auto
+@import "bots/*.png"
+// $bots-sprite-dimensions: true
+
+.point
   position: relative
-  z-index: 1
-  +breakpoint($bp-whole-robot)
-    margin-left: 3em
-  img
-    width: 100%
-  .learn &
-    margin-bottom: calc-em(-42px, $base-font-size)
-  .build &
-    margin-bottom: calc-em(-42px, $base-font-size)
-  .share &
-    margin-bottom: calc-em(-28px, $base-font-size)
+  +leader
+  &:before
+    position: absolute
+    content: ""
+    top: -24px
+    left: 50%
+    margin-left: -22px
+    +breakpoint($bp-whole-robot)
+      left: 1.5em
+      margin-left: 0
+.learn
+  &:before
+    height: image-height("bots/learn.png")
+    width: image-width("bots/learn.png")
+    .svg &
+      background:
+        image: inline-image("learn.svg")
+    .no-js &, .no-svg &
+      +bots-sprite(learn)
+.build
+  &:before
+    height: image-height("bots/build.png")
+    width: image-width("bots/build.png")
+    .svg &
+      background:
+        image: inline-image("build.svg")
+    .no-js &, .no-svg &
+      +bots-sprite(learn)
+.share
+  &:before
+    top: -30px
+    height: image-height("bots/share.png")
+    width: image-width("bots/share.png")
+    .svg &
+      background:
+        image: inline-image("share.svg")
+    .no-js &, .no-svg &
+      +bots-sprite(learn)
+
 
 ////////////////////////////
 // section articles

@@ -92,9 +92,9 @@
 
       <section class="points">
         <article class="point learn">
-          <figure class="icon">
+<!--           <figure class="icon">
             <img src="images/learn.svg" alt="Learn Sass">
-          </figure>
+          </figure> -->
           <h3><b>Day 1: Learn Sass</b></h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
           tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -104,9 +104,9 @@
           proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </article>
         <article class="point build">
-          <figure class="icon">
+<!--           <figure class="icon">
             <img src="images/build.svg" alt="Build Your Thing">
-          </figure>
+          </figure> -->
           <h3><b>Day 2: Build Your Thing</b></h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
           tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -116,9 +116,9 @@
           proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </article>
         <article class="point share">
-          <figure class="icon">
+<!--           <figure class="icon">
             <img src="images/share.svg" alt="Meet the Sass Community">
-          </figure>
+          </figure> -->
           <h3><b>Meet the Sass Community</b></h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
           tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
