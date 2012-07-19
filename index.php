@@ -63,7 +63,7 @@
     <header>
       <hgroup>
         <h1><b>Sass Conf</b></h1>
-        <h3 class="head"><b>Fall 2012 • NYC</b></h3>
+        <h3 class="head"><b>Spring 2013 • NYC</b></h3>
         <h2><b>Learn • Build • Community</b></h2>
       </hgroup>
     </header>
@@ -90,78 +90,7 @@
       </div>
       <!--End mc_embed_signup-->
 
-      <section class="points">
-        <article class="point learn">
-<!--           <figure class="icon">
-            <img src="images/learn.svg" alt="Learn Sass">
-          </figure> -->
-          <h3><b>Day 1: Learn Sass</b></h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        </article>
-        <article class="point build">
-<!--           <figure class="icon">
-            <img src="images/build.svg" alt="Build Your Thing">
-          </figure> -->
-          <h3><b>Day 2: Build Your Thing</b></h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        </article>
-        <article class="point share">
-<!--           <figure class="icon">
-            <img src="images/share.svg" alt="Meet the Sass Community">
-          </figure> -->
-          <h3><b>Meet the Sass Community</b></h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        </article>
-      </section>
 
-      <section class="speakers">
-        <h3><b>Speakers</b></h3>
-        <article class="speaker">
-          <img src="/images/speaker1.jpg" alt="" width="320" height="320" class="headshot">
-          <h1>Robbie Bot</h1>
-          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.</p>
-        </article>
-        <article class="speaker">
-          <img src="/images/speaker2.jpg" alt="" width="320" height="320" class="headshot">
-          <h1>Andy Bot</h1>
-          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.</p>
-        </article>
-        <article class="speaker">
-          <img src="/images/speaker3.jpg" alt="" width="320" height="320" class="headshot">
-          <h1>R2D2 Bot</h1>
-          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.</p>
-        </article>
-        <article class="speaker">
-          <img src="/images/speaker4.jpg" alt="" width="320" height="320" class="headshot">
-          <h1>Rosie Bot</h1>
-          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.</p>
-        </article>
-        <article class="speaker">
-          <img src="/images/sammyj.jpg" alt="" width="320" height="320" class="headshot">
-          <h1>Beep Bot</h1>
-          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.</p>
-        </article>
-        <article class="speaker">
-          <img src="/images/speaker6.jpg" alt="" width="320" height="320" class="headshot">
-          <h1>Blorp Bot</h1>
-          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.</p>
-        </article>
-      </section>
     </div>
 
 
