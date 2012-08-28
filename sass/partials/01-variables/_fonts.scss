@@ -1,0 +1,17 @@
+// This file establishes simple clean default font stacks
+
+// Default font stacks
+$font-sans: sans-serif;
+$font-serifs: Georgia, serif;
+$font-mono: Consolas, Menlo, "Courier New", monospace, monospace;
+
+// General font variables
+$font-body: $font-sans;
+$font-headline: futura-pt, $font-sans;
+$font-logo: futura-pt, $font-sans;
+
+// Special use font variables
+// ampersands
+$font-amp: $font-serifs;
+// caps
+$font-cap: $font-sans;

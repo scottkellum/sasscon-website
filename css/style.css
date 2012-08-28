@@ -1,18 +1,34 @@
-@charset "UTF-8";
 /* The Coding Designer's Survival Kit
- * A framework for designing websites in the browser.
- *
- * Much love to:
- * Sass, Compass, HTML5 Boilerplate, Modernizr, Formalize, and more
- *
- * Available at http://thecodingdesigner.com
- * twitter: http://twitter.com/canarymason */
-/* -------------------------------------------------------------------------------------
- * -------------------------------------------------------------------------------------- */
-/* This CSS was authored using Sass & Compass
+ * This CSS was authored using Sass & Compass
  * Download the source files here:
- * https://github.com/canarymason/The-Coding-Designers-Survival-Kit
+ * https://github.com/canarymason/Survival-Kit
  * Learn more about Sass & Compass at http://compass-style.org/ */
+.clearfix {
+  zoom: 1;
+}
+.clearfix:after {
+  content: "\0020";
+  display: table;
+  clear: both;
+}
+
+.hidden {
+  display: none !important;
+  visibility: hidden;
+}
+
+img, table {
+  max-width: 100%;
+}
+
+em, address, cite, q, dfn, i {
+  font-style: italic;
+}
+
+strong, h1, dfn, b {
+  font-weight: bold;
+}
+
 /* normalize.css 2012-03-11T12:53 UTC - http://github.com/necolas/normalize.css */
 /* =============================================================================
    HTML5 display definitions
@@ -484,279 +500,10 @@ table {
   border-spacing: 0;
 }
 
-.clearfix {
-  zoom: 1;
-}
-.clearfix:after {
-  content: "\0020";
-  display: table;
-  clear: both;
-}
-
-.hidden {
-  display: none !important;
-  visibility: hidden;
-}
-
-img, textarea, input[type=text], input[type=password], input[type=email], input[type=url], input[type=tel], input[type=date], input[type=datetime], input[type=datetime-local], input[type=month], input[type=week], input[type=time], input[type=number], input[type=range], input[type=search], input[type=color], input:not([type="radio"]), table {
-  max-width: 100%;
-}
-
-em, address, cite, q, dfn, i {
-  font-style: italic;
-}
-
-strong, h1, dfn, b {
-  font-weight: bold;
-}
-
-header h1 {
-  color: #eb5094;
-}
-
-header h2 b, header h3 b {
-  color: #fdf001;
-}
-
-header h2, header h3 {
-  color: white;
-}
-
-pre, code, kbd, tt {
-  font-family: Consolas, Menlo, "Courier New", monospace, monospace;
-  _font-family: Consolas, Menlo, "Courier New", monospace, monospace;
-}
-
-h1, h2, h3, h4, form[name=mc-embedded-subscribe-form] label, h5, h6 {
-  font-family: futura-pt, sans-serif;
-}
-
-/* Only use the fancy ampersand in <h#> tags */
-h1 .amp, h2 .amp, h3 .amp, h4 .amp, h5 .amp, h6 .amp {
-  font-size: 1em;
-  font-family: Georgia, serif;
-  font-style: italic;
-}
-
-header h2, header h3 {
-  text-align: right;
-}
-
-/* import font files using @font-face, if not using a service such as typekit */
-* {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-/* Body -------------------------------------------------------------- */
-/* Establish baseline rhythm
- * from compass/typography/_vertical_rhythm */
-html {
+h1, h2, h3, h4, h5, h6 {
   font-size: 100%;
-  line-height: 1.625em;
-}
-
-body {
-  font-family: sans-serif;
-  color: #f2f2f2;
-  background: #444444;
-}
-
-@media screen and (-webkit-device-pixel-ratio: 1) and (device-width: 1024px) and (max-device-height: 600px) and (orientation: landscape), screen and (-webkit-device-pixel-ratio: 1) and (device-width: 600px) and (max-device-height: 1024px) and (orientation: portrait), screen and (-o-device-pixel-ratio: 1) and (device-width: 1024px) and (max-device-height: 600px) and (orientation: landscape), screen and (-o-device-pixel-ratio: 1) and (device-width: 600px) and (max-device-height: 1024px) and (orientation: portrait), screen and (device-pixel-ratio: 1) and (device-width: 1024px) and (max-device-height: 600px) and (orientation: landscape), screen and (device-pixel-ratio: 1) and (device-width: 600px) and (max-device-height: 1024px) and (orientation: portrait) {
-  html {
-    font-size: 19.2px;
-  }
-}
-@media screen and (-webkit-device-pixel-ratio: 1.5) and (device-width: 683px) and (orientation: landscape), screen and (-webkit-device-pixel-ratio: 1.5) and (device-width: 400px) and (orientation: portrait), screen and (-o-device-pixel-ratio: 3/2) and (device-width: 683px) and (orientation: landscape), screen and (-o-device-pixel-ratio: 3/2) and (device-width: 400px) and (orientation: portrait), screen and (device-pixel-ratio: 1.5) and (device-width: 683px) and (orientation: landscape), screen and (device-pixel-ratio: 1.5) and (device-width: 400px) and (orientation: portrait), screen and (device-pixel-ratio: 3/2) and (device-width: 683px) and (orientation: landscape), screen and (device-pixel-ratio: 3/2) and (device-width: 400px) and (orientation: portrait) {
-  html {
-    font-size: 12.8px;
-  }
-}
-/* Selected Text -------------------------------------------------------------- */
-/* -moz- must be declared separately */
-::-moz-selection {
-  color: #f2f2f2;
-  background: #ec99b8;
-  text-shadow: none;
-}
-
-::selection {
-  color: #f2f2f2;
-  background: #ec99b8;
-  text-shadow: none;
-}
-
-/* Links -------------------------------------------------------------- */
-a {
-  color: #ec99b8;
-}
-a:visited {
-  color: #ec99b8;
-}
-a:hover {
-  color: white;
-}
-a:active {
-  color: white;
-}
-a {
-  text-decoration: none;
-  border-bottom: 1px solid white;
-}
-a:visited {
-  border-bottom-color: white;
-}
-a:hover {
-  border-bottom-color: #ec99b8;
-}
-a:active {
-  border-bottom-color: #ec99b8;
-}
-
-p {
-  margin-bottom: 1.625em;
-}
-
-pre {
-  white-space: pre;
-  white-space: pre-wrap;
-  word-wrap: break-word;
-  line-height: 1;
-}
-
-/* Lists -------------------------------------------------------------- */
-dl {
-  margin-left: 0;
-}
-
-ol {
-  list-style: decimal;
-}
-
-ul {
-  list-style: disc;
-}
-li ul {
-  list-style-type: circle;
-}
-
-/* Headings -------------------------------------------------------------- */
-h1, h2, h3, h4, form[name=mc-embedded-subscribe-form] label, h5, h6 {
-  text-rendering: optimizeLegibility;
-}
-
-h1 {
-  font-size: 2.625em;
-  line-height: 1.238em;
-}
-
-h2 {
-  font-size: 1.688em;
-  line-height: 1.926em;
-}
-
-h3 {
-  font-size: 1.625em;
-  line-height: 2em;
-}
-
-h4, form[name=mc-embedded-subscribe-form] label {
-  font-size: 1.625em;
-  line-height: 2em;
-}
-
-h5 {
-  font-size: 1.063em;
-  line-height: 1.529em;
-}
-
-h6 {
-  font-size: 1em;
-  line-height: 1.625em;
-}
-
-/* Images -------------------------------------------------------------- */
-img {
-  vertical-align: text-bottom;
-  height: auto;
-}
-img.left {
-  float: left;
-  margin: 13px 1.625em 13px 0;
-}
-img.right {
-  float: right;
-  margin: 13px 0 13px 1.625em;
-}
-
-small {
-  font-size: 0.625em;
-  line-height: 2.6em;
-}
-
-q {
-  quotes: "“" "”";
-}
-q:before {
-  content: open-quote;
-}
-q:after {
-  content: close-quote;
-}
-
-abbr, acronym {
-  border-bottom: 1px dotted;
-  cursor: help;
-}
-
-sup, sub {
-  font-size: 75%;
-  line-height: 0;
-  position: relative;
-  vertical-align: baseline;
-}
-
-sup {
-  top: -0.5em;
-}
-
-sub {
-  bottom: -0.25em;
-}
-
-mark {
-  background: red;
-  background-color: rgba(253, 240, 1, 0.5);
-  text-shadow: none;
-}
-
-.input_tiny {
-  width: 50px;
-}
-
-.input_small {
-  width: 100px;
-}
-
-.input_medium {
-  width: 150px;
-}
-
-.input_large {
-  width: 200px;
-}
-
-.input_xlarge {
-  width: 250px;
-}
-
-.input_xxlarge {
-  width: 300px;
-}
-
-.input_full {
-  width: 100%;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .input_full_wrap {
@@ -793,7 +540,7 @@ input[type="button"] {
   -ms-border-radius: 11px;
   -o-border-radius: 11px;
   border-radius: 11px;
-  background: #dddddd url(../images/button.png) repeat-x;
+  background: #dddddd url('../images/formalize/button.png') repeat-x;
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #dddddd));
   background-image: -webkit-linear-gradient(#ffffff, #dddddd);
   background-image: -moz-linear-gradient(#ffffff, #dddddd);
@@ -913,7 +660,7 @@ input[type="checkbox"]:active {
 }
 
 .is_webkit select {
-  background-image: url(../images/select_arrow.gif);
+  background-image: url('../images/formalize/select_arrow.gif');
   background-repeat: no-repeat;
   background-position: right center;
   padding-right: 20px;
@@ -945,7 +692,7 @@ optgroup {
 
 .ie6_button,
 * html button {
-  background: #dddddd url(../images/button.png) repeat-x;
+  background: #dddddd url('../images/formalize/button.png') repeat-x;
   border: 1px solid;
   border-color: #dddddd #bbbbbb #999999;
   cursor: pointer;
@@ -988,65 +735,218 @@ optgroup {
   background: #eeeeee;
 }
 
-/* Forms -------------------------------------------------------------- */
-fieldset {
-  margin-bottom: 1.625em;
-  border-style: solid;
-  border-width: 0.063em;
-  padding: 1.563em;
-  border-color: #b3b3b3;
-  border-style: dotted;
+pre, code, kbd, tt {
+  font-family: Consolas, Menlo, "Courier New", monospace, monospace;
 }
 
-legend {
-  padding: 0 0.25em;
+h1, h2, h3, h4, form[name=mc-embedded-subscribe-form] label, h5, h6 {
+  font-family: futura-pt, sans-serif;
 }
 
-label {
-  cursor: pointer;
+header h2, header h3 {
+  text-align: right;
 }
 
-label {
-  font-weight: bold;
-  margin-right: 0.5em;
+header h1 {
+  color: #eb5094;
 }
 
-textarea, input[type=text], input[type=password], input[type=email], input[type=url], input[type=tel], input[type=date], input[type=datetime], input[type=datetime-local], input[type=month], input[type=week], input[type=time], input[type=number], input[type=range], input[type=search], input[type=color] {
+header h2 b, header h3 b {
+  color: #fdf001;
+}
+
+header h2, header h3 {
+  color: white;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+  line-height: 1.5em;
+}
+
+body {
+  font-family: sans-serif;
+  color: #f2f2f2;
+  background: #444444;
+}
+
+@media screen and (-webkit-device-pixel-ratio: 1) and (device-width: 1024px) and (max-device-height: 600px) and (orientation: landscape), screen and (-webkit-device-pixel-ratio: 1) and (device-width: 600px) and (max-device-height: 1024px) and (orientation: portrait), screen and (-o-device-pixel-ratio: 1) and (device-width: 1024px) and (max-device-height: 600px) and (orientation: landscape), screen and (-o-device-pixel-ratio: 1) and (device-width: 600px) and (max-device-height: 1024px) and (orientation: portrait), screen and (device-pixel-ratio: 1) and (device-width: 1024px) and (max-device-height: 600px) and (orientation: landscape), screen and (device-pixel-ratio: 1) and (device-width: 600px) and (max-device-height: 1024px) and (orientation: portrait) {
+  html {
+    font-size: 19.2px;
+  }
+}
+@media screen and (-webkit-device-pixel-ratio: 1.5) and (device-width: 683px) and (orientation: landscape), screen and (-webkit-device-pixel-ratio: 1.5) and (device-width: 400px) and (orientation: portrait), screen and (-o-device-pixel-ratio: 3 / 2) and (device-width: 683px) and (orientation: landscape), screen and (-o-device-pixel-ratio: 3 / 2) and (device-width: 400px) and (orientation: portrait), screen and (device-pixel-ratio: 1.5) and (device-width: 683px) and (orientation: landscape), screen and (device-pixel-ratio: 1.5) and (device-width: 400px) and (orientation: portrait), screen and (device-pixel-ratio: 3 / 2) and (device-width: 683px) and (orientation: landscape), screen and (device-pixel-ratio: 3 / 2) and (device-width: 400px) and (orientation: portrait) {
+  html {
+    font-size: 12.8px;
+  }
+}
+::-moz-selection {
+  color: white;
+  background: #eb5094;
+  text-shadow: none;
+}
+
+::selection {
+  color: white;
+  background: #eb5094;
+  text-shadow: none;
+}
+
+a {
+  color: #ec99b8;
+  -webkit-transition: "all", true, "ease-out";
+  -moz-transition: "all", true, "ease-out";
+  -ms-transition: "all", true, "ease-out";
+  -o-transition: "all", true, "ease-out";
+  transition: "all", true, "ease-out";
+}
+a:visited {
+  color: #ec99b8;
+}
+a:focus {
+  color: #ec99b8;
+}
+a:hover {
+  color: white;
+}
+a:active {
+  color: white;
+}
+a {
+  text-decoration: none;
+  border-bottom: 1px solid #ec99b8;
+}
+a:visited {
+  border-bottom-color: #ec99b8;
+}
+a:hover {
+  border-bottom-color: white;
+}
+a:active {
+  border-bottom-color: white;
+}
+
+p {
+  margin-bottom: 1.5em;
+}
+
+pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  line-height: 1;
+}
+
+dl {
+  margin-left: 0;
+}
+
+ol {
+  list-style: decimal;
+}
+
+ul {
+  list-style: disc;
+}
+li ul {
+  list-style-type: circle;
+}
+
+h1, h2, h3, h4, form[name=mc-embedded-subscribe-form] label, h5, h6 {
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
+}
+
+h1 {
+  font-size: 2.625em;
+  line-height: 1.14286em;
+}
+
+h2 {
+  font-size: 1.6875em;
+  line-height: 1.77778em;
+}
+
+h3 {
+  font-size: 1.625em;
+  line-height: 1.84615em;
+}
+
+h4, form[name=mc-embedded-subscribe-form] label {
+  font-size: 1.625em;
+  line-height: 1.84615em;
+}
+
+h5 {
+  font-size: 1.0625em;
+  line-height: 1.41176em;
+}
+
+h6 {
   font-size: 1em;
-  line-height: 1.625em;
-  border-style: solid;
-  border-width: 0.063em;
-  padding: 0.344em;
-  border-width: 1px;
-  margin-bottom: 0.813em;
-  width: 23.75em;
-  margin-top: 0;
-  border-color: #b3b3b3;
-  height: 2.438em;
+  line-height: 1.5em;
 }
 
-textarea {
-  height: 10.563;
+img {
+  height: auto;
+  vertical-align: text-bottom;
+}
+img.left {
+  float: left;
+  margin: 12px 1.625em 12px 0;
+}
+img.right {
+  float: right;
+  margin: 12px 0 12px 1.625em;
 }
 
-input[type=search] {
-  -webkit-appearance: none;
-}
-input[type=search]::-webkit-search-decoration {
-  display: none;
+small {
+  font-size: 0.625em;
+  line-height: 2.4em;
 }
 
-textarea {
-  width: 23.75em;
+q {
+  quotes: "“" "”";
+}
+q:before {
+  content: open-quote;
+}
+q:after {
+  content: close-quote;
 }
 
-input[type="radio"], input[type="checkbox"] {
-  margin-left: 0.25em;
-  margin-right: 0.25em;
+abbr, acronym {
+  border-bottom: 1px dotted;
+  cursor: help;
 }
 
-/* Tables -------------------------------------------------------------- */
-/* tables still need 'cellspacing="0"' in the markup */
+sup, sub {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup {
+  top: -0.5em;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+mark {
+  background: red;
+  background-color: rgba(253, 240, 1, 0.5);
+  text-shadow: none;
+}
+
 ins {
   text-decoration: none;
   border-bottom: 1px solid #b3b3b3;
@@ -1056,16 +956,15 @@ del {
   text-decoration: line-through;
 }
 
-/* SITE-WIDE DESIGN -------------------------------------------------------------- */
 body {
-  background-image: url('../images/stripe-bg.png?1340083235');
+  background-image: url('../images/stripe-bg.png?1343395104');
 }
 body.survival-kit {
   max-width: 95%;
 }
 
 header {
-  padding-top: 1.625em;
+  padding-top: 1.5em;
   -webkit-backface-visibility: visible;
   -moz-backface-visibility: visible;
   -ms-backface-visibility: visible;
@@ -1080,7 +979,7 @@ header {
 header hgroup {
   position: relative;
 }
-@media screen and (min-width:  43.75em) {
+@media (min-width: 43.75em) {
   header hgroup {
     width: 43.75em;
     margin: 0 auto;
@@ -1098,7 +997,7 @@ header h2 b, header h3 b {
 }
 header h1 {
   font-size: 4.25em;
-  line-height: 1.147em;
+  line-height: 1.05882em;
   text-shadow: rgba(68, 68, 68, 0.5) 0.5px 1px 1px;
   text-transform: uppercase;
   position: relative;
@@ -1118,7 +1017,7 @@ header h1 b {
   -o-perspective: 500;
   perspective: 500;
 }
-@media screen and (min-width:  30.063em) {
+@media (min-width: 30.0625em) {
   .csstransforms3d header {
     -webkit-perspective: 700;
     -moz-perspective: 700;
@@ -1206,22 +1105,22 @@ header h1 b {
   padding-top: 15em;
   padding-right: 95px;
 }
-@media screen and (min-width:  20.063em) {
+@media (min-width: 20.0625em) {
   #mc_embed_signup {
     padding-right: 48%;
   }
 }
-@media screen and (min-width:  28.75em) {
+@media (min-width: 28.75em) {
   #mc_embed_signup {
     padding-right: 51%;
   }
 }
-@media screen and (min-width:  30.063em) {
+@media (min-width: 30.0625em) {
   #mc_embed_signup {
     padding-right: 0;
     background-position: top right;
     margin: 0 auto;
-    max-width: 30.063em;
+    max-width: 30.0625em;
   }
   #mc_embed_signup form[name=mc-embedded-subscribe-form] {
     max-width: 52%;
@@ -1238,16 +1137,16 @@ form[name=mc-embedded-subscribe-form] [type=submit] {
   font-family: futura-pt, sans-serif;
   text-transform: uppercase;
   font-size: 16px;
-  padding: 0.3em 1.5em;
+  padding: 0.5em 1.5em;
   display: inline-block;
   cursor: pointer;
-  line-height: 1.5;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   -ms-border-radius: 3px;
   -o-border-radius: 3px;
   border-radius: 3px;
-  background-color: #eb5094;
+  *zoom: 1;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FFEB5094', endColorstr='#FFBF1660');
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f395be), color-stop(70%, #eb5094));
   background: -webkit-linear-gradient(#f395be, #eb5094 70%);
   background: -moz-linear-gradient(#f395be, #eb5094 70%);
@@ -1260,6 +1159,9 @@ form[name=mc-embedded-subscribe-form] [type=submit] {
   border: 1px solid #e83986;
   color: #f2f2f2;
   text-shadow: #e51b74 0 -1px 0;
+}
+form[name=mc-embedded-subscribe-form] [type=submit]:hover {
+  text-decoration: none;
 }
 form[name=mc-embedded-subscribe-form] [type=submit]:hover {
   background-color: #e83986;
@@ -1275,6 +1177,18 @@ form[name=mc-embedded-subscribe-form] [type=submit]:active {
   -moz-box-shadow: #e72b7e 0 1px 2px inset;
   box-shadow: #e72b7e 0 1px 2px inset;
 }
+form[name=mc-embedded-subscribe-form] [type=submit].disabled, form[name=mc-embedded-subscribe-form] [type=submit][disabled] {
+  opacity: 0.6;
+  background: #eb5094;
+  cursor: default;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+form[name=mc-embedded-subscribe-form] [type=submit]::-moz-focus-inner {
+  padding: 0 !important;
+  margin: -1px !important;
+}
 
 .bots-sprite, .no-js .learn:before, .no-svg .learn:before, .no-js .build:before, .no-svg .build:before, .no-js .share:before, .no-svg .share:before {
   background: url('../images/bots-s3b70272941.png') no-repeat;
@@ -1282,7 +1196,7 @@ form[name=mc-embedded-subscribe-form] [type=submit]:active {
 
 .point {
   position: relative;
-  margin-top: 1.625em;
+  margin-top: 1.5em;
 }
 .point:before {
   position: absolute;
@@ -1291,7 +1205,7 @@ form[name=mc-embedded-subscribe-form] [type=submit]:active {
   left: 50%;
   margin-left: -22px;
 }
-@media screen and (min-width:  30.063em) {
+@media (min-width: 30.0625em) {
   .point:before {
     left: 1.5em;
     margin-left: 0;
@@ -1377,11 +1291,9 @@ article.point p {
   text-align: center;
 }
 
-@media (min-width: 30.063em) {
+@media (min-width: 30.0625em) {
   .points {
-    *zoom: 1;
-    max-width: 49.125em;
-    _width: 49.125em;
+    max-width: 74.5em;
     margin-left: auto;
     margin-right: auto;
     padding-left: 0;
@@ -1393,22 +1305,17 @@ article.point p {
     clear: both;
   }
   .points .point {
-    width: 48.909%;
+    width: 48.9094%;
     float: left;
-    margin-right: 2.181%;
-    display: inline;
+    margin-right: 2.18121%;
   }
   .points .point:nth-of-type(even) {
     float: right;
     margin-right: 0;
-    #margin-left: -1.625em;
-    display: inline;
   }
 
   .speakers {
-    *zoom: 1;
-    max-width: 49.125em;
-    _width: 49.125em;
+    max-width: 74.5em;
     margin-left: auto;
     margin-right: auto;
     padding-left: 0;
@@ -1420,16 +1327,13 @@ article.point p {
     clear: both;
   }
   .speakers .speaker {
-    width: 31.879%;
+    width: 31.87919%;
     float: left;
-    margin-right: 2.181%;
-    display: inline;
+    margin-right: 2.18121%;
   }
   .speakers .speaker:nth-of-type(3n+3) {
     float: right;
     margin-right: 0;
-    #margin-left: -1.625em;
-    display: inline;
   }
   .speakers .speaker:nth-of-type(3n+4) {
     clear: both;
@@ -1437,9 +1341,7 @@ article.point p {
 }
 @media (min-width: 62.5em) {
   #all-content {
-    *zoom: 1;
-    max-width: 49.125em;
-    _width: 49.125em;
+    max-width: 61.8125em;
     margin-left: auto;
     margin-right: auto;
     padding-left: 0;
@@ -1451,16 +1353,12 @@ article.point p {
     clear: both;
   }
   #all-content #mc_embed_signup {
-    width: 58.948%;
+    width: 58.94843%;
     float: right;
     margin-right: 0;
-    #margin-left: -1.625em;
-    display: inline;
   }
   #all-content .points {
-    *zoom: 1;
-    max-width: 49.125em;
-    _width: 49.125em;
+    max-width: 61.8125em;
     margin-left: auto;
     margin-right: auto;
     padding-left: 0;
@@ -1472,13 +1370,12 @@ article.point p {
     clear: both;
   }
   #all-content .points .point {
-    width: 38.423%;
+    width: 38.42265%;
     float: left;
-    margin-right: 2.629%;
-    display: inline;
+    margin-right: 2.62892%;
   }
   #all-content .points .point:first-child {
-    margin-top: 8.125em;
+    margin-top: 7.5em;
   }
   #all-content .points .point:nth-of-type(2n+2) {
     clear: both;
@@ -1486,7 +1383,77 @@ article.point p {
   #all-content .points .point:nth-of-type(3n+3) {
     float: right;
     margin-right: 0;
-    #margin-left: -1.625em;
-    display: inline;
+  }
+}
+@media print {
+  * {
+    background: transparent !important;
+    color: black !important;
+    text-shadow: none !important;
+    filter: none !important;
+    -ms-filter: none !important;
+  }
+
+  body {
+    font-family: Georgia, serif !important;
+    font-size: 12pt !important;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia, serif !important;
+  }
+
+  a {
+    text-decoration: underline;
+    border-bottom: none !important;
+  }
+  a:visited {
+    text-decoration: underline;
+  }
+  a[href]:after {
+    content: " (" attr(href) ")";
+  }
+
+  abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+
+  .ir a:after {
+    content: "";
+  }
+
+  a[href^="javascript:"]:after, a[href^="#"]:after {
+    content: "";
+  }
+
+  pre, blockquote {
+    border: 1px solid #999999;
+    page-break-inside: avoid;
+  }
+
+  thead {
+    display: table-header-group;
+  }
+
+  tr {
+    page-break-inside: avoid;
+  }
+
+  img {
+    page-break-inside: avoid;
+    max-width: 100% !important;
+  }
+
+  @page {
+    margin: 0.5cm;
+}
+
+  p, h2, h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
+  h2, h3 {
+    page-break-after: avoid;
   }
 }
