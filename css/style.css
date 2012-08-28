@@ -974,6 +974,11 @@ header {
   z-index: 1;
   overflow: hidden;
   min-height: 15.125em;
+  background-image: -webkit-gradient(linear, -55deg, -55deg, color-stop(100%, rgba(247, 214, 226, 0.8)), color-stop(100%, rgba(0, 0, 0, 0))), -webkit-gradient(linear, -60deg, -60deg, color-stop(100%, rgba(243, 193, 212, 0.8)), color-stop(100%, rgba(0, 0, 0, 0))), -webkit-gradient(linear, -65deg, -65deg, color-stop(100%, rgba(239, 173, 198, 0.8)), color-stop(100%, rgba(0, 0, 0, 0))), -webkit-gradient(linear, -70deg, -70deg, color-stop(100%, rgba(249, 224, 233, 0.8)), color-stop(100%, rgba(0, 0, 0, 0)));
+  background-image: -webkit-linear-gradient(-55deg, rgba(247, 214, 226, 0.8) 12em, rgba(0, 0, 0, 0) 12em), -webkit-linear-gradient(-60deg, rgba(243, 193, 212, 0.8) 12em, rgba(0, 0, 0, 0) 12em), -webkit-linear-gradient(-65deg, rgba(239, 173, 198, 0.8) 12em, rgba(0, 0, 0, 0) 12em), -webkit-linear-gradient(-70deg, rgba(249, 224, 233, 0.8) 12em, rgba(0, 0, 0, 0) 12em);
+  background-image: -moz-linear-gradient(-55deg, rgba(247, 214, 226, 0.8) 12em, rgba(0, 0, 0, 0) 12em), -moz-linear-gradient(-60deg, rgba(243, 193, 212, 0.8) 12em, rgba(0, 0, 0, 0) 12em), -moz-linear-gradient(-65deg, rgba(239, 173, 198, 0.8) 12em, rgba(0, 0, 0, 0) 12em), -moz-linear-gradient(-70deg, rgba(249, 224, 233, 0.8) 12em, rgba(0, 0, 0, 0) 12em);
+  background-image: -o-linear-gradient(-55deg, rgba(247, 214, 226, 0.8) 12em, rgba(0, 0, 0, 0) 12em), -o-linear-gradient(-60deg, rgba(243, 193, 212, 0.8) 12em, rgba(0, 0, 0, 0) 12em), -o-linear-gradient(-65deg, rgba(239, 173, 198, 0.8) 12em, rgba(0, 0, 0, 0) 12em), -o-linear-gradient(-70deg, rgba(249, 224, 233, 0.8) 12em, rgba(0, 0, 0, 0) 12em);
+  background-image: -ms-linear-gradient(-55deg, rgba(247, 214, 226, 0.8) 12em, rgba(0, 0, 0, 0) 12em), -ms-linear-gradient(-60deg, rgba(243, 193, 212, 0.8) 12em, rgba(0, 0, 0, 0) 12em), -ms-linear-gradient(-65deg, rgba(239, 173, 198, 0.8) 12em, rgba(0, 0, 0, 0) 12em), -ms-linear-gradient(-70deg, rgba(249, 224, 233, 0.8) 12em, rgba(0, 0, 0, 0) 12em);
   background-image: linear-gradient(-55deg, rgba(247, 214, 226, 0.8) 12em, rgba(0, 0, 0, 0) 12em), linear-gradient(-60deg, rgba(243, 193, 212, 0.8) 12em, rgba(0, 0, 0, 0) 12em), linear-gradient(-65deg, rgba(239, 173, 198, 0.8) 12em, rgba(0, 0, 0, 0) 12em), linear-gradient(-70deg, rgba(249, 224, 233, 0.8) 12em, rgba(0, 0, 0, 0) 12em);
 }
 header hgroup {
